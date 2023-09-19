@@ -1,0 +1,2105 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    border: 2px solid coral;
+    width:99.39%;
+    height:33px;
+    padding:2px;
+    z-index: 100;
+}
+
+.searchbar{
+    border-bottom: 1.5px solid white;
+    display: inline-block;
+    position: absolute;
+    border-bottom: 2px  black solid;
+    right:10px;
+    top:5px;
+    background-color: white;
+    
+}
+
+.searchbar input{
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    border: 0px solid white;
+    width:210px;
+    text-align: center;
+
+    background-color: white ;
+    
+    
+    
+}
+
+.searchbar input:hover{
+    background-color: white;
+    border: 0px solid black;
+    
+}
+
+.logo{
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -25px;
+    background-color: white;
+    display: block;
+    
+
+
+}
+
+.navcontainer{
+    background-color: hsl(19, 78%, 51%) ;
+
+    /* background-color: white ; */
+    border-radius: 6px;
+    /* border: white solid; */
+    display: inline-block;
+    width:500px;
+    height: 30px;
+    font-size: smaller;
+    position: absolute;
+    right: 750px;
+    top:4px;
+    z-index: 1;
+    /* box-shadow: white -2px -2px 1px; */
+    animation-name:color;
+    animation-timing-function: all ease-in-out;
+    animation-duration: 1s;
+    /* animation-fill-mode: backwards; */
+    animation-iteration-count: 1;
+    }
+    
+    
+    
+    .navcontainer ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 84%;
+    /* border: 2px red solid; */
+    border-radius: 30px;
+    list-style-type: none;
+    
+    font-family: 'Montserrat', sans-serif;
+      font-weight:light;
+
+
+      animation-name: slide;
+      animation-duration: 4s;
+      animation-timing-function: all ease-in;
+      animation-delay: 0.3s;
+      animation-iteration-count: 1;
+
+
+    }
+
+    @keyframes slide{
+        from{
+            margin-left: -200px;
+
+        }
+        to{
+            margin-left:0px;
+        }
+    }
+    
+    .navcontainer li{
+    display: inline;
+    margin:-6px 15px;
+    }
+    
+    
+    .navcontainer a{
+    text-decoration: none;
+    color:black;
+    }
+    .navcontainer a:hover{
+    text-decoration: overline black 2px;
+    /* color:black; */
+    transition: all;
+    transition-timing-function: all ease-in-out;
+    transition-duration: 0.3s;
+    font-weight:bold;
+    color:black ;
+     transition: all 0.5s ease-in-out  .0.5s;
+    }
+
+
+
+
+
+
+    .navcontainer2{
+        background-color: hsl(19, 78%, 51%) ;
+        /* background-color: black ; */
+    
+        /* background-color: white ; */
+        border-radius: 6px;
+        /* border: white 3px solid; */
+        display: inline-block;
+        width:90%;
+        height: 30px;
+        font-size: smaller;
+        position: sticky;
+        
+        margin:10px 60px;
+        top:5px;
+        /* margin-top: 10px; */
+       
+        /* box-shadow: white -2px -2px 1px; */
+        animation-name:color;
+        animation-timing-function: all ease-in-out;
+        animation-duration: 1s;
+        /* animation-fill-mode: backwards; */
+        animation-iteration-count: 1;
+        z-index: 20;
+        }
+        
+        
+        
+        .navcontainer2 ul{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-left: 50px;
+        width: 84%;
+        /* border: 2px red solid; */
+        border-radius: 30px;
+        list-style-type: none;
+        
+        font-family: 'Montserrat', sans-serif;
+          font-weight:light;
+    
+    
+          animation-name: slide2;
+          animation-duration: 4s;
+          animation-timing-function: all ease-in;
+          animation-delay: 0.3s;
+          animation-iteration-count: 1;
+           
+
+        }
+
+
+
+
+
+
+
+
+
+    @keyframes slide2{
+        from{
+            margin-left: -200px;
+
+        }
+        to{
+            margin-left:50px;
+        }
+    }
+
+
+
+    .navcontainer2 li{
+        display: inline-block;
+        margin:-6px 35px;
+         
+        }
+        
+        
+        .navcontainer2 a{
+        text-decoration: none;
+        color:white;
+        /* border: 2px black solid; */
+        }
+        .navcontainer2 a:hover{
+        text-decoration: overline black 2px;
+        cursor: pointer;
+        font-weight:bold;
+        color:black ;
+         
+        }
+
+    .chatbox{
+        position:fixed;
+        right:32px;
+        bottom: 30px;
+        border: coral 2px solid;
+        color: black;
+        width:80px;
+        height: 33px;
+        border-radius: 80px;
+        text-align: center;
+        background-color: white;
+        scale: 1.2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+
+        z-index: 200;
+    }
+    .chatbox h3{
+        /* margin-top: 8px; */
+        font-size: large;
+        font-family: 'Teko', sans-serif;
+    }
+
+    .chatbox:hover{
+        background-color: coral;
+        color: white;
+        border: coral 2px solid;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.casualscon{
+    position: relative;
+    top:200px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.casual{
+    margin:-80px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidecasual;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidecasual{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.casual h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#casual1{
+    
+    background: url(img/casual)no-repeat center/cover;
+    
+}
+#casual1:hover{
+    background: url(img/casualH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#casual2{
+    background: url(img/casual2)no-repeat center/cover;
+    
+}
+#casual2:hover{
+    background: url(img/casual2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#casual3{
+    background: url(img/casual3)no-repeat center/cover;
+    
+}
+#casual3:hover{
+    background: url(img/casual3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.casualscon2{
+    position: relative;
+    top:360px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#casual4{
+    background: url(img/casual4)no-repeat center/cover;
+    
+}
+#casual4:hover{
+    background: url(img/casual4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#casual5{
+    background: url(img/casual5)no-repeat center/cover;
+    
+}
+#casual5:hover{
+    background: url(img/casual5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#casual6{
+    background: url(img/casual6)no-repeat center/cover;
+    
+}
+#casual6:hover{
+    background: url(img/casual6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.casual2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidecasuals2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidecasuals2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.casual2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.causalheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jacketscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.jacket{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidejacket;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidejacket{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.jacket h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#jacket1{
+    
+    background: url(img/jacket)no-repeat center/cover;
+    
+}
+#jacket1:hover{
+    background: url(img/jacketH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#jacket2{
+    background: url(img/jacket2)no-repeat center/cover;
+    
+}
+#jacket2:hover{
+    background: url(img/jacket2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#jacket3{
+    background: url(img/jacket3)no-repeat center/cover;
+    
+}
+#jacket3:hover{
+    background: url(img/jacket3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.jacketscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#jacket4{
+    background: url(img/jacket4)no-repeat center/cover;
+    
+}
+#jacket4:hover{
+    background: url(img/jacket4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#jacket5{
+    background: url(img/jacket5)no-repeat center/cover;
+    
+}
+#jacket5:hover{
+    background: url(img/jacket5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#jacket6{
+    background: url(img/jacket6)no-repeat center/cover;
+    
+}
+#jacket6:hover{
+    background: url(img/jacket6H.avif)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.jacket2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidejackets2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidejackets2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.jacket2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.jacketheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skirtscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.skirt{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideskirt;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slideskirt{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.skirt h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#skirt1{
+    
+    background: url(img/skirt)no-repeat center/cover;
+    
+}
+#skirt1:hover{
+    background: url(img/skirtH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#skirt2{
+    background: url(img/skirt2)no-repeat center/cover;
+    
+}
+#skirt2:hover{
+    background: url(img/skirt2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#skirt3{
+    background: url(img/skirt3)no-repeat center/cover;
+    
+}
+#skirt3:hover{
+    background: url(img/skirt3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.skirtscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#skirt4{
+    background: url(img/skirt4)no-repeat center/cover;
+    
+}
+#skirt4:hover{
+    background: url(img/skirt4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#skirt5{
+    background: url(img/skirt5)no-repeat center/cover;
+    
+}
+#skirt5:hover{
+    background: url(img/skirt5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#skirt6{
+    background: url(img/skirt6)no-repeat center/cover;
+    
+}
+#skirt6:hover{
+    background: url(img/skirt6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.skirt2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideskirts2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideskirts2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.skirt2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.skirtheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shirtscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.shirt{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideshirt;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slideshirt{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.shirt h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#shirt1{
+    
+    background: url(img/shirt)no-repeat center/cover;
+    
+}
+#shirt1:hover{
+    background: url(img/shirtH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#shirt2{
+    background: url(img/shirt2)no-repeat center/cover;
+    
+}
+#shirt2:hover{
+    background: url(img/shirt2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#shirt3{
+    background: url(img/shirt3)no-repeat center/cover;
+    
+}
+#shirt3:hover{
+    background: url(img/shirt3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.shirtscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#shirt4{
+    background: url(img/shirt4)no-repeat center/cover;
+    
+}
+#shirt4:hover{
+    background: url(img/shirt4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#shirt5{
+    background: url(img/shirt5)no-repeat center/cover;
+    
+}
+#shirt5:hover{
+    background: url(img/shirt5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#shirt6{
+    background: url(img/shirt6)no-repeat center/cover;
+    
+}
+#shirt6:hover{
+    background: url(img/shirt6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.shirt2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideshirts2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideshirts2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.shirt2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.shirtheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.top{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidetop;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidetop{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.top h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#top1{
+    
+    background: url(img/top)no-repeat center/cover;
+    
+}
+#top1:hover{
+    background: url(img/topH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#top2{
+    background: url(img/top2)no-repeat center/cover;
+    
+}
+#top2:hover{
+    background: url(img/top2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#top3{
+    background: url(img/top3)no-repeat center/cover;
+    
+}
+#top3:hover{
+    background: url(img/top3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.topscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#top4{
+    background: url(img/top4)no-repeat center/cover;
+    
+}
+#top4:hover{
+    background: url(img/top4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#top5{
+    background: url(img/top5)no-repeat center/cover;
+    
+}
+#top5:hover{
+    background: url(img/top5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#top6{
+    background: url(img/top6)no-repeat center/cover;
+    
+}
+#top6:hover{
+    background: url(img/top6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.top2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidetops2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidetops2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.top2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.topheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pantscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.pant{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidepant;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidepant{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.pant h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#pant1{
+    
+    background: url(img/pant)no-repeat center/cover;
+    
+}
+#pant1:hover{
+    background: url(img/pantH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#pant2{
+    background: url(img/pant2)no-repeat center/cover;
+    
+}
+#pant2:hover{
+    background: url(img/pant2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#pant3{
+    background: url(img/pant3)no-repeat center/cover;
+    
+}
+#pant3:hover{
+    background: url(img/pant3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.pantscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#pant4{
+    background: url(img/pant4)no-repeat center/cover;
+    
+}
+#pant4:hover{
+    background: url(img/pant4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#pant5{
+    background: url(img/pant5)no-repeat center/cover;
+    
+}
+#pant5:hover{
+    background: url(img/pant5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#pant6{
+    background: url(img/pant6)no-repeat center/cover;
+    
+}
+#pant6:hover{
+    background: url(img/pant6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.pant2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidepants2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidepants2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.pant2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.pantheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jeanscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.jean{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidejean;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidejean{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.jean h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#jean1{
+    
+    background: url(img/jean)no-repeat center/cover;
+    
+}
+#jean1:hover{
+    background: url(img/jeanH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#jean2{
+    background: url(img/jean2)no-repeat center/cover;
+    
+}
+#jean2:hover{
+    background: url(img/jean2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#jean3{
+    background: url(img/jean3)no-repeat center/cover;
+    
+}
+#jean3:hover{
+    background: url(img/jean3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.jeanscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#jean4{
+    background: url(img/jean4)no-repeat center/cover;
+    
+}
+#jean4:hover{
+    background: url(img/jean4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#jean5{
+    background: url(img/jean5)no-repeat center/cover;
+    
+}
+#jean5:hover{
+    background: url(img/jean5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#jean6{
+    background: url(img/jean6)no-repeat center/cover;
+    
+}
+#jean6:hover{
+    background: url(img/jean6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.jean2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidejeans2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidejeans2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.jean2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.jeanheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sockscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.sock{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidesock;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidesock{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.sock h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#sock1{
+    
+    background: url(img/sock)no-repeat center/cover;
+    
+}
+#sock1:hover{
+    background: url(img/sockH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#sock2{
+    background: url(img/sock2)no-repeat center/cover;
+    
+}
+#sock2:hover{
+    background: url(img/sock2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#sock3{
+    background: url(img/sock3)no-repeat center/cover;
+    
+}
+#sock3:hover{
+    background: url(img/sock3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.sockscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#sock4{
+    background: url(img/sock4)no-repeat center/cover;
+    
+}
+#sock4:hover{
+    background: url(img/sock4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#sock5{
+    background: url(img/sock5)no-repeat center/cover;
+    
+}
+#sock5:hover{
+    background: url(img/sock5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#sock6{
+    background: url(img/sock6)no-repeat center/cover;
+    
+}
+#sock6:hover{
+    background: url(img/sock6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.sock2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidesocks2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidesocks2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.sock2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.sockheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.leggingscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.legging{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidelegging;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidelegging{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.legging h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#legging1{
+    
+    background: url(img/legging)no-repeat center/cover;
+    
+}
+#legging1:hover{
+    background: url(img/leggingH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#legging2{
+    background: url(img/legging2)no-repeat center/cover;
+    
+}
+#legging2:hover{
+    background: url(img/legging2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#legging3{
+    background: url(img/legging3)no-repeat center/cover;
+    
+}
+#legging3:hover{
+    background: url(img/legging3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.leggingscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#legging4{
+    background: url(img/legging4)no-repeat center/cover;
+    
+}
+#legging4:hover{
+    background: url(img/legging4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#legging5{
+    background: url(img/legging5)no-repeat center/cover;
+    
+}
+#legging5:hover{
+    background: url(img/legging5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#legging6{
+    background: url(img/legging6)no-repeat center/cover;
+    
+}
+#legging6:hover{
+    background: url(img/legging6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.legging2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideleggings2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideleggings2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.legging2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.leggingheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#category{
+    text-align: center;
+    color: coral;
+    text-decoration: overline 2px black;
+    font-size: 30px;
+}
+
+.photo{
+    border: 2px black solid;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top:100px;
+    height: 450px;
+    width: 350px;
+    
+}
+
+#name{
+    position: absolute;
+    left:160px;
+    top:140px;
+    /* border: 2px black solid; */
+    width: 500px;
+    text-align: center;
+}
+
+#description{
+    position: absolute;
+    left:205px;
+    top:280px;
+    text-align: justify;
+    width:400px;
+    height:100px;
+    /* border: 2px black solid; */
+    
+}
+
+.photoA{
+    position: relative;
+    left:5px;
+    top:0px;
+    border: 2px black solid;
+    width:100px;
+    height: 100px;
+    margin-top: 10px;
+}
+.photochange{
+    width:110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 2px red solid; */
+    position: absolute;
+    top:92px;
+    left:5px;
+}
+
+
+#photo1{
+    /* background: url(img/casual)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo2{
+    /* background: url(img/casualH)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo3{
+    /* background: url(img/casual2)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo4{
+    /* background: url(img/casual2H)no-repeat center center/cover; */
+    cursor: pointer;
+}
+
+
+
+.sizes{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left:209px;
+    top:230px;
+    /* border: 2px black solid; */
+    
+}
+
+.size{
+    border-radius: 5px;
+    width:70px;
+    background-color: white;
+    border: 2px coral solid;
+    margin: 5px;
+
+}
+.size:hover{
+    cursor: pointer;
+    background-color: coral;
+}
+
+
+#addtocart{
+    position: absolute;
+    top:400px;
+    left:407px;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px  #09fac8 solid;
+    cursor: pointer;
+}
+
+#addtocart:hover{
+    cursor: pointer;
+    background-color: #09fac8;
+}
+
+
+
+#buynow{
+    position: absolute;
+    top:400px;
+    left:168px;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px  #09fac8 solid;
+    cursor: pointer;
+}
+#buynow:hover{
+    background-color:#09fac8 ;
+}
+
+
+.buy{
+    display: none;
+}
+
+.back{
+    background: url(img/close.png)no-repeat center center/cover;
+    height:40px;
+    width: 40px;
+    position: absolute;
+    top:50px;
+    left: 10px;
+    cursor: pointer;
+}

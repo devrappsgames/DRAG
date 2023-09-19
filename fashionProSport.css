@@ -1,0 +1,1930 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    border: 2px solid coral;
+    width:99.39%;
+    height:33px;
+    padding:2px;
+    z-index: 100;
+}
+
+.searchbar{
+    border-bottom: 1.5px solid white;
+    display: inline-block;
+    position: absolute;
+    border-bottom: 2px  black solid;
+    right:10px;
+    top:5px;
+    background-color: white;
+    
+}
+
+.searchbar input{
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    border: 0px solid white;
+    width:210px;
+    text-align: center;
+
+    background-color: white ;
+    
+    
+    
+}
+
+.searchbar input:hover{
+    background-color: white;
+    border: 0px solid black;
+    
+}
+
+.logo{
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -25px;
+    background-color: white;
+    display: block;
+    
+
+
+}
+
+.navcontainer{
+    background-color: hsl(19, 78%, 51%) ;
+
+    /* background-color: white ; */
+    border-radius: 6px;
+    /* border: white solid; */
+    display: inline-block;
+    width:500px;
+    height: 30px;
+    font-size: smaller;
+    position: absolute;
+    right: 750px;
+    top:4px;
+    z-index: 1;
+    /* box-shadow: white -2px -2px 1px; */
+    animation-name:color;
+    animation-timing-function: all ease-in-out;
+    animation-duration: 1s;
+    /* animation-fill-mode: backwards; */
+    animation-iteration-count: 1;
+    }
+    
+    
+    
+    .navcontainer ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 84%;
+    /* border: 2px red solid; */
+    border-radius: 30px;
+    list-style-type: none;
+    
+    font-family: 'Montserrat', sans-serif;
+      font-weight:light;
+
+
+      animation-name: slide;
+      animation-duration: 4s;
+      animation-timing-function: all ease-in;
+      animation-delay: 0.3s;
+      animation-iteration-count: 1;
+
+
+    }
+
+    @keyframes slide{
+        from{
+            margin-left: -200px;
+
+        }
+        to{
+            margin-left:0px;
+        }
+    }
+    
+    .navcontainer li{
+    display: inline;
+    margin:-6px 15px;
+    }
+    
+    
+    .navcontainer a{
+    text-decoration: none;
+    color:black;
+    }
+    .navcontainer a:hover{
+    text-decoration: overline black 2px;
+    /* color:black; */
+    transition: all;
+    transition-timing-function: all ease-in-out;
+    transition-duration: 0.3s;
+    font-weight:bold;
+    color:black ;
+     transition: all 0.5s ease-in-out  .0.5s;
+    }
+
+
+
+
+
+
+    .navcontainer2{
+        background-color: hsl(19, 78%, 51%) ;
+        /* background-color: black ; */
+    
+        /* background-color: white ; */
+        border-radius: 6px;
+        /* border: white 3px solid; */
+        display: inline-block;
+        width:99%;
+        height: 30px;
+        font-size: smaller;
+        position: sticky;
+        
+        margin:10px 5px;
+        top:5px;
+        /* margin-top: 10px; */
+       
+        /* box-shadow: white -2px -2px 1px; */
+        animation-name:color;
+        animation-timing-function: all ease-in-out;
+        animation-duration: 1s;
+        /* animation-fill-mode: backwards; */
+        animation-iteration-count: 1;
+        z-index: 20;
+        }
+        
+        
+        
+        .navcontainer2 ul{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-left: 50px;
+        width: 84%;
+        /* border: 2px red solid; */
+        border-radius: 30px;
+        list-style-type: none;
+        
+        font-family: 'Montserrat', sans-serif;
+          font-weight:light;
+    
+    
+          animation-name: slide2;
+          animation-duration: 4s;
+          animation-timing-function: all ease-in;
+          animation-delay: 0.3s;
+          animation-iteration-count: 1;
+           
+
+        }
+
+
+
+
+
+
+
+
+
+    @keyframes slide2{
+        from{
+            margin-left: -200px;
+
+        }
+        to{
+            margin-left:50px;
+        }
+    }
+
+
+
+    .navcontainer2 li{
+        display: inline-block;
+        margin:-6px 25px;
+         
+        }
+        
+        
+        .navcontainer2 a{
+        text-decoration: none;
+        color:white;
+        /* border: 2px black solid; */
+        }
+        .navcontainer2 a:hover{
+        text-decoration: overline black 2px;
+        cursor: pointer;
+        font-weight:bold;
+        color:black ;
+         
+        }
+
+    .chatbox{
+        position:fixed;
+        right:32px;
+        bottom: 30px;
+        border: coral 2px solid;
+        color: black;
+        width:80px;
+        height: 33px;
+        border-radius: 80px;
+        text-align: center;
+        background-color: white;
+        scale: 1.2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+
+        z-index: 200;
+    }
+    .chatbox h3{
+        /* margin-top: 8px; */
+        font-size: large;
+        font-family: 'Teko', sans-serif;
+    }
+
+    .chatbox:hover{
+        background-color: coral;
+        color: white;
+        border: coral 2px solid;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sportscon{
+    position: relative;
+    top:200px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.sport{
+    margin:-80px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidesport;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidesport{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.sport h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#sport1{
+    
+    background: url(img/sport)no-repeat center/cover;
+    
+}
+#sport1:hover{
+    background: url(img/sportH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#sport2{
+    background: url(img/sport2)no-repeat center/cover;
+    
+}
+#sport2:hover{
+    background: url(img/sport2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#sport3{
+    background: url(img/sport3)no-repeat center/cover;
+    
+}
+#sport3:hover{
+    background: url(img/sport3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.sportscon2{
+    position: relative;
+    top:360px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#sport4{
+    background: url(img/sport4)no-repeat center/cover;
+    
+}
+#sport4:hover{
+    background: url(img/sport4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#sport5{
+    background: url(img/sport5)no-repeat center/cover;
+    
+}
+#sport5:hover{
+    background: url(img/sport5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#sport6{
+    background: url(img/sport6)no-repeat center/cover;
+    
+}
+#sport6:hover{
+    background: url(img/sport6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.sport2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidesports2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidesports2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.sport2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.sportheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gymMscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.gymM{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidegymM;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidegymM{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.gymM h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#gymM1{
+    
+    background: url(img/gymM)no-repeat center/cover;
+    
+}
+#gymM1:hover{
+    background: url(img/gymMH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#gymM2{
+    background: url(img/gymM2)no-repeat center/cover;
+    
+}
+#gymM2:hover{
+    background: url(img/gymM2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#gymM3{
+    background: url(img/gymM3)no-repeat center/cover;
+    
+}
+#gymM3:hover{
+    background: url(img/gymM3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.gymMscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#gymM4{
+    background: url(img/gymM4)no-repeat center/cover;
+    
+}
+#gymM4:hover{
+    background: url(img/gymM4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#gymM5{
+    background: url(img/gymM5)no-repeat center/cover;
+    
+}
+#gymM5:hover{
+    background: url(img/gymM5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#gymM6{
+    background: url(img/gymM6)no-repeat center/cover;
+    
+}
+#gymM6:hover{
+    background: url(img/gymM6H.avif)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.gymM2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidegymMs2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidegymMs2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.gymM2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.gymMheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gymFscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.gymF{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidegymF;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidegymF{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.gymF h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#gymF1{
+    
+    background: url(img/gymF)no-repeat center/cover;
+    
+}
+#gymF1:hover{
+    background: url(img/gymFH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#gymF2{
+    background: url(img/gymF2)no-repeat center/cover;
+    
+}
+#gymF2:hover{
+    background: url(img/gymF2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#gymF3{
+    background: url(img/gymF3)no-repeat center/cover;
+    
+}
+#gymF3:hover{
+    background: url(img/gymF3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.gymFscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#gymF4{
+    background: url(img/gymF4)no-repeat center/cover;
+    
+}
+#gymF4:hover{
+    background: url(img/gymF4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#gymF5{
+    background: url(img/gymF5)no-repeat center/cover;
+    
+}
+#gymF5:hover{
+    background: url(img/gymF5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#gymF6{
+    background: url(img/gymF6)no-repeat center/cover;
+    
+}
+#gymF6:hover{
+    background: url(img/gymF6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.gymF2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidegymFs2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidegymFs2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.gymF2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.gymFheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shortFscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.shortF{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideshortF;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slideshortF{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.shortF h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#shortF1{
+    
+    background: url(img/shortF)no-repeat center/cover;
+    
+}
+#shortF1:hover{
+    background: url(img/shortFH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#shortF2{
+    background: url(img/shortF2)no-repeat center/cover;
+    
+}
+#shortF2:hover{
+    background: url(img/shortF2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#shortF3{
+    background: url(img/shortF3)no-repeat center/cover;
+    
+}
+#shortF3:hover{
+    background: url(img/shortF3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.shortFscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#shortF4{
+    background: url(img/shortF4)no-repeat center/cover;
+    
+}
+#shortF4:hover{
+    background: url(img/shortF4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#shortF5{
+    background: url(img/shortF5)no-repeat center/cover;
+    
+}
+#shortF5:hover{
+    background: url(img/shortF5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#shortF6{
+    background: url(img/shortF6)no-repeat center/cover;
+    
+}
+#shortF6:hover{
+    background: url(img/shortF6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.shortF2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideshortFs2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideshortFs2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.shortF2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.shortFheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shoesMscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.shoesM{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideshoesM;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slideshoesM{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.shoesM h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#shoesM1{
+    
+    background: url(img/shoesM)no-repeat center/cover;
+    
+}
+#shoesM1:hover{
+    background: url(img/shoesMH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#shoesM2{
+    background: url(img/shoesM2)no-repeat center/cover;
+    
+}
+#shoesM2:hover{
+    background: url(img/shoesM2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#shoesM3{
+    background: url(img/shoesM3)no-repeat center/cover;
+    
+}
+#shoesM3:hover{
+    background: url(img/shoesM3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.shoesMscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#shoesM4{
+    background: url(img/shoesM4)no-repeat center/cover;
+    
+}
+#shoesM4:hover{
+    background: url(img/shoesM4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#shoesM5{
+    background: url(img/shoesM5)no-repeat center/cover;
+    
+}
+#shoesM5:hover{
+    background: url(img/shoesM5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#shoesM6{
+    background: url(img/shoesM6)no-repeat center/cover;
+    
+}
+#shoesM6:hover{
+    background: url(img/shoesM6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.shoesM2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideshoesMs2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideshoesMs2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.shoesM2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.shoesMheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shoesFscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.shoesF{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideshoesF;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slideshoesF{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.shoesF h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#shoesF1{
+    
+    background: url(img/shoesF)no-repeat center/cover;
+    
+}
+#shoesF1:hover{
+    background: url(img/shoesFH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#shoesF2{
+    background: url(img/shoesF2)no-repeat center/cover;
+    
+}
+#shoesF2:hover{
+    background: url(img/shoesF2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#shoesF3{
+    background: url(img/shoesF3)no-repeat center/cover;
+    
+}
+#shoesF3:hover{
+    background: url(img/shoesF3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.shoesFscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#shoesF4{
+    background: url(img/shoesF4)no-repeat center/cover;
+    
+}
+#shoesF4:hover{
+    background: url(img/shoesF4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#shoesF5{
+    background: url(img/shoesF5H)no-repeat center/cover;
+    
+}
+#shoesF5:hover{
+    background: url(img/shoesF5)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#shoesF6{
+    background: url(img/shoesF6)no-repeat center/cover;
+    
+}
+#shoesF6:hover{
+    background: url(img/shoesF6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.shoesF2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideshoesFs2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideshoesFs2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.shoesF2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.shoesFheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shortMscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.shortM{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideshortM;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slideshortM{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.shortM h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#shortM1{
+    
+    background: url(img/shortM)no-repeat center/cover;
+    
+}
+#shortM1:hover{
+    background: url(img/shortMH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#shortM2{
+    background: url(img/shortM2)no-repeat center/cover;
+    
+}
+#shortM2:hover{
+    background: url(img/shortM2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#shortM3{
+    background: url(img/shortM3)no-repeat center/cover;
+    
+}
+#shortM3:hover{
+    background: url(img/shortM3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.shortMscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#shortM4{
+    background: url(img/shortM4)no-repeat center/cover;
+    
+}
+#shortM4:hover{
+    background: url(img/shortM4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#shortM5{
+    background: url(img/shortM5)no-repeat center/cover;
+    
+}
+#shortM5:hover{
+    background: url(img/shortM5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#shortM6{
+    background: url(img/shortM6)no-repeat center/cover;
+    
+}
+#shortM6:hover{
+    background: url(img/shortM6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.shortM2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideshortMs2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideshortMs2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.shortM2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.shortMheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sockscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.sock{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidesock;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidesock{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.sock h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#sock1{
+    
+    background: url(img/sock)no-repeat center/cover;
+    
+}
+#sock1:hover{
+    background: url(img/sockH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#sock2{
+    background: url(img/sock2)no-repeat center/cover;
+    
+}
+#sock2:hover{
+    background: url(img/sock2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#sock3{
+    background: url(img/sock3)no-repeat center/cover;
+    
+}
+#sock3:hover{
+    background: url(img/sock3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.sockscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#sock4{
+    background: url(img/sock4)no-repeat center/cover;
+    
+}
+#sock4:hover{
+    background: url(img/sock4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#sock5{
+    background: url(img/sock5)no-repeat center/cover;
+    
+}
+#sock5:hover{
+    background: url(img/sock5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#sock6{
+    background: url(img/sock6)no-repeat center/cover;
+    
+}
+#sock6:hover{
+    background: url(img/sock6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.sock2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidesocks2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidesocks2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.sock2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.sockheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.leggingscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.legging{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidelegging;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidelegging{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.legging h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#legging1{
+    
+    background: url(img/legging)no-repeat center/cover;
+    
+}
+#legging1:hover{
+    background: url(img/leggingH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#legging2{
+    background: url(img/legging2)no-repeat center/cover;
+    
+}
+#legging2:hover{
+    background: url(img/legging2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#legging3{
+    background: url(img/legging3)no-repeat center/cover;
+    
+}
+#legging3:hover{
+    background: url(img/legging3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.leggingscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#legging4{
+    background: url(img/legging4)no-repeat center/cover;
+    
+}
+#legging4:hover{
+    background: url(img/legging4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#legging5{
+    background: url(img/legging5)no-repeat center/cover;
+    
+}
+#legging5:hover{
+    background: url(img/legging5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#legging6{
+    background: url(img/legging6)no-repeat center/cover;
+    
+}
+#legging6:hover{
+    background: url(img/legging6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.legging2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideleggings2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideleggings2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.legging2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.leggingheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}

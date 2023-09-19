@@ -1,0 +1,2092 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    border: 2px solid coral;
+    width:99.39%;
+    height:33px;
+    padding:2px;
+    z-index: 100;
+}
+
+.searchbar{
+    border-bottom: 1.5px solid white;
+    display: inline-block;
+    position: absolute;
+    border-bottom: 2px  black solid;
+    right:10px;
+    top:5px;
+    background-color: white;
+    
+}
+
+.searchbar input{
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    border: 0px solid white;
+    width:210px;
+    text-align: center;
+
+    background-color: white ;
+    
+    
+    
+}
+
+.searchbar input:hover{
+    background-color: white;
+    border: 0px solid black;
+    
+}
+
+.logo{
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -25px;
+    background-color: white;
+    display: block;
+    
+
+
+}
+
+.navcontainer{
+    background-color: hsl(19, 78%, 51%) ;
+
+    /* background-color: white ; */
+    border-radius: 6px;
+    /* border: white solid; */
+    display: inline-block;
+    width:500px;
+    height: 30px;
+    font-size: smaller;
+    position: absolute;
+    right: 750px;
+    top:4px;
+    z-index: 1;
+    /* box-shadow: white -2px -2px 1px; */
+    animation-name:color;
+    animation-timing-function: all ease-in-out;
+    animation-duration: 1s;
+    /* animation-fill-mode: backwards; */
+    animation-iteration-count: 1;
+    }
+    
+    
+    
+    .navcontainer ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 84%;
+    /* border: 2px red solid; */
+    border-radius: 30px;
+    list-style-type: none;
+    
+    font-family: 'Montserrat', sans-serif;
+      font-weight:light;
+
+
+      animation-name: slide;
+      animation-duration: 4s;
+      animation-timing-function: all ease-in;
+      animation-delay: 0.3s;
+      animation-iteration-count: 1;
+
+
+    }
+
+    @keyframes slide{
+        from{
+            margin-left: -200px;
+
+        }
+        to{
+            margin-left:0px;
+        }
+    }
+    
+    .navcontainer li{
+    display: inline;
+    margin:-6px 15px;
+    }
+    
+    
+    .navcontainer a{
+    text-decoration: none;
+    color:black;
+    }
+    .navcontainer a:hover{
+    text-decoration: overline black 2px;
+    /* color:black; */
+    transition: all;
+    transition-timing-function: all ease-in-out;
+    transition-duration: 0.3s;
+    font-weight:bold;
+    color:black ;
+     transition: all 0.5s ease-in-out  .0.5s;
+    }
+
+
+
+
+
+
+    .navcontainer2{
+        background-color: hsl(19, 78%, 51%) ;
+        /* background-color: black ; */
+    
+        /* background-color: white ; */
+        border-radius: 6px;
+        /* border: white 3px solid; */
+        display: inline-block;
+        width:90%;
+        height: 30px;
+        font-size: smaller;
+        position: sticky;
+        
+        margin:10px 60px;
+        top:5px;
+        /* margin-top: 10px; */
+       
+        /* box-shadow: white -2px -2px 1px; */
+        animation-name:color;
+        animation-timing-function: all ease-in-out;
+        animation-duration: 1s;
+        /* animation-fill-mode: backwards; */
+        animation-iteration-count: 1;
+        z-index: 20;
+        }
+        
+        
+        
+        .navcontainer2 ul{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-left: 50px;
+        width: 84%;
+        /* border: 2px red solid; */
+        border-radius: 30px;
+        list-style-type: none;
+        
+        font-family: 'Montserrat', sans-serif;
+          font-weight:light;
+    
+    
+          animation-name: slide2;
+          animation-duration: 4s;
+          animation-timing-function: all ease-in;
+          animation-delay: 0.3s;
+          animation-iteration-count: 1;
+           
+
+        }
+
+
+
+
+
+
+
+
+
+    @keyframes slide2{
+        from{
+            margin-left: -200px;
+
+        }
+        to{
+            margin-left:50px;
+        }
+    }
+
+
+
+    .navcontainer2 li{
+        display: inline-block;
+        margin:-6px 35px;
+         
+        }
+        
+        
+        .navcontainer2 a{
+        text-decoration: none;
+        color:white;
+        /* border: 2px black solid; */
+        }
+        .navcontainer2 a:hover{
+        text-decoration: overline black 2px;
+        cursor: pointer;
+        font-weight:bold;
+        color:black ;
+         
+        }
+
+    .chatbox{
+        position:fixed;
+        right:32px;
+        bottom: 30px;
+        border: coral 2px solid;
+        color: black;
+        width:80px;
+        height: 33px;
+        border-radius: 80px;
+        text-align: center;
+        background-color: white;
+        scale: 1.2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+
+        z-index: 200;
+    }
+    .chatbox h3{
+        /* margin-top: 8px; */
+        font-size: large;
+        font-family: 'Teko', sans-serif;
+    }
+
+    .chatbox:hover{
+        background-color: coral;
+        color: white;
+        border: coral 2px solid;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.formalscon{
+    position: relative;
+    top:200px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.formal{
+    margin:-80px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideformal;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slideformal{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.formal h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#formal1{
+    
+    background: url(img/formal)no-repeat center/cover;
+    
+}
+#formal1:hover{
+    background: url(img/formalH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#formal2{
+    background: url(img/formal2)no-repeat center/cover;
+    
+}
+#formal2:hover{
+    background: url(img/formal2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#formal3{
+    background: url(img/formal3)no-repeat center/cover;
+    
+}
+#formal3:hover{
+    background: url(img/formal3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.formalscon2{
+    position: relative;
+    top:360px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#formal4{
+    background: url(img/formal4)no-repeat center/cover;
+    
+}
+#formal4:hover{
+    background: url(img/formal4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#formal5{
+    background: url(img/formal5)no-repeat center/cover;
+    
+}
+#formal5:hover{
+    background: url(img/formal5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#formal6{
+    background: url(img/formal6)no-repeat center/cover;
+    
+}
+#formal6:hover{
+    background: url(img/formal6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.formal2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideformals2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideformals2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.formal2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.formalheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jacketMscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.jacketM{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidejacketM;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidejacketM{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.jacketM h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#jacketM1{
+    
+    background: url(img/jacketM)no-repeat center/cover;
+    
+}
+#jacketM1:hover{
+    background: url(img/jacketMH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#jacketM2{
+    background: url(img/jacketM2)no-repeat center/cover;
+    
+}
+#jacketM2:hover{
+    background: url(img/jacketM2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#jacketM3{
+    background: url(img/jacketM3)no-repeat center/cover;
+    
+}
+#jacketM3:hover{
+    background: url(img/jacketM3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.jacketMscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#jacketM4{
+    background: url(img/jacketM4)no-repeat center/cover;
+    
+}
+#jacketM4:hover{
+    background: url(img/jacketM4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#jacketM5{
+    background: url(img/jacketM5)no-repeat center/cover;
+    
+}
+#jacketM5:hover{
+    background: url(img/jacketM5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#jacketM6{
+    background: url(img/jacketM6)no-repeat center/cover;
+    
+}
+#jacketM6:hover{
+    background: url(img/jacketM6H.avif)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.jacketM2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidejacketMs2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidejacketMs2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.jacketM2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.jacketMheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.denimscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.denim{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidedenim;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidedenim{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.denim h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#denim1{
+    
+    background: url(img/denim)no-repeat center/cover;
+    
+}
+#denim1:hover{
+    background: url(img/denimH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#denim2{
+    background: url(img/denim2)no-repeat center/cover;
+    
+}
+#denim2:hover{
+    background: url(img/denim2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#denim3{
+    background: url(img/denim3)no-repeat center/cover;
+    
+}
+#denim3:hover{
+    background: url(img/denim3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.denimscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#denim4{
+    background: url(img/denim4)no-repeat center/cover;
+    
+}
+#denim4:hover{
+    background: url(img/denim4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#denim5{
+    background: url(img/denim5)no-repeat center/cover;
+    
+}
+#denim5:hover{
+    background: url(img/denim5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#denim6{
+    background: url(img/denim6)no-repeat center/cover;
+    
+}
+#denim6:hover{
+    background: url(img/denim6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.denim2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidedenims2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidedenims2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.denim2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.denimheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shirtscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.shirt{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideshirt;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slideshirt{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.shirt h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#shirt1{
+    
+    background: url(img/shirt)no-repeat center/cover;
+    
+}
+#shirt1:hover{
+    background: url(img/shirtH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#shirt2{
+    background: url(img/shirt2)no-repeat center/cover;
+    
+}
+#shirt2:hover{
+    background: url(img/shirt2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#shirt3{
+    background: url(img/shirt3)no-repeat center/cover;
+    
+}
+#shirt3:hover{
+    background: url(img/shirt3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.shirtscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#shirt4{
+    background: url(img/shirt4)no-repeat center/cover;
+    
+}
+#shirt4:hover{
+    background: url(img/shirt4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#shirt5{
+    background: url(img/shirt5)no-repeat center/cover;
+    
+}
+#shirt5:hover{
+    background: url(img/shirt5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#shirt6{
+    background: url(img/shirt6)no-repeat center/cover;
+    
+}
+#shirt6:hover{
+    background: url(img/shirt6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.shirt2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideshirts2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideshirts2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.shirt2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.shirtheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sweatscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.sweat{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidesweat;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidesweat{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.sweat h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#sweat1{
+    
+    background: url(img/sweat)no-repeat center/cover;
+    
+}
+#sweat1:hover{
+    background: url(img/sweatH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#sweat2{
+    background: url(img/sweat2)no-repeat center/cover;
+    
+}
+#sweat2:hover{
+    background: url(img/sweat2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#sweat3{
+    background: url(img/sweat3)no-repeat center/cover;
+    
+}
+#sweat3:hover{
+    background: url(img/sweat3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.sweatscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#sweat4{
+    background: url(img/sweat4)no-repeat center/cover;
+    
+}
+#sweat4:hover{
+    background: url(img/sweat4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#sweat5{
+    background: url(img/sweat5)no-repeat center/cover;
+    
+}
+#sweat5:hover{
+    background: url(img/sweat5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#sweat6{
+    background: url(img/sweat6)no-repeat center/cover;
+    
+}
+#sweat6:hover{
+    background: url(img/sweat6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.sweat2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidesweats2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidesweats2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.sweat2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.sweatheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pantscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.pant{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidepant;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidepant{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.pant h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#pant1{
+    
+    background: url(img/pantM)no-repeat center/cover;
+    
+}
+#pant1:hover{
+    background: url(img/pantMH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#pant2{
+    background: url(img/pantM2)no-repeat center/cover;
+    
+}
+#pant2:hover{
+    background: url(img/pantM2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#pant3{
+    background: url(img/pantM3)no-repeat center/cover;
+    
+}
+#pant3:hover{
+    background: url(img/pantM3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.pantscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#pant4{
+    background: url(img/pantM4)no-repeat center/cover;
+    
+}
+#pant4:hover{
+    background: url(img/pantM4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#pant5{
+    background: url(img/pantM5)no-repeat center/cover;
+    
+}
+#pant5:hover{
+    background: url(img/pantM5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#pant6{
+    background: url(img/pantM6)no-repeat center/cover;
+    
+}
+#pant6:hover{
+    background: url(img/pantM6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.pant2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidepants2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidepants2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.pant2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.pantheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jeanscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.jean{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidejean;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidejean{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.jean h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#jean1{
+    
+    background: url(img/jean)no-repeat center/cover;
+    
+}
+#jean1:hover{
+    background: url(img/jeanH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#jean2{
+    background: url(img/jean2)no-repeat center/cover;
+    
+}
+#jean2:hover{
+    background: url(img/jean2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#jean3{
+    background: url(img/jean3)no-repeat center/cover;
+    
+}
+#jean3:hover{
+    background: url(img/jean3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.jeanscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#jean4{
+    background: url(img/jean4)no-repeat center/cover;
+    
+}
+#jean4:hover{
+    background: url(img/jean4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#jean5{
+    background: url(img/jean5)no-repeat center/cover;
+    
+}
+#jean5:hover{
+    background: url(img/jean5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#jean6{
+    background: url(img/jean6)no-repeat center/cover;
+    
+}
+#jean6:hover{
+    background: url(img/jean6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.jean2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidejeans2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidejeans2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.jean2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.jeanheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sockscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.sock{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidesock;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidesock{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.sock h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#sock1{
+    
+    background: url(img/sock)no-repeat center/cover;
+    
+}
+#sock1:hover{
+    background: url(img/sockH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#sock2{
+    background: url(img/sock2)no-repeat center/cover;
+    
+}
+#sock2:hover{
+    background: url(img/sock2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#sock3{
+    background: url(img/sock3)no-repeat center/cover;
+    
+}
+#sock3:hover{
+    background: url(img/sock3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.sockscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#sock4{
+    background: url(img/sock4)no-repeat center/cover;
+    
+}
+#sock4:hover{
+    background: url(img/sock4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#sock5{
+    background: url(img/sock5)no-repeat center/cover;
+    
+}
+#sock5:hover{
+    background: url(img/sock5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#sock6{
+    background: url(img/sock6)no-repeat center/cover;
+    
+}
+#sock6:hover{
+    background: url(img/sock6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.sock2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidesocks2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidesocks2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.sock2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.sockheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.underMscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.underM{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideunderM;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slideunderM{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.underM h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#underM1{
+    
+    background: url(img/underM)no-repeat center/cover;
+    
+}
+#underM1:hover{
+    background: url(img/underMH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#underM2{
+    background: url(img/underM2)no-repeat center/cover;
+    
+}
+#underM2:hover{
+    background: url(img/underM2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#underM3{
+    background: url(img/underM3)no-repeat center/cover;
+    
+}
+#underM3:hover{
+    background: url(img/underM3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.underMscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#underM4{
+    background: url(img/underM4)no-repeat center/cover;
+    
+}
+#underM4:hover{
+    background: url(img/underM4)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#underM5{
+    background: url(img/underM5H)no-repeat center/cover;
+    
+}
+#underM5:hover{
+    background: url(img/underM5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#underM6{
+    background: url(img/underM6)no-repeat center/cover;
+    
+}
+#underM6:hover{
+    background: url(img/underM6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.underM2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideunderMs2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideunderMs2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.underM2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.underMheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#category{
+    text-align: center;
+    color: coral;
+    text-decoration: overline 2px black;
+    font-size: 30px;
+}
+
+.photo{
+    border: 2px black solid;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top:100px;
+    height: 450px;
+    width: 350px;
+    
+}
+
+#name{
+    position: absolute;
+    left:160px;
+    top:140px;
+    /* border: 2px black solid; */
+    width: 500px;
+    text-align: center;
+}
+
+#description{
+    position: absolute;
+    left:205px;
+    top:280px;
+    text-align: justify;
+    width:400px;
+    height:100px;
+    /* border: 2px black solid; */
+    
+}
+
+.photoA{
+    position: relative;
+    left:5px;
+    top:0px;
+    border: 2px black solid;
+    width:100px;
+    height: 100px;
+    margin-top: 10px;
+}
+.photochange{
+    width:110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 2px red solid; */
+    position: absolute;
+    top:92px;
+    left:5px;
+}
+
+
+#photo1{
+    /* background: url(img/casual)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo2{
+    /* background: url(img/casualH)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo3{
+    /* background: url(img/casual2)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo4{
+    /* background: url(img/casual2H)no-repeat center center/cover; */
+    cursor: pointer;
+}
+
+
+
+.sizes{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left:209px;
+    top:230px;
+    /* border: 2px black solid; */
+    
+}
+
+.size{
+    border-radius: 5px;
+    width:70px;
+    background-color: white;
+    border: 2px coral solid;
+    margin: 5px;
+
+}
+.size:hover{
+    cursor: pointer;
+    background-color: coral;
+}
+
+
+#addtocart{
+    position: absolute;
+    top:400px;
+    left:407px;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px  #09fac8 solid;
+    cursor: pointer;
+}
+
+#addtocart:hover{
+    cursor: pointer;
+    background-color: #09fac8;
+}
+
+
+
+#buynow{
+    position: absolute;
+    top:400px;
+    left:168px;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px  #09fac8 solid;
+    cursor: pointer;
+}
+#buynow:hover{
+    background-color:#09fac8 ;
+}
+
+
+.buy{
+    display: none;
+}
+
+.back{
+    background: url(img/close.png)no-repeat center center/cover;
+    height:40px;
+    width: 40px;
+    position: absolute;
+    top:50px;
+    left: 10px;
+    cursor: pointer;
+}

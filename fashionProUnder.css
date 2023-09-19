@@ -1,0 +1,2091 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    border: 2px solid coral;
+    width:99.39%;
+    height:33px;
+    padding:2px;
+    z-index: 100;
+}
+
+.searchbar{
+    border-bottom: 1.5px solid white;
+    display: inline-block;
+    position: absolute;
+    border-bottom: 2px  black solid;
+    right:10px;
+    top:5px;
+    background-color: white;
+    
+}
+
+.searchbar input{
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    border: 0px solid white;
+    width:210px;
+    text-align: center;
+
+    background-color: white ;
+    
+    
+    
+}
+
+.searchbar input:hover{
+    background-color: white;
+    border: 0px solid black;
+    
+}
+
+.logo{
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -25px;
+    background-color: white;
+    display: block;
+    
+
+
+}
+
+.navcontainer{
+    background-color: hsl(19, 78%, 51%) ;
+
+    /* background-color: white ; */
+    border-radius: 6px;
+    /* border: white solid; */
+    display: inline-block;
+    width:500px;
+    height: 30px;
+    font-size: smaller;
+    position: absolute;
+    right: 750px;
+    top:4px;
+    z-index: 1;
+    /* box-shadow: white -2px -2px 1px; */
+    animation-name:color;
+    animation-timing-function: all ease-in-out;
+    animation-duration: 1s;
+    /* animation-fill-mode: backwards; */
+    animation-iteration-count: 1;
+    }
+    
+    
+    
+    .navcontainer ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 84%;
+    /* border: 2px red solid; */
+    border-radius: 30px;
+    list-style-type: none;
+    
+    font-family: 'Montserrat', sans-serif;
+      font-weight:light;
+
+
+      animation-name: slide;
+      animation-duration: 4s;
+      animation-timing-function: all ease-in;
+      animation-delay: 0.3s;
+      animation-iteration-count: 1;
+
+
+    }
+
+    @keyframes slide{
+        from{
+            margin-left: -200px;
+
+        }
+        to{
+            margin-left:0px;
+        }
+    }
+    
+    .navcontainer li{
+    display: inline;
+    margin:-6px 15px;
+    }
+    
+    
+    .navcontainer a{
+    text-decoration: none;
+    color:black;
+    }
+    .navcontainer a:hover{
+    text-decoration: overline black 2px;
+    /* color:black; */
+    transition: all;
+    transition-timing-function: all ease-in-out;
+    transition-duration: 0.3s;
+    font-weight:bold;
+    color:black ;
+     transition: all 0.5s ease-in-out  .0.5s;
+    }
+
+
+
+
+
+
+    .navcontainer2{
+        background-color: hsl(19, 78%, 51%) ;
+        /* background-color: black ; */
+    
+        /* background-color: white ; */
+        border-radius: 6px;
+        /* border: white 3px solid; */
+        display: inline-block;
+        width:90%;
+        height: 30px;
+        font-size: smaller;
+        position: sticky;
+        
+        margin:10px 60px;
+        top:5px;
+        /* margin-top: 10px; */
+       
+        /* box-shadow: white -2px -2px 1px; */
+        animation-name:color;
+        animation-timing-function: all ease-in-out;
+        animation-duration: 1s;
+        /* animation-fill-mode: backwards; */
+        animation-iteration-count: 1;
+        z-index: 20;
+        }
+        
+        
+        
+        .navcontainer2 ul{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-left: 50px;
+        width: 84%;
+        /* border: 2px red solid; */
+        border-radius: 30px;
+        list-style-type: none;
+        
+        font-family: 'Montserrat', sans-serif;
+          font-weight:light;
+    
+    
+          animation-name: slide2;
+          animation-duration: 4s;
+          animation-timing-function: all ease-in;
+          animation-delay: 0.3s;
+          animation-iteration-count: 1;
+           
+
+        }
+
+
+
+
+
+
+
+
+
+    @keyframes slide2{
+        from{
+            margin-left: -200px;
+
+        }
+        to{
+            margin-left:50px;
+        }
+    }
+
+
+
+    .navcontainer2 li{
+        display: inline-block;
+        margin:-6px 35px;
+         
+        }
+        
+        
+        .navcontainer2 a{
+        text-decoration: none;
+        color:white;
+        /* border: 2px black solid; */
+        }
+        .navcontainer2 a:hover{
+        text-decoration: overline black 2px;
+        cursor: pointer;
+        font-weight:bold;
+        color:black ;
+         
+        }
+
+    .chatbox{
+        position:fixed;
+        right:32px;
+        bottom: 30px;
+        border: coral 2px solid;
+        color: black;
+        width:80px;
+        height: 33px;
+        border-radius: 80px;
+        text-align: center;
+        background-color: white;
+        scale: 1.2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+
+        z-index: 200;
+    }
+    .chatbox h3{
+        /* margin-top: 8px; */
+        font-size: large;
+        font-family: 'Teko', sans-serif;
+    }
+
+    .chatbox:hover{
+        background-color: coral;
+        color: white;
+        border: coral 2px solid;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bralletscon{
+    position: relative;
+    top:200px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.brallet{
+    margin:-80px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidebrallet;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidebrallet{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.brallet h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#brallet1{
+    
+    background: url(img/brallet)no-repeat center/cover;
+    
+}
+#brallet1:hover{
+    background: url(img/bralletH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#brallet2{
+    background: url(img/brallet2)no-repeat center/cover;
+    
+}
+#brallet2:hover{
+    background: url(img/brallet2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#brallet3{
+    background: url(img/brallet3)no-repeat center/cover;
+    
+}
+#brallet3:hover{
+    background: url(img/brallet3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.bralletscon2{
+    position: relative;
+    top:360px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#brallet4{
+    background: url(img/brallet4)no-repeat center/cover;
+    
+}
+#brallet4:hover{
+    background: url(img/brallet4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#brallet5{
+    background: url(img/brallet5)no-repeat center/cover;
+    
+}
+#brallet5:hover{
+    background: url(img/brallet5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#brallet6{
+    background: url(img/brallet6)no-repeat center/cover;
+    
+}
+#brallet6:hover{
+    background: url(img/brallet6H.jpg)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.brallet2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidebrallets2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidebrallets2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.brallet2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.bralletheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bikiniscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.bikini{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidebikini;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidebikini{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.bikini h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#bikini1{
+    
+    background: url(img/bikini)no-repeat center/cover;
+    
+}
+#bikini1:hover{
+    background: url(img/bikiniH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#bikini2{
+    background: url(img/bikini2)no-repeat center/cover;
+    
+}
+#bikini2:hover{
+    background: url(img/bikini2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#bikini3{
+    background: url(img/bikini3)no-repeat center/cover;
+    
+}
+#bikini3:hover{
+    background: url(img/bikini3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.bikiniscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#bikini4{
+    background: url(img/bikini4)no-repeat center/cover;
+    
+}
+#bikini4:hover{
+    background: url(img/bikini4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#bikini5{
+    background: url(img/bikini5)no-repeat center/cover;
+    
+}
+#bikini5:hover{
+    background: url(img/bikini5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#bikini6{
+    background: url(img/bikini6)no-repeat center/cover;
+    
+}
+#bikini6:hover{
+    background: url(img/bikini6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.bikini2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidebikinis2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidebikinis2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.bikini2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.bikiniheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pantiscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.panti{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidepanti;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidepanti{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.panti h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#panti1{
+    
+    background: url(img/panti)no-repeat center/cover;
+    
+}
+#panti1:hover{
+    background: url(img/pantiH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#panti2{
+    background: url(img/panti2)no-repeat center/cover;
+    
+}
+#panti2:hover{
+    background: url(img/panti2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#panti3{
+    background: url(img/panti3)no-repeat center/cover;
+    
+}
+#panti3:hover{
+    background: url(img/panti3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.pantiscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#panti4{
+    background: url(img/panti4)no-repeat center/cover;
+    
+}
+#panti4:hover{
+    background: url(img/panti4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#panti5{
+    background: url(img/panti5)no-repeat center/cover;
+    
+}
+#panti5:hover{
+    background: url(img/panti5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#panti6{
+    background: url(img/panti6)no-repeat center/cover;
+    
+}
+#panti6:hover{
+    background: url(img/panti6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.panti2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidepantis2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidepantis2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.panti2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.pantiheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.swimscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.swim{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideswim;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slideswim{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.swim h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#swim1{
+    
+    background: url(img/swim)no-repeat center/cover;
+    
+}
+#swim1:hover{
+    background: url(img/swimH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#swim2{
+    background: url(img/swim2)no-repeat center/cover;
+    
+}
+#swim2:hover{
+    background: url(img/swim2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#swim3{
+    background: url(img/swim3)no-repeat center/cover;
+    
+}
+#swim3:hover{
+    background: url(img/swim3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.swimscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#swim4{
+    background: url(img/swim4)no-repeat center/cover;
+    
+}
+#swim4:hover{
+    background: url(img/swim4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#swim5{
+    background: url(img/swim5)no-repeat center/cover;
+    
+}
+#swim5:hover{
+    background: url(img/swim5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#swim6{
+    background: url(img/swim6)no-repeat center/cover;
+    
+}
+#swim6:hover{
+    background: url(img/swim6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.swim2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideswims2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideswims2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.swim2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.swimheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.top{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidetop;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidetop{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.top h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#top1{
+    
+    background: url(img/top)no-repeat center/cover;
+    
+}
+#top1:hover{
+    background: url(img/topH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#top2{
+    background: url(img/top2)no-repeat center/cover;
+    
+}
+#top2:hover{
+    background: url(img/top2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#top3{
+    background: url(img/top3)no-repeat center/cover;
+    
+}
+#top3:hover{
+    background: url(img/top3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.topscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#top4{
+    background: url(img/top4)no-repeat center/cover;
+    
+}
+#top4:hover{
+    background: url(img/top4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#top5{
+    background: url(img/top5)no-repeat center/cover;
+    
+}
+#top5:hover{
+    background: url(img/top5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#top6{
+    background: url(img/top6)no-repeat center/cover;
+    
+}
+#top6:hover{
+    background: url(img/top6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.top2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidetops2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidetops2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.top2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.topheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pushscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.push{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidepush;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidepush{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.push h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#push1{
+    
+    background: url(img/push)no-repeat center/cover;
+    
+}
+#push1:hover{
+    background: url(img/pushH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#push2{
+    background: url(img/push2)no-repeat center/cover;
+    
+}
+#push2:hover{
+    background: url(img/push2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#push3{
+    background: url(img/push3)no-repeat center/cover;
+    
+}
+#push3:hover{
+    background: url(img/push3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.pushscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#push4{
+    background: url(img/push4)no-repeat center/cover;
+    
+}
+#push4:hover{
+    background: url(img/push4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#push5{
+    background: url(img/push5)no-repeat center/cover;
+    
+}
+#push5:hover{
+    background: url(img/push5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#push6{
+    background: url(img/push6)no-repeat center/cover;
+    
+}
+#push6:hover{
+    background: url(img/push6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.push2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidepushs2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidepushs2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.push2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.pushheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.straplessscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.strapless{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidestrapless;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidestrapless{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.strapless h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#strapless1{
+    
+    background: url(img/strap)no-repeat center/cover;
+    
+}
+#strapless1:hover{
+    background: url(img/strapH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#strapless2{
+    background: url(img/strap2)no-repeat center/cover;
+    
+}
+#strapless2:hover{
+    background: url(img/strap2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#strapless3{
+    background: url(img/strap3)no-repeat center/cover;
+    
+}
+#strapless3:hover{
+    background: url(img/strap3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.straplessscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#strapless4{
+    background: url(img/strap4)no-repeat center/cover;
+    
+}
+#strapless4:hover{
+    background: url(img/strap4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#strapless5{
+    background: url(img/strap5)no-repeat center/cover;
+    
+}
+#strapless5:hover{
+    background: url(img/strap5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#strapless6{
+    background: url(img/strap6)no-repeat center/cover;
+    
+}
+#strapless6:hover{
+    background: url(img/strap6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.strapless2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidestraplesss2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidestraplesss2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.strapless2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.straplessheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.strapscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.strap{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidestrap;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidestrap{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.strap h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#strap1{
+    
+    background: url(img/belt)no-repeat center/cover;
+    
+}
+#strap1:hover{
+    background: url(img/beltH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#strap2{
+    background: url(img/belt2)no-repeat center/cover;
+    
+}
+#strap2:hover{
+    background: url(img/belt2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#strap3{
+    background: url(img/belt3)no-repeat center/cover;
+    
+}
+#strap3:hover{
+    background: url(img/belt3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.strapscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#strap4{
+    background: url(img/belt4)no-repeat center/cover;
+    
+}
+#strap4:hover{
+    background: url(img/belt4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#strap5{
+    background: url(img/belt5)no-repeat center/cover;
+    
+}
+#strap5:hover{
+    background: url(img/belt5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#strap6{
+    background: url(img/belt6)no-repeat center/cover;
+    
+}
+#strap6:hover{
+    background: url(img/belt6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.strap2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidestraps2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidestraps2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.strap2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.strapheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.stockscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.stock{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidestock;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidestock{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.stock h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#stock1{
+    
+    background: url(img/stock)no-repeat center/cover;
+    
+}
+#stock1:hover{
+    background: url(img/stockH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#stock2{
+    background: url(img/stock2)no-repeat center/cover;
+    
+}
+#stock2:hover{
+    background: url(img/stock2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#stock3{
+    background: url(img/stock3)no-repeat center/cover;
+    
+}
+#stock3:hover{
+    background: url(img/stock3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.stockscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#stock4{
+    background: url(img/stock4)no-repeat center/cover;
+    
+}
+#stock4:hover{
+    background: url(img/stock4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#stock5{
+    background: url(img/stock5)no-repeat center/cover;
+    
+}
+#stock5:hover{
+    background: url(img/stock5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#stock6{
+    background: url(img/stock6)no-repeat center/cover;
+    
+}
+#stock6:hover{
+    background: url(img/stock6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.stock2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidestocks2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidestocks2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.stock2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.stockheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#category{
+    text-align: center;
+    color: coral;
+    text-decoration: overline 2px black;
+    font-size: 30px;
+}
+
+.photo{
+    border: 2px black solid;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top:100px;
+    height: 450px;
+    width: 350px;
+    
+}
+
+#name{
+    position: absolute;
+    left:160px;
+    top:140px;
+    /* border: 2px black solid; */
+    width: 500px;
+    text-align: center;
+}
+
+#description{
+    position: absolute;
+    left:205px;
+    top:280px;
+    text-align: justify;
+    width:400px;
+    height:100px;
+    /* border: 2px black solid; */
+    
+}
+
+.photoA{
+    position: relative;
+    left:5px;
+    top:0px;
+    border: 2px black solid;
+    width:100px;
+    height: 100px;
+    margin-top: 10px;
+}
+.photochange{
+    width:110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 2px red solid; */
+    position: absolute;
+    top:92px;
+    left:5px;
+}
+
+
+#photo1{
+    /* background: url(img/casual)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo2{
+    /* background: url(img/casualH)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo3{
+    /* background: url(img/casual2)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo4{
+    /* background: url(img/casual2H)no-repeat center center/cover; */
+    cursor: pointer;
+}
+
+
+
+.sizes{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left:209px;
+    top:230px;
+    /* border: 2px black solid; */
+    
+}
+
+.size{
+    border-radius: 5px;
+    width:70px;
+    background-color: white;
+    border: 2px coral solid;
+    margin: 5px;
+
+}
+.size:hover{
+    cursor: pointer;
+    background-color: coral;
+}
+
+
+#addtocart{
+    position: absolute;
+    top:400px;
+    left:407px;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px  #09fac8 solid;
+    cursor: pointer;
+}
+
+#addtocart:hover{
+    cursor: pointer;
+    background-color: #09fac8;
+}
+
+
+
+#buynow{
+    position: absolute;
+    top:400px;
+    left:168px;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px  #09fac8 solid;
+    cursor: pointer;
+}
+#buynow:hover{
+    background-color:#09fac8 ;
+}
+
+
+.buy{
+    display: none;
+}
+
+.back{
+    background: url(img/close.png)no-repeat center center/cover;
+    height:40px;
+    width: 40px;
+    position: absolute;
+    top:50px;
+    left: 10px;
+    cursor: pointer;
+}

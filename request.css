@@ -1,0 +1,243 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #010506 ; */
+}
+
+
+.navbar{
+    border: 4px solid coral;
+    width:99.39%;
+    height:33px;
+    
+}
+
+.searchbar{
+    border-bottom: 1.5px solid white;
+    display: inline-block;
+    position: absolute;
+    right:5px;
+    top:5px;
+    background-color: white;
+
+    border-bottom:black 2px solid ;
+}
+.searchbar input{
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    border: 0px solid white;
+    width:170px;
+    text-align: center;
+
+    /* background-color: black; */
+    
+    
+    
+}
+
+.searchbar input:hover{
+    background-color: white;
+    border: 0px solid black;
+    
+}
+
+.logo{
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -25px;
+    background-color: white;
+    display: block;
+    
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.navcontainer{
+    background-color: hsl(19, 78%, 51%) ;
+  
+    border-radius: 6px;
+    /* border: black 2px solid; */
+    display: inline-block;
+    width:500px;
+    height: 30px;
+    font-size: smaller;
+    position: fixed;
+    right: 750px;
+    top:4px;
+    z-index: 1;
+    /* box-shadow: white -2px -2px 1px; */
+    animation-name:color;
+    animation-timing-function: all ease-in-out;
+    animation-duration: 1s;
+    /* animation-fill-mode: backwards; */
+    animation-iteration-count: 1;
+
+
+    }
+    
+    
+    
+    .navcontainer ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 84%;
+    /* border: 2px red solid; */
+    border-radius: 30px;
+    list-style-type: none;
+    
+    font-family: 'Montserrat', sans-serif;
+      font-weight:light;
+
+
+      animation-name: slide;
+      animation-duration: 4s;
+      animation-timing-function: all ease-in;
+      animation-delay: 0.3s;
+      animation-iteration-count: 1;
+
+
+    }
+
+    @keyframes slide{
+        from{
+            margin-left: -200px;
+
+        }
+        to{
+            margin-left:0px;
+        }
+    }
+    
+    .navcontainer li{
+    display: inline;
+    margin:-6px 15px;
+
+    }
+    
+    
+    .navcontainer a{
+    text-decoration: none;
+    color:white;
+    }
+    .navcontainer a:hover{
+    text-decoration: overline black 2px;
+    /* color:black; */
+    transition: all;
+    transition-timing-function: all ease-in-out;
+    transition-duration: 0.3s;
+    font-weight:bold;
+    color:black;
+     transition: all 0.5s ease-in-out  .0.5s;
+    }
+
+
+
+    video{
+        object-fit: cover;
+        height: 546.6px;
+        width: 99.68%;
+        border: black 2px solid;
+       
+    }
+
+form{
+ border:white 2px solid;
+ box-shadow: 2px 2px 2px 2px white;
+ height:500px;
+ width: 400px;
+  position: absolute;
+  top:60px;
+  left:450px;
+}
+
+form h2{
+    text-align: center;
+    color: white;
+    text-decoration: overline;
+}
+
+.inputs{
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   justify-items: center;
+}
+.inp{
+    display: inline-block;
+    width:270px;
+    height: 30px;
+    font-weight: bolder;
+    margin: 20px;
+    margin-left:20px;
+
+    text-align: center;
+    border:2px rgb(185, 184, 184) solid;
+
+}
+
+.description textarea{
+    text-align: center;
+    
+    border:2px rgb(185, 184, 184) solid;
+    width:270px;
+
+    margin-left:20px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+form button{
+    width:200px;
+    height: 43px;
+    border-radius: 8px;
+    position: relative;
+    left:180px;
+    top:40px;
+    background-color: coral;
+    border: 2px white solid;
+    color: white;
+    font-weight: bolder;
+   
+}
+button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+   
+.chatbox{
+    position:fixed;
+    right:32px;
+    bottom: 30px;
+    border: white 2px solid;
+    color: black;
+    width:80px;
+    height: 33px;
+    border-radius: 80px;
+    text-align: center;
+    background-color: white;
+    scale: 1.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+}
+.chatbox h3{
+    /* margin-top: 8px; */
+    font-size: large;
+    font-family: 'Teko', sans-serif;
+}
+
+.chatbox:hover{
+    background-color: coral;
+    color: white;
+    border: coral 2px solid;
+    cursor: pointer;
+}

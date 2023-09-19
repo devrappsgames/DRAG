@@ -1,0 +1,458 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+ }
+
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+    
+}
+#box1 button:hover{
+color:black;
+background-color: white;
+cursor: pointer;
+}
+#box3 button:hover{
+color:black;
+background-color: white;
+cursor: pointer;
+}
+#box4 button:hover{
+color:black;
+background-color: white;
+cursor: pointer;
+}
+#box5 button:hover{
+color:black;
+background-color: white;
+cursor: pointer;
+}
+#box6 button:hover{
+color:black;
+background-color: white;
+cursor: pointer;
+}
+#box7 button:hover{
+color:black;
+background-color: white;
+cursor: pointer;
+}
+#box1 button:hover{
+color:black;
+background-color: white;
+cursor: pointer;
+}
+#box8 button:hover{
+color:black;
+background-color: white;
+cursor: pointer;
+}
+
+video{
+    object-fit: cover;
+    height: 546.6px;
+    width: 99.68%;
+    border: black 2px solid;
+   position: fixed;
+   
+}
+
+.navbar{
+    border: 2px solid coral;
+    width:99.39%;
+    height:33px;
+    padding:2px;
+    z-index: 100;
+}
+
+.searchbar{
+    border-bottom: 1.5px solid white;
+    display: inline-block;
+    position: fixed;
+    border-bottom: 2px  black solid;
+    right:10px;
+    top:5px;
+    background-color: white;
+    
+}
+
+.searchbar input{
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    border: 0px solid white;
+    width:210px;
+    text-align: center;
+
+    background-color: white ;
+    
+    
+    
+}
+
+.searchbar input:hover{
+    background-color: white;
+    border: 0px solid black;
+    
+}
+
+.logo{
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -25px;
+    background-color: white;
+    display: block;
+    
+
+
+}
+
+.navcontainer{
+    background-color: hsl(19, 78%, 51%) ;
+
+    /* background-color: white ; */
+    border-radius: 6px;
+    /* border: white solid; */
+    display: inline-block;
+    width:500px;
+    height: 30px;
+    font-size: smaller;
+    position: fixed;
+    right: 750px;
+    top:4px;
+    z-index: 1;
+    /* box-shadow: white -2px -2px 1px; */
+    animation-name:color;
+    animation-timing-function: all ease-in-out;
+    animation-duration: 1s;
+    /* animation-fill-mode: backwards; */
+    animation-iteration-count: 1;
+    }
+    
+    
+    
+    .navcontainer ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 84%;
+    /* border: 2px red solid; */
+    border-radius: 30px;
+    list-style-type: none;
+    
+    font-family: 'Montserrat', sans-serif;
+      font-weight:light;
+
+
+      animation-name: slide;
+      animation-duration: 4s;
+      animation-timing-function: all ease-in;
+      animation-delay: 0.3s;
+      animation-iteration-count: 1;
+
+
+    }
+
+    @keyframes slide{
+        from{
+            margin-left: -200px;
+
+        }
+        to{
+            margin-left:0px;
+        }
+    }
+    
+    .navcontainer li{
+    display: inline;
+    margin:-6px 15px;
+    }
+    
+    
+    .navcontainer a{
+    text-decoration: none;
+    color:black;
+    }
+    .navcontainer a:hover{
+    text-decoration: overline black 2px;
+    /* color:black; */
+    transition: all;
+    transition-timing-function: all ease-in-out;
+    transition-duration: 0.3s;
+    font-weight:bold;
+    color:black ;
+     transition: all 0.5s ease-in-out  .0.5s;
+    }
+
+
+    .heading h1{
+        color:white;
+        position: relative;
+        top:80px;
+        left:110px;
+
+        display: inline-block;
+    }
+
+    .box{
+        /* background-color: #242834; */
+        background-color: coral;
+        height:300px;
+        width:400px;
+        margin-left:110px;
+        border: white 4px solid;
+        color:white;
+        border-radius: 20px;
+        
+    
+    }
+    .box h2{
+        position: relative;
+        left:20px;
+        list-style-type:disc;
+        
+    }
+    #box2 p{
+        position: relative;
+        top:50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #box1 p{
+        position: relative;
+        top:50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #box1 button{
+        position: relative;
+        top:60px;
+        width:200px;
+        margin:0px auto;
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        color:black;
+        font-weight: bold;
+        background-color: palegreen;
+        border-radius: 120px;
+        height:30px;
+
+        height:40px;
+        border: 2px white solid;
+        background-color: black;
+        border-radius: 10px;
+        color:white;
+    }
+
+    #box3 p{
+        position: relative;
+        top:10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #box3 button{
+        position: relative;
+        top:30px;
+        width:200px;
+        margin:0px auto;
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        color:black;
+        font-weight: bold;
+        background-color: palegreen;
+        border-radius: 120px;
+        height:30px;
+        
+        height:40px;
+        border: 2px white solid;
+        background-color: black;
+        border-radius: 10px;
+        color:white
+    }
+
+    #box4 p{
+        position: relative;
+        top:10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #box4 button{
+        position: relative;
+        top:105px;
+        width:200px;
+        margin:0px auto;
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        color:black;
+        font-weight: bold;
+        background-color: palegreen;
+        border-radius: 120px;
+        height:30px;
+
+        height:40px;
+        border: 2px white solid;
+        background-color: black;
+        border-radius: 10px;
+        color:white;
+        
+    }
+
+
+    #box5 p{
+        position: relative;
+        top:10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #box5 button{
+        position: relative;
+        top:43px;
+        width:200px;
+        margin:0px auto;
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        color:black;
+        font-weight: bold;
+        background-color: palegreen;
+        border-radius: 120px;
+        height:30px;
+        
+        height:40px;
+        border: 2px white solid;
+        background-color: black;
+        border-radius: 10px;
+        color:white;
+    }
+
+    #box6 p{
+        position: relative;
+        top:10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #box6 button{
+        position: relative;
+        top:5px;
+        width:200px;
+        margin:0px auto;
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        color:black;
+        font-weight: bold;
+        background-color: palegreen;
+        border-radius: 120px;
+        height:30px;
+
+        height:40px;
+        border: 2px white solid;
+        background-color: black;
+        border-radius: 10px;
+        color:white;
+        
+    }
+    
+
+    #box7 p{
+        position: relative;
+        top:36px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #box7 button{
+        position: relative;
+        top:30px;
+        width:200px;
+        margin:0px auto;
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        color:black;
+        font-weight: bold;
+        background-color: palegreen;
+        border-radius: 120px;
+        height:30px;
+
+        height:40px;
+        border: 2px white solid;
+        background-color: black;
+        border-radius: 10px;
+        color:white;
+        
+    }
+
+    #box8 p{
+        position: relative;
+        top:10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #box8 button{
+        position: relative;
+        top:57px;
+        width:200px;
+        margin:0px auto;
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        
+        font-weight: bold;
+       
+        
+        height:40px;
+        border: 2px white solid;
+        background-color: black;
+        border-radius: 10px;
+        color:white;
+    }
+
+
+   .gridcont{
+        display: grid;
+        grid-template-columns:299px 200px;
+        grid-gap: 10rem;
+
+         left:90px;
+        position: relative;
+        top:130px;
+         width:1050px;
+         /* border: white 4px solid; */
+
+   }
+
+
+   .box:hover{
+     scale: 1.05;
+   }
+
+   .chatbox{
+    position:fixed;
+    right:32px;
+    bottom: 30px;
+    border: white 2px solid;
+    color: black;
+    width:80px;
+    height: 33px;
+    border-radius: 80px;
+    text-align: center;
+    background-color: white;
+    scale: 1.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+}
+.chatbox h3{
+    /* margin-top: 8px; */
+    font-size: large;
+    font-family: 'Teko', sans-serif;
+}
+
+
+.chatbox:hover{
+    background-color: coral;
+    color: white;
+    border: coral 2px solid;
+    cursor: pointer;
+}

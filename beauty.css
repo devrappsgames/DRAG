@@ -1,0 +1,702 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 6957px;
+    
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+video{
+    object-fit: cover;
+    height: 546.6px;
+    width: 99.68%;
+    border: black 2px solid;
+   z-index: -10;
+   position: relative;
+}
+
+
+
+
+
+  
+
+
+.navbar{
+    border: 2px solid coral;
+    width:99.39%;
+    height:33px;
+    padding:2px;
+    z-index: 100;
+}
+
+.searchbar{
+    border-bottom: 1.5px solid white;
+    display: inline-block;
+    position: absolute;
+    border-bottom: 2px  black solid;
+    right:10px;
+    top:5px;
+    background-color: white;
+    
+}
+
+.searchbar input{
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    border: 0px solid white;
+    width:210px;
+    text-align: center;
+
+    background-color: white ;
+    
+}
+
+.searchbar input:hover{
+    background-color: white;
+    border: 0px solid black;
+    
+}
+
+.logo{
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -25px;
+    background-color: white;
+    display: block;
+    
+
+
+}
+
+.navcontainer{
+    background-color: hsl(19, 78%, 51%) ;
+
+    /* background-color: white ; */
+    border-radius: 6px;
+    /* border: white solid; */
+    display: inline-block;
+    width:500px;
+    height: 30px;
+    font-size: smaller;
+    position: fixed;
+    right: 750px;
+    top:4px;
+    z-index: 1;
+    /* box-shadow: white -2px -2px 1px; */
+    animation-name:color;
+    animation-timing-function: all ease-in-out;
+    animation-duration: 1s;
+    /* animation-fill-mode: backwards; */
+    animation-iteration-count: 1;
+    }
+    
+    
+    
+    .navcontainer ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 84%;
+    /* border: 2px red solid; */
+    border-radius: 30px;
+    list-style-type: none;
+    
+    font-family: 'Montserrat', sans-serif;
+      font-weight:light;
+
+
+      animation-name: slide;
+      animation-duration: 4s;
+      animation-timing-function: all ease-in;
+      animation-delay: 0.3s;
+      animation-iteration-count: 1;
+
+
+    }
+
+
+
+    .navcontainer2{
+        background-color: hsl(19, 78%, 51%) ;
+        /* background-color: black ; */
+    
+        /* background-color: white ; */
+        border-radius: 6px;
+        /* border: white 3px solid; */
+        display: inline-block;
+        width:90%;
+        height: 30px;
+        font-size: smaller;
+        position: absolute;
+        right: 57px;
+        
+        top:60px;
+       
+        /* box-shadow: white -2px -2px 1px; */
+        animation-name:color;
+        animation-timing-function: all ease-in-out;
+        animation-duration: 1s;
+        /* animation-fill-mode: backwards; */
+        animation-iteration-count: 1;
+        }
+        
+        
+        
+        .navcontainer2 ul{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-left: 50px;
+        width: 84%;
+        /* border: 2px red solid; */
+        border-radius: 30px;
+        list-style-type: none;
+        
+        font-family: 'Montserrat', sans-serif;
+          font-weight:light;
+    
+    
+          animation-name: slide2;
+          animation-duration: 4s;
+          animation-timing-function: all ease-in;
+          animation-delay: 0.3s;
+          animation-iteration-count: 1;
+           
+          
+    
+        }
+
+    @keyframes slide{
+        from{
+            margin-left: -200px;
+
+        }
+        to{
+            margin-left:0px;
+        }
+    }
+
+    @keyframes slide2{
+        from{
+            margin-left: -200px;
+
+        }
+        to{
+            margin-left:50px;
+        }
+    }
+    
+    .navcontainer li{
+    display: inline;
+    margin:-6px 15px;
+    }
+    
+    
+    .navcontainer a{
+    text-decoration: none;
+    color:black;
+    }
+    .navcontainer a:hover{
+    text-decoration: overline black 2px;
+    /* color:black; */
+    transition: all;
+    transition-timing-function: all ease-in-out;
+    transition-duration: 0.3s;
+    font-weight:bold;
+    color:black ;
+     transition: all 0.5s ease-in-out  .0.5s;
+    }
+
+
+
+
+    .navcontainer2 li{
+        display: inline-block;
+        margin:-6px 35px;
+         
+        }
+        
+        
+        .navcontainer2 a{
+        text-decoration: none;
+        color:white;
+        /* border: 2px black solid; */
+        }
+        .navcontainer2 a:hover{
+        text-decoration: overline black 2px;
+        cursor: pointer;
+        font-weight:bold;
+        color:black ;
+         
+        }
+    
+
+    .chatbox{
+        position:fixed;
+        right:32px;
+        bottom: 30px;
+        border: coral 2px solid;
+        color: black;
+        width:80px;
+        height: 33px;
+        border-radius: 80px;
+        text-align: center;
+        background-color: white;
+        scale: 1.2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+
+        z-index: 200;
+    }
+    .chatbox h3{
+        /* margin-top: 8px; */
+        font-size: large;
+        font-family: 'Teko', sans-serif;
+    }
+
+    .chatbox:hover{
+        background-color: coral;
+        color: white;
+        border: coral 2px solid;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+    .banner1{
+        width:40%;
+        height: 500px;
+        background: url(img/jewelbanner)no-repeat center center/cover;
+        position: relative;
+        top:80px;
+        left: 2px;
+        border-bottom: 4px coral solid;
+        border-top: 4px black solid;
+        border-left: 4px coral solid;
+        border-right: 4px black solid;
+        
+z-index: -1;
+    }
+
+    .banner1 h1{
+        position: relative;
+        top:100px;
+        left:780px;
+        
+        display: inline-block;
+    }
+
+    .banner1 p{
+        position: relative;
+        top:110px;
+        left:725px;
+         width: 350px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    
+
+    .discover{
+        position: relative;
+        top:-110px;
+        left:735px;
+         width: 350px;
+         height: 36px;
+        /* display: inline-block; */
+        text-align: center;
+        font-weight: bold;
+        font-size: large;
+
+        
+
+        background-color: coral;
+        border: 2px coral solid;
+        color: white;
+    }
+ 
+    .discover:hover{
+        cursor: pointer;
+        color: white;
+        background-color: black;
+    }
+    
+
+
+
+
+    .banner2{
+        width:40%;
+        height: 500px;
+        background: url(img/handbagbanner)no-repeat center center/cover;
+        position: relative;
+        top:240px;
+        left: 750px;
+        border-bottom: 4px coral solid;
+        border-top: 4px black solid;
+        border-left: 4px coral solid;
+        border-right: 4px black solid;
+z-index: -1;
+
+    }
+
+    .banner2 h1{
+        position: relative;
+        top:100px;
+        left:-520px;
+        display: inline-block;
+    }
+
+    .banner2 p{
+        position: relative;
+        top:110px;
+        left:-575px;
+         width: 350px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #discover2{
+        position: relative;
+        top:40px;
+        left:185px;
+    }
+
+
+
+
+    .banner3{
+        width:40%;
+        height: 500px;
+        background: url(img/lip1H)no-repeat center center/cover;
+        position: relative;
+        top:480px;
+        left: 2px;
+        border-bottom: 4px coral solid;
+        border-top: 4px black solid;
+        border-left: 4px coral solid;
+        border-right: 4px black solid;
+z-index: -1;
+    }
+
+    .banner3 h1{
+        position: relative;
+        top:100px;
+        left:780px;
+        display: inline-block;
+    }
+
+    .banner3 p{
+        position: relative;
+        top:110px;
+        left:725px;
+         width: 350px;
+        display: inline-block;
+        text-align: center;
+    }
+
+
+    #discover3{
+        position: relative;
+        top:270px;
+        left:735px;
+    }
+
+
+
+    .banner4{
+        width:40%;
+        height: 500px;
+        background: url(img/necklacebanner)no-repeat center center/cover;
+        position: relative;
+        top:670px;
+        left: 750px;
+        border-bottom: 4px coral solid;
+        border-top: 4px black solid;
+        border-left: 4px coral solid;
+        border-right: 4px black solid;
+z-index: -1;
+
+    }
+
+    .banner4 h1{
+        position: relative;
+        top:100px;
+        left:-520px;
+        display: inline-block;
+    }
+
+    .banner4 p{
+        position: relative;
+        top:110px;
+        left:-575px;
+         width: 350px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #discover4{
+        position: relative;
+        top:450px;
+        left:185px;
+    }
+
+
+
+
+
+    .banner5{
+        width:40%;
+        height: 500px;
+        /* background: url(img/lip1H)no-repeat center center/cover; */
+        position: relative;
+        top:860px;
+        left: 2px;
+        border-bottom: 4px coral solid;
+        border-top: 4px black solid;
+        border-left: 4px coral solid;
+        border-right: 4px black solid;
+z-index: -1;
+    }
+
+    .banner5 h1{
+        position: relative;
+        top:-440px;
+        left:810px;
+        display: inline-block;
+    }
+
+    .banner5 p{
+        position: relative;
+        top:-430px;
+        left:725px;
+         width: 350px;
+        display: inline-block;
+        text-align: center;
+    }
+
+
+    #discover5{
+        position: relative;
+        top:670px;
+        left:735px;
+    }
+
+
+    .banner5 video{
+        object-fit: cover;
+        height: 496.6px;
+        width: 99.4%;
+        border: black 2px solid;
+       z-index: -10;
+       position: relative;
+    }
+
+
+
+
+
+
+
+
+
+    .banner6{
+        width:99%;
+        height: 500px;
+        background: url(img/makeupbanner)no-repeat center center/contain;
+        position: relative;
+        top:1140px;
+        left:4px;
+        border-bottom: 4px coral solid;
+        border-top: 4px black solid;
+        border-left: 4px coral solid;
+        border-right: 4px black solid;
+z-index: -2;
+       background-color: #ba9cc5 ;
+       color: white;
+    }
+
+
+    .banner6 h1{
+        position: relative;
+        top:100px;
+        left:70px;
+        display: inline-block;
+        z-index: 100;
+    }
+
+    .banner6 p{
+        position: relative;
+        top:180px;
+        left:-236px;
+         width: 350px;
+        display: inline-block;
+        text-align: center;
+        z-index: 100;
+        color: white;
+    }
+
+    #discover6{
+        position: relative;
+        top:910px;
+        left:23px;
+    }
+    #discover6:hover{
+        background-color: white;
+        color: black;
+    }
+
+
+
+
+    .banner7{
+        width:99%;
+        height: 500px;
+        background: url(img/watchbanner)no-repeat center center/cover;
+        position: relative;
+        top:1380px;
+        left:4px;
+        border-bottom: 4px coral solid;
+        border-top: 4px black solid;
+        border-left: 4px coral solid;
+        border-right: 4px black solid;
+z-index: -2;
+       background-color: #dbdbdd ;
+       color: white;
+       
+    }
+
+
+    .banner7 h1{
+        position: relative;
+        top:240px;
+        left:890px;
+        display: inline-block;
+        z-index: 100;
+    }
+
+    .banner7 p{
+        position: relative;
+        top:310px;
+        left:584px;
+         width: 350px;
+        display: inline-block;
+        text-align: center;
+        z-index: 100;
+        color: white;
+    }
+
+    #discover7{
+        position: relative;
+        top:1280px;
+        left:848px;
+        background-color: transparent;
+        border:2px white solid;
+    }
+    #discover7:hover{
+        background-color: white;
+        color: black;
+    }
+
+
+
+    .banner8{
+        width:99%;
+        height: 500px;
+        background: url(img/sunglassesbanner)no-repeat center center/cover;
+        position: relative;
+        top:1580px;
+        left:4px;
+        border-bottom: 4px coral solid;
+        border-top: 4px black solid;
+        border-left: 4px coral solid;
+        border-right: 4px black solid;
+z-index: -2;
+       background-color: #dbdbdd ;
+       color: white;
+       
+    }
+
+
+    .banner8 h1{
+        position: relative;
+        top:240px;
+        left:530px;
+        display: inline-block;
+        z-index: 100;
+        color: whitesmoke
+    }
+
+    .banner8 p{
+        position: relative;
+        top:310px;
+        left:224px;
+         width: 350px;
+        display: inline-block;
+        text-align: center;
+        z-index: 100;
+        color: whitesmoke;
+        font-weight: bold;
+    }
+
+    #discover8{
+        position: relative;
+        top:1500px;
+        left:480px;
+        color: black;
+        border:2px white solid;
+        background-color: white;
+        
+    }
+    #discover8:hover{
+        background-color: transparent;
+        color: white;
+    }
+
+
+
+
+    .bottom h1{
+        height:50px;
+        width:99.6%;
+        
+        text-align: center;
+        font-size: 80px;
+      
+        padding-bottom: 40px;
+        color: black;
+     }
+     
+     .bottom{
+         position: absolute;
+         border: black 2px solid;
+         top: 6740px;
+         margin: 10px;
+         width:98%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         
+      }
