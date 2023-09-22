@@ -483,18 +483,23 @@ video{
 }
 
 .products button{
-    width:197px;
-    top:76vh;
+    width:287px;
+    top:65vh;
     /* border: 20px red solid; */
     height: 90px;
-    left: 5px;
+    position: fixed;
+    left: -100px;
+    
+    transform: rotate(270deg);
 }
 .services button{
     position: absolute;
-    top:76vh;
-    width:197px;
-    left:210px;
+    top:65vh;
+    width:287px;
+    left:224px;
+    position: absolute;
     height: 90px;
+    transform: rotate(90deg);
 }
 
 
@@ -504,7 +509,7 @@ video{
         left:20px;
     }
     to{
-        left:10px;
+        left:0px;
     }
 }
 
@@ -518,10 +523,10 @@ video{
 }
 
  .searchbar input{
-   width: 130px;
+   width: 100px;
  }
  .searchbar{
-    top:0.5px;
+    top:-0.2px;
     z-index: 200;
   }
 
