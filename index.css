@@ -312,8 +312,8 @@ top:39px;
     }
     .navcontainer{
         position: absolute;
-        left: -1px;
-        width:98vw;
+        left: 4px;
+        width:96vw;
         border-radius: 8px;
     }
 
@@ -341,5 +341,6 @@ top:39px;
         left: 0px;
         width: 98vw;
         top:24vh;
+        z-index: -1;
       }
 }
