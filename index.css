@@ -185,10 +185,7 @@ top:39px;
     
     align-items: center;
     z-index: 200;
-    
-    
-    
-    
+
     }
     
     
@@ -302,3 +299,47 @@ top:39px;
     }
 }
 
+
+
+
+@media only screen and (min-width:144px) and (max-width:440px) {
+    body{
+      margin: 0px;
+      height: 0px;
+      width:98vw;
+      height: 100vh;
+      /* border: 2px blue solid; */
+    }
+    .navcontainer{
+        position: absolute;
+        left: -1px;
+        width:98vw;
+        border-radius: 8px;
+    }
+
+    .navcontainer ul{
+        width: 88vw;
+        /* border: 2px red solid; */
+        display: flex;
+        position: relative;
+        right: 19px;
+        }
+
+
+     header{
+            /* border:2px white solid; */
+            width: 98vw;
+            }
+
+      .navcontainer li{
+         display: inline;
+         margin:-1px 5px;
+      }
+
+      .logo{
+        position: absolute;
+        left: 0px;
+        width: 98vw;
+        top:24vh;
+      }
+}
