@@ -503,6 +503,7 @@ video{
   left:0px;
     width: 99%;
     top:70vh;
+    display: none;
 }
 .services button{
     width: 99%;
@@ -510,6 +511,7 @@ video{
   left:0px;
   top:79vh;
   margin-top: 4px;
+  display: none;
 }
 
 

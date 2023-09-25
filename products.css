@@ -478,7 +478,7 @@ body{
             background-color: coral;
             position: absolute;
             top:407px;
-            left:19vw;
+            left:20vw;
         
         }
         
@@ -487,10 +487,11 @@ body{
             width:212px;
             height: 2px;
             background-color: coral;
-            position: absolute;
-            top:158vh;
-            left:21vw;
-        
+            position: relative;
+            margin-top: 30px;
+           
+            left:22%;
+            
         }
       
       }
