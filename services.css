@@ -486,7 +486,7 @@ video{
   
     .navbar{
       width:100vw;
-      position: absolute;
+      position: fixed;
       top: 1px;
       border: none;
       border-bottom:4px coral solid ;
