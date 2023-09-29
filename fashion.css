@@ -554,6 +554,7 @@ html{
           border: none;
           border-bottom:4px coral solid ;
           border-top:4px coral solid ;
+          z-index: 500;
         }
         .logo{
           height: 80px;
