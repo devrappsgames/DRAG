@@ -460,7 +460,8 @@ video{
   }
   .navcontainer{
     top:45px;
-   right: 0px;
+    left: 0px;
+    width: 100vw;
    
   }
   .navcontainer li{
@@ -471,17 +472,19 @@ video{
     }
 
     .navcontainer ul{
-        width: 100%;
-        margin-inline: 20px;
+        width:100vw;
+        position: absolute;
+        right: 0px;
+          border-radius: 0px;
         
         }
         @keyframes slide{
             from{
-                margin-left: -200px;
+            left: -200px;
     
             }
             to{
-                margin-left:0px;
+                left:-40px;
             }
         }
 
