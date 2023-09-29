@@ -35,7 +35,7 @@
      </div>
  
 
-     <div class="navcontainer2">
+     <div class="navcontainer2" id="nav2">
                    
         <ul>
          <li><a href = "#men">Men</a></li>
@@ -92,9 +92,28 @@
  </div>
 
 
+ 
+  <div class="burgeropen" id="menuopen" onclick="menuopen();">
+    
+  </div>
+  <div class="burgerclose" id="menuclose" onclick="menuclose();">
+    
+  </div>
 
  <script>
-  
+
+  function menuopen(){
+    document.getElementById('nav2').style.display = 'inline-block';
+    document.getElementById('menuopen').style.display = 'none';
+    document.getElementById('menuclose').style.display = 'inline-block';
+    
+  }
+  function menuclose(){
+    document.getElementById('menuclose').style.display = 'none';
+    document.getElementById('nav2').style.display = 'none';
+    document.getElementById('menuopen').style.display = 'inline-block';
+  }
+ 
   </script>
 
 </body>
