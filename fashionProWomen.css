@@ -2651,4 +2651,177 @@ html{
             left:0px;
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+#category{
+    text-align: center;
+    color: coral;
+    text-decoration: overline 2px black;
+    font-size: 30px;
+}
+
+.photo{
+    border: 2px black solid;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top:160px;
+    height: 450px;
+    width:94vw;
+    margin: 10px;
+}
+
+#name{
+    position: absolute;
+    left:15px;
+    top:90px;
+    /* border: 2px black solid; */
+    width: 94vw;
+    text-align: center;
+}
+
+#description{
+    position: absolute;
+    left:10px;
+    top:780px;
+    text-align: justify;
+    width:94vw;
+    height:100px;
+    /* border: 2px black solid; */
+    
+}
+
+.photoA{
+    position: relative;
+    left:5px;
+    top:0px;
+    border: 2px black solid;
+    width:100px;
+    height: 100px;
+    margin-top: 10px;
+    scale: 0.7;
+}
+.photochange{
+    width:98vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 2px red solid; */
+    position: absolute;
+    top:638px;
+    left:0px;
+}
+
+
+#photo1{
+    /* background: url(img/casual)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo2{
+    /* background: url(img/casualH)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo3{
+    /* background: url(img/casual2)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo4{
+    /* background: url(img/casual2H)no-repeat center center/cover; */
+    cursor: pointer;
+}
+
+
+
+.sizes{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left:0px;
+    top:870px;
+    /* border: 2px black solid; */
+    width: 99vw;
+    
+}
+
+.size{
+    border-radius: 5px;
+    width:70px;
+    background-color: white;
+    border: 2px coral solid;
+    margin: 5px;
+
+}
+.size:hover{
+    cursor: pointer;
+    background-color: coral;
+}
+
+
+#addtocart{
+    position: absolute;
+    top:1060px;
+    left:20px;
+    width: 90vw;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px  #09fac8 solid;
+    cursor: pointer;
+    
+}
+
+#addtocart:hover{
+    cursor: pointer;
+    background-color: #09fac8;
+}
+
+
+
+#buynow{
+    position: absolute;
+    top:1000px;
+    left:20px;
+    width: 90vw;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px  #09fac8 solid;
+    cursor: pointer;
+}
+#buynow:hover{
+    background-color:#09fac8 ;
+}
+
+
+.buy{
+    display: none;
+}
+
+.back{
+    background: url(img/close.png)no-repeat center center/cover;
+    height:40px;
+    width: 40px;
+    position: absolute;
+    top:175px;
+    left: 14px;
+    cursor: pointer;
+}
   }
