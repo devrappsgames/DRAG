@@ -2090,3 +2090,541 @@ html{
     left: 10px;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:144px) and (max-width:440px) {
+    body{
+      margin: 0px;
+      height: 0px;
+      width:100vw;
+      height: 100vh;
+      /* border: 2px blue solid; */
+    }
+  
+    .navbar{
+      width:99vw;
+      position: absolute;
+      top: 1px;
+      border: none;
+      border-bottom:0.5px coral solid ;
+      border-top:4px coral solid ;
+      height: 75px;
+    }
+    .logo{
+      height: 75px;
+    }
+    .navcontainer{
+      top:45px;
+     left: 0px;
+     width: 100vw;
+     
+    }
+    .navcontainer li{
+      display: inline;
+      margin:-6px 7px;
+      }
+  
+      .navcontainer ul{
+        width:100vw;
+        position: absolute;
+        right: 0px;
+          border-radius: 0px;
+          }
+          
+          @keyframes slide{
+              from{
+                  left: -200px;
+      
+              }
+              to{
+                  left:-40px;
+              }
+          }
+  
+    
+  
+  
+   .searchbar input{
+     width: 100px;
+   }
+   .searchbar{
+      top:4px;
+      z-index: 200;
+    }
+
+
+    .formalheading{
+        /* display: none; */
+        width: 99.5vw;
+        margin-top: 100px;
+    }
+
+
+    .formalscon{
+        position: relative;
+        top:200px;
+        
+        width: 99%;
+        /* border: 2px black solid; */
+        display: flex;
+        
+        /* display: none; */
+        
+        
+    }
+    
+    .formal{
+        margin:-280px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+        text-align: center;
+        
+        border-top: 2px black solid;
+        border-bottom: 2px coral solid;
+        border-left: 2px coral solid;
+        border-right: 2px black solid;
+    
+        animation-name: slideformal;
+      animation-duration: 4s;
+      animation-timing-function: all ease-in;
+      animation-delay: 0.3s;
+      animation-iteration-count: 1;
+    
+      
+     /* display: none; */
+    }
+    
+    
+    
+    @keyframes slideformal{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-280px;
+        }
+    }
+
+    @keyframes slideformals2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-240px;
+        }
+    }
+
+
+
+
+    @keyframes slidejacketM{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slidejacketMs2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+
+    @keyframes slidedenim{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slidedenims2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+    @keyframes slidepant{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slidepants2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+
+
+    @keyframes slideshirt{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slideshirts2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+
+    @keyframes slidesweat{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slidesweats2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+    @keyframes slideunderM{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slideunderMs2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+
+    @keyframes slidesock{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slidesocks2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+    @keyframes slidejean{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slidejeans2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+    .formal2{
+        margin:-240px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .jacketM{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .jacketM2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .jacketMheading{
+        width: 99.5vw;
+        margin-top: 500px;
+    }
+    .shirt{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .shirt2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .shirtheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .denim{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .denim2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .denimheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .pant{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .pant2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .pantheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .sweat{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .sweat2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .sweatheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .jean{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .jean2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .jeanheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .underM{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .underM2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .underMheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .sock{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .sock2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .sockheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+
+
+
+
+
+    #menuopen{
+        width:40px;
+        height:40px;
+        background: url(img/menu.png)no-repeat center center/cover;
+        position: fixed;
+        top:5px;
+        left:20px;
+        z-index: 700;
+        background-color:white;
+    }
+    #menuclose{
+        width:40px;
+        height:40px;
+        background: url(img/menuH.png)no-repeat center center/cover;
+        position: fixed;
+        top:5px;
+        left:20px;
+        z-index: 700;
+        background-color:white;
+        display: none;
+    }
+
+
+
+    .navcontainer2{
+        /* display: none; */
+        height: 40vh;
+        width:120px;
+        position: fixed;
+        top:90px;
+        left:0px;
+        /* border:2px blue solid; */
+        z-index: 500;
+        display: none;
+
+        animation-name: nav2slide;
+        animation-duration: 1s;
+        animation-timing-function: all ease-in;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        margin-left:0px ;
+      }
+
+      @keyframes nav2slide {
+        from{
+            left:-200px;
+            
+        }
+        to{
+            left:0px;
+        }
+        
+      }
+      .navcontainer2 ul{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-evenly;
+        /* justify-content: center; */
+        /* border:2px blue solid; */
+        height: 40vh;
+        width:28px;
+        position: fixed;
+        top:84px;
+        left:0px;
+        margin-left: 0px;
+        animation-duration: 2s;
+        
+      }
+      .navcontainer2 li{
+        text-align: center;
+        /* border:2px red solid; */
+        width: 100px;
+      }
+
+      @keyframes slide2{
+        from{
+            left: -200px;
+
+        }
+        to{
+            left:0px;
+        }
+    }
+  }

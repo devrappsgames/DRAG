@@ -2189,12 +2189,6 @@ html{
       z-index: 200;
     }
 
-  
-
-    .navcontainer2{
-        display: none;
-    }
-
 
     .causalheading{
         /* display: none; */
@@ -2567,5 +2561,94 @@ html{
     .sockheading{
         width: 99.5vw;
         margin-top: 300px;
+    }
+
+
+
+
+
+    #menuopen{
+        width:40px;
+        height:40px;
+        background: url(img/menu.png)no-repeat center center/cover;
+        position: fixed;
+        top:5px;
+        left:20px;
+        z-index: 700;
+        background-color:white;
+    }
+    #menuclose{
+        width:40px;
+        height:40px;
+        background: url(img/menuH.png)no-repeat center center/cover;
+        position: fixed;
+        top:5px;
+        left:20px;
+        z-index: 700;
+        background-color:white;
+        display: none;
+    }
+
+
+
+    .navcontainer2{
+        /* display: none; */
+        height: 40vh;
+        width:120px;
+        position: fixed;
+        top:90px;
+        left:0px;
+        /* border:2px blue solid; */
+        z-index: 500;
+        display: none;
+
+        animation-name: nav2slide;
+        animation-duration: 1s;
+        animation-timing-function: all ease-in;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        margin-left:0px ;
+      }
+
+      @keyframes nav2slide {
+        from{
+            left:-200px;
+            
+        }
+        to{
+            left:0px;
+        }
+        
+      }
+      .navcontainer2 ul{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-evenly;
+        /* justify-content: center; */
+        /* border:2px blue solid; */
+        height: 40vh;
+        width:28px;
+        position: fixed;
+        top:84px;
+        left:0px;
+        margin-left: 0px;
+        animation-duration: 2s;
+        
+      }
+      .navcontainer2 li{
+        text-align: center;
+        /* border:2px red solid; */
+        width: 100px;
+      }
+
+      @keyframes slide2{
+        from{
+            left: -200px;
+
+        }
+        to{
+            left:0px;
+        }
     }
   }

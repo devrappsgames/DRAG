@@ -1928,3 +1928,548 @@ html{
     text-align: center;
     margin-top:430px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:144px) and (max-width:440px) {
+    body{
+      margin: 0px;
+      height: 0px;
+      width:100vw;
+      height: 100vh;
+      /* border: 2px blue solid; */
+    }
+  
+    .navbar{
+      width:99vw;
+      position: absolute;
+      top: 1px;
+      border: none;
+      border-bottom:0.5px coral solid ;
+      border-top:4px coral solid ;
+      height: 75px;
+    }
+    .logo{
+      height: 75px;
+    }
+    .navcontainer{
+      top:45px;
+     left: 0px;
+     width: 100vw;
+     
+    }
+    .navcontainer li{
+      display: inline;
+      margin:-6px 7px;
+      }
+  
+      .navcontainer ul{
+        width:100vw;
+        position: absolute;
+        right: 0px;
+          border-radius: 0px;
+          }
+          
+          @keyframes slide{
+              from{
+                  left: -200px;
+      
+              }
+              to{
+                  left:-40px;
+              }
+          }
+  
+    
+  
+  
+   .searchbar input{
+     width: 100px;
+   }
+   .searchbar{
+      top:4px;
+      z-index: 200;
+    }
+
+
+    .sportheading{
+        /* display: none; */
+        width: 99.5vw;
+        margin-top: 100px;
+    }
+
+
+    .sportscon{
+        position: relative;
+        top:200px;
+        
+        width: 99%;
+        /* border: 2px black solid; */
+        display: flex;
+        
+        /* display: none; */
+        
+        
+    }
+    
+    .sport{
+        margin:-280px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+        text-align: center;
+        
+        border-top: 2px black solid;
+        border-bottom: 2px coral solid;
+        border-left: 2px coral solid;
+        border-right: 2px black solid;
+    
+        animation-name: slidesport;
+      animation-duration: 4s;
+      animation-timing-function: all ease-in;
+      animation-delay: 0.3s;
+      animation-iteration-count: 1;
+    
+      
+     /* display: none; */
+    }
+    
+    
+    
+    @keyframes slidesport{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-280px;
+        }
+    }
+
+    @keyframes slidesports2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-240px;
+        }
+    }
+
+
+
+
+    @keyframes slidegymM{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slidegymMs2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+
+    @keyframes slideshortF{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slideshortFs2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+    @keyframes slideshoesM{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slideshoesMs2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+
+
+    @keyframes slidegymF{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slidegymFs2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+
+    @keyframes slideshortM{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slideshortMs2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+    @keyframes slidelegging{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slideleggings2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+
+    @keyframes slidesock{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slidesocks2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+    @keyframes slideshoesF{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slideshoesFs2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+    .sport2{
+        margin:-240px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .gymM{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .gymM2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .gymMheading{
+        width: 99.5vw;
+        margin-top: 500px;
+    }
+    .gymF{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .gymF2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .gymFheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .shortF{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .shortF2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .shortFheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .shoesM{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .shoesM2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .shoesMheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .shortM{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .shortM2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .shortMheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .shoesF{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .shoesF2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .shoesFheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .legging{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .legging2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .leggingheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .sock{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .sock2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .sockheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+
+
+
+
+
+    #menuopen{
+        width:40px;
+        height:40px;
+        background: url(img/menu.png)no-repeat center center/cover;
+        position: fixed;
+        top:5px;
+        left:20px;
+        z-index: 700;
+        background-color:white;
+    }
+    #menuclose{
+        width:40px;
+        height:40px;
+        background: url(img/menuH.png)no-repeat center center/cover;
+        position: fixed;
+        top:5px;
+        left:20px;
+        z-index: 700;
+        background-color:white;
+        display: none;
+    }
+
+
+
+    .navcontainer2{
+        /* display: none; */
+        height: 40vh;
+        width:120px;
+        position: fixed;
+        top:90px;
+        left:0px;
+        /* border:2px blue solid; */
+        z-index: 500;
+        display: none;
+
+        animation-name: nav2slide;
+        animation-duration: 1s;
+        animation-timing-function: all ease-in;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        margin-left:0px ;
+      }
+
+      @keyframes nav2slide {
+        from{
+            left:-200px;
+            
+        }
+        to{
+            left:0px;
+        }
+        
+      }
+      .navcontainer2 ul{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-evenly;
+        /* justify-content: center; */
+        /* border:2px blue solid; */
+        height: 40vh;
+        width:28px;
+        position: fixed;
+        top:84px;
+        left:0px;
+        margin-left: 0px;
+        animation-duration: 2s;
+        
+      }
+      .navcontainer2 li{
+        text-align: center;
+        /* border:2px red solid; */
+        width: 100px;
+      }
+
+      @keyframes slide2{
+        from{
+            left: -200px;
+
+        }
+        to{
+            left:0px;
+        }
+    }
+  }

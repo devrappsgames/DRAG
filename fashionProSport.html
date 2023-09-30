@@ -34,7 +34,7 @@
         </div>
      </div>
 
-     <div class="navcontainer2">
+     <div class="navcontainer2" id="nav2">
                    
         <ul>
          <li><a href = "#gyF">WomenGym</a></li>
@@ -44,7 +44,7 @@
          <li><a href = "#shoeM">MenShoes</a></li>
          <li><a href = "#shoeF">WomenShoes</a></li>
          <li><a href = "#shM">MenUnderwear</a></li>
-         <li><a href = "#shF">WomenUnderwear</a></li>
+         <li><a href = "#shF">WomenShorts</a></li>
          <li><a href = "#soc">Socks</a></li>
         </ul>
         
@@ -115,7 +115,7 @@
 
 
 <div class="shortFheading" id="shF">
-  <h1>Female UnderWear</h1>
+  <h1>Female Shorts</h1>
 </div>
 
 <div class="shortFscon" >
@@ -235,5 +235,29 @@
 <div class="legging2" id="legging6"><h4>Long-Sleeved Graphic legging</h4></div>
 
 </div>
+
+
+<div class="burgeropen" id="menuopen" onclick="menuopen();">
+    
+</div>
+<div class="burgerclose" id="menuclose" onclick="menuclose();">
+  
+</div>
+
+
+<script>
+
+function menuopen(){
+  document.getElementById('nav2').style.display = 'inline-block';
+  document.getElementById('menuopen').style.display = 'none';
+  document.getElementById('menuclose').style.display = 'inline-block';
+  
+}
+function menuclose(){
+  document.getElementById('menuclose').style.display = 'none';
+  document.getElementById('nav2').style.display = 'none';
+  document.getElementById('menuopen').style.display = 'inline-block';
+}
+</script>
 </body>
 </html>

@@ -1,4 +1,17 @@
 
+function menuopen(){
+    document.getElementById('nav2').style.display = 'inline-block';
+    document.getElementById('menuopen').style.display = 'none';
+    document.getElementById('menuclose').style.display = 'inline-block';
+    
+  }
+  function menuclose(){
+    document.getElementById('menuclose').style.display = 'none';
+    document.getElementById('nav2').style.display = 'none';
+    document.getElementById('menuopen').style.display = 'inline-block';
+  }
+
+
 function disappear(){
     document.getElementById('bralletwear').style.display = 'none';
     document.getElementById('bikiniwear').style.display = 'none';
@@ -1720,3 +1733,12 @@ function disappear(){
     };
     
   }
+
+
+
+
+
+
+
+
+
