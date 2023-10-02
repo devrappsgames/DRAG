@@ -34,7 +34,7 @@
         
      </div>
  
-     <div class="navcontainer2">
+     <div class="navcontainer2" id="nav2">
                    
       <ul>
        <li><a href = "#lips">Lipsticks</a></li>
@@ -73,7 +73,7 @@
     <div class="lips2" id="lip6"><h4>ROUGE ALLURE</h4></div>
     
   </div> -->
-
+<div class="banner">
 
   <div class="banner1" id="jewels" target="2">
     <h1>Fashion Jewels</h1>
@@ -82,13 +82,13 @@
     </p>
 
   </div>
-  <button class="discover">Discover</button>
+  <button class="discover" id="discover1">Discover</button>
 
   <div class="banner2" id="handbags">
     <h1>DRAG Handbag</h1>
     <p>Handbags which is still trending on top. Its supermacy in market is huge.
     </p>
-
+    
   </div>
   <button class="discover" id="discover2">Discover</button>
 
@@ -156,11 +156,45 @@
   <button class="discover" id="discover8">Discover</button>
 
 
-
+</div>
 
   <div class="bottom">
     <h1>D R A G</h1>
  </div>
+
+
+
+
+
+
+
+
+
+
+  
+ <div class="burgeropen" id="menuopen" onclick="menuopen();">
+    
+ </div>
+ <div class="burgerclose" id="menuclose" onclick="menuclose();">
+   
+ </div>
+
+<script>
+
+ function menuopen(){
+   document.getElementById('nav2').style.display = 'inline-block';
+   document.getElementById('menuopen').style.display = 'none';
+   document.getElementById('menuclose').style.display = 'inline-block';
+   
+ }
+ function menuclose(){
+   document.getElementById('menuclose').style.display = 'none';
+   document.getElementById('nav2').style.display = 'none';
+   document.getElementById('menuopen').style.display = 'inline-block';
+ }
+
+ </script>
+
  
 </body>
 </html>

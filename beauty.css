@@ -700,3 +700,660 @@ z-index: -2;
          justify-content: center;
          
       }
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    @media only screen and (min-width:144px) and (max-width:440px) {
+        body{
+          margin: 0px;
+          height: 0px;
+          width:100vw;
+          height: 100vh;
+          /* border: 2px blue solid; */
+        }
+      
+        .navbar{
+          width:101vw;
+          position: fixed;
+          top: 1px;
+          left: -2px;
+          border: none;
+          border-bottom:4px coral solid ;
+          border-top:4px coral solid ;
+          z-index: 500;
+        }
+        .logo{
+          height: 80px;
+        }
+        .navcontainer{
+            top:45px;
+            left: 0px;
+            width: 100vw;
+           
+          }
+          .navcontainer li{
+            display: inline;
+            margin:-6px 7px;
+           
+           
+            }
+        
+            .navcontainer ul{
+                width:100vw;
+                position: absolute;
+                right: 0px;
+                  border-radius: 0px;
+                
+                }
+                @keyframes slide{
+                    from{
+                    left: -200px;
+            
+                    }
+                    to{
+                        left:-40px;
+                    }
+                }
+        
+          
+      
+              .navcontainer2{
+                /* display: none; */
+                height: 40vh;
+                width:120px;
+                position: fixed;
+                top:90px;
+                left:0px;
+                /* border:2px blue solid; */
+                z-index: 500;
+                display: none;
+
+                animation-name: nav2slide;
+                animation-duration: 1s;
+                animation-timing-function: all ease-in;
+                animation-iteration-count: 1;
+                animation-direction: normal;
+              }
+
+              @keyframes nav2slide {
+                from{
+                    left:-200px;
+                    
+                }
+                to{
+                    left:0px;
+                }
+                
+              }
+              .navcontainer2 ul{
+                display: flex;
+                flex-direction: column;
+                align-items:center;
+                justify-content: space-evenly;
+                /* justify-content: center; */
+                /* border:2px blue solid; */
+                height: 40vh;
+                width:28px;
+                position: fixed;
+                top:70px;
+                left:0px;
+                margin-left: 0px;
+                animation-duration: 2s;
+                
+              }
+              .navcontainer2 li{
+                text-align: center;
+                /* border:2px red solid; */
+                width: 100px;
+              }
+
+              @keyframes slide2{
+                from{
+                    left: -200px;
+        
+                }
+                to{
+                    left:0px;
+                }
+            }
+
+
+        
+        video{
+         
+          min-height: 100vh;
+          width: 99.68%;
+          margin-top: 0px;
+      }
+      
+      .chatbox{
+          bottom:50px;
+          right:25px;
+      }
+      
+      
+      
+       .searchbar input{
+         width: 100px;
+       }
+       .searchbar{
+          top:-0.2px;
+          z-index: 200;
+        }
+        .banner1{
+            width:99%;
+            height: 500px;
+            background: url(img/jewelbanner)no-repeat center center/cover;
+            position: relative;
+            top:-4px;
+            left:2px;
+            border-bottom: 4px coral solid;
+            border-top: 4px black solid;
+            border-left: 4px coral solid;
+            border-right: 4px black solid;
+    /* z-index: -2; */
+           background-color: #dbdbdd ;
+           color: white;
+           width:98%;
+            height: 100vh;
+            background-size: cover;
+        }
+    
+    
+        .banner1 h1{
+            position: absolute;
+            top:-25px;
+            left:0px;
+            
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* border: 2px red solid; */
+            text-align: center;
+            /* display: inline-block; */
+            z-index: 10;
+            color: white;
+            
+        }
+    
+        #discover1{
+            position: relative;
+            left: 0px;
+            top:-52vh;
+            width: 90%;
+            margin: 20px;
+            z-index: 200;
+        }
+        #discover1:hover{
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
+    
+    
+    
+    
+        .banner2{
+            width:99%;
+            height: 500px;
+            background: url(img/handbagbanner)no-repeat center center/cover;
+            position: relative;
+            top:-4px;
+            left:2px;
+            border-bottom: 4px coral solid;
+            border-top: 4px black solid;
+            border-left: 4px coral solid;
+            border-right: 4px black solid;
+    /* z-index: -2; */
+           background-color: #dbdbdd ;
+           color: white;
+           width:98%;
+           height: 100vh;
+           background-size: cover;
+        }
+    
+    
+        .banner2 h1{
+            position: absolute;
+            top:-25px;
+            left:0px;
+            
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* border: 2px red solid; */
+            text-align: center;
+            /* display: inline-block; */
+            z-index: 10;
+            color: white;
+        }
+    
+        #discover2{
+            position: relative;
+            left: 0px;
+            top:-52vh;
+            width: 90%;
+            margin: 20px;
+            z-index: 200;
+        }
+        #discover2:hover{
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
+    
+    
+    
+    
+        .banner3{
+            width:99%;
+            height: 500px;
+            background: url(img/lip1H)no-repeat center center/cover;
+            position: relative;
+            top:-4px;
+            left:2px;
+            border-bottom: 4px coral solid;
+            border-top: 4px black solid;
+            border-left: 4px coral solid;
+            border-right: 4px black solid;
+    
+           /* background-color: #c8c8ca ; */
+           color: black;
+           width:98%;
+           height: 100vh;
+           background-size: cover;
+        }
+    
+    
+        .banner3 h1{
+            position: absolute;
+            top:-25px;
+            left:0px;
+            
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* border: 2px red solid; */
+            text-align: center;
+            /* display: inline-block; */
+            z-index: 10;
+            color: white;
+        }
+    
+        #discover3{
+            position: relative;
+            left: 0px;
+            top:-52vh;
+            width: 90%;
+            margin: 20px;
+            z-index: 200;
+        }
+        #discover3:hover{
+            background-color: white;
+            color: black;
+            cursor: pointer;
+            border:2px white solid;
+        }
+    
+    
+    
+        .banner4{
+            width:99%;
+            height: 500px;
+            background: url(img/necklacebanner)no-repeat center center/cover;
+            position: relative;
+            top:-4px;
+            left:2px;
+            border-bottom: 4px coral solid;
+            border-top: 4px black solid;
+            border-left: 4px coral solid;
+            border-right: 4px black solid;
+    
+           /* background-color: #c8c8ca ; */
+           color: white;
+           width:98%;
+           height: 100vh;
+           background-size: cover;
+        }
+    
+    
+        .banner4 h1{
+            position: absolute;
+            top:-25px;
+            left:0px;
+            
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* border: 2px red solid; */
+            text-align: center;
+            /* display: inline-block; */
+            z-index: 10;
+            color: white;
+        }
+    
+        #discover4{
+            position: relative;
+            left: 0px;
+            top:-52vh;
+            width: 90%;
+            margin: 20px;
+            z-index: 200;
+        }
+        #discover4:hover{
+            background-color: white;
+            color: black;
+            cursor: pointer;
+            border:2px white solid;
+        }
+    
+    
+       
+    
+    
+        .banner5{
+            width:99%;
+            height: 500px;
+            background: url(img/makeupbanner)no-repeat center center/cover;
+            position: relative;
+            top:-4px;
+            left:2px;
+            border-bottom: 4px coral solid;
+            border-top: 4px black solid;
+            border-left: 4px coral solid;
+            border-right: 4px black solid;
+    
+           /* background-color: #c8c8ca ; */
+           color: black;
+           width:98%;
+           height: 100vh;
+           background-size: cover;
+        }
+    
+    
+        .banner5 h1{
+            position: absolute;
+            top:-25px;
+            left:0px;
+            
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* border: 2px red solid; */
+            text-align: center;
+            /* display: inline-block; */
+            z-index: 10;
+            color: white;
+        }
+    
+        #discover5{
+            position: relative;
+            left: 0px;
+            top:-52vh;
+            width: 90%;
+            margin: 20px;
+            z-index: 200;
+        }
+        #discover5:hover{
+            background-color: white;
+            color: black;
+            cursor: pointer;
+            border:2px white solid;
+        }
+
+
+
+
+
+
+        .banner6{
+            width:99%;
+            height: 500px;
+            background: url(img/makeupbanner)no-repeat center center/cover;
+            position: relative;
+            top:-4px;
+            left:2px;
+            border-bottom: 4px coral solid;
+            border-top: 4px black solid;
+            border-left: 4px coral solid;
+            border-right: 4px black solid;
+    
+           /* background-color: #c8c8ca ; */
+           color: black;
+           width:98%;
+           height: 100vh;
+           background-size: cover;
+        }
+    
+    
+        .banner6 h1{
+            position: absolute;
+            top:-25px;
+            left:0px;
+            
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* border: 2px red solid; */
+            text-align: center;
+            /* display: inline-block; */
+            z-index: 10;
+            color: white;
+        }
+    
+        #discover6{
+            position: relative;
+            left: 0px;
+            top:-52vh;
+            width: 90%;
+            margin: 20px;
+            z-index: 200;
+        }
+        #discover6:hover{
+            background-color: white;
+            color: black;
+            cursor: pointer;
+            border:2px white solid;
+        }
+
+
+
+
+
+        .banner7{
+            width:99%;
+            height: 500px;
+            background: url(img/watchbanner)no-repeat center center/cover;
+            position: relative;
+            top:-4px;
+            left:2px;
+            border-bottom: 4px coral solid;
+            border-top: 4px black solid;
+            border-left: 4px coral solid;
+            border-right: 4px black solid;
+    
+           /* background-color: #c8c8ca ; */
+           color: black;
+           width:98%;
+           height: 100vh;
+           background-size: cover;
+        }
+    
+    
+        .banner7 h1{
+            position: absolute;
+            top:-25px;
+            left:0px;
+            
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* border: 2px red solid; */
+            text-align: center;
+            /* display: inline-block; */
+            z-index: 10;
+            color: white;
+        }
+    
+        #discover7{
+            position: relative;
+            left: 0px;
+            top:-52vh;
+            width: 90%;
+            margin: 20px;
+            z-index: 200;
+        }
+        #discover7:hover{
+            background-color: white;
+            color: black;
+            cursor: pointer;
+            border:2px white solid;
+        }
+    
+       
+
+
+
+
+        .banner8{
+            width:99%;
+            height: 500px;
+            background: url(img/sunglassesbanner)no-repeat center center/cover;
+            position: relative;
+            top:-4px;
+            left:2px;
+            border-bottom: 4px coral solid;
+            border-top: 4px black solid;
+            border-left: 4px coral solid;
+            border-right: 4px black solid;
+    
+           /* background-color: #c8c8ca ; */
+           color: black;
+           width:98%;
+           height: 100vh;
+           background-size: cover;
+        }
+    
+    
+        .banner8 h1{
+            position: absolute;
+            top:-25px;
+            left:0px;
+            
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* border: 2px red solid; */
+            text-align: center;
+            /* display: inline-block; */
+            z-index: 10;
+        }
+    
+        #discover8{
+            position: relative;
+            left: 0px;
+            top:-52vh;
+            width: 90%;
+            margin: 20px;
+            z-index: 200;
+        }
+        #discover8:hover{
+            background-color: white;
+            color: black;
+            cursor: pointer;
+            border:2px white solid;
+        }
+
+
+        .banner1 p{
+            display:none;
+         }
+         .banner2 p{
+            display:none;
+         }
+         .banner3 p{
+            display:none;
+         }
+         .banner4 p{
+            display:none;
+         }
+         .banner5 p{
+            display:none;
+         }
+         .banner6 p{
+            display:none;
+         }
+         .banner7 p{
+            display:none;
+         }
+         .banner8 p{
+            display:none;
+         }
+
+
+
+         .bottom{
+            position: absolute;
+            border: black 2px solid;
+            top:1000vh;
+            margin: 10px;
+            left:-10px;
+            width:100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+         }
+   
+    
+
+        #menuopen{
+            width:40px;
+            height:40px;
+            background: url(img/menu.png)no-repeat center center/cover;
+            position: fixed;
+            top:5px;
+            left:20px;
+            z-index: 700;
+            background-color:white;
+        }
+        #menuclose{
+            width:40px;
+            height:40px;
+            background: url(img/menuH.png)no-repeat center center/cover;
+            position: fixed;
+            top:5px;
+            left:20px;
+            z-index: 700;
+            background-color:white;
+            display: none;
+        }
+
+      }
+
