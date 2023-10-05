@@ -508,3 +508,182 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+      @media only screen and (max-width:1000px) and (min-width:523px){
+        body{
+            margin: 0px;
+            height: 0px;
+            width:100vw;
+            height: 100vh;
+            /* border: 2px blue solid; */
+          }
+        
+          .navbar{
+            width:100vw;
+            position: fixed;
+            top: 1px;
+            border: none;
+            border-bottom:4px coral solid ;
+            border-top:4px coral solid ;
+          }
+          .logo{
+            height: 80px;
+          }
+          .navcontainer{
+              top:45px;
+              left: 0px;
+              width: 100vw;
+             
+            }
+            .navcontainer li{
+              display: inline;
+              margin:-6px 7px;
+             
+             
+              }
+          
+              .navcontainer ul{
+                  width:100vw;
+                  position: absolute;
+                  right: 0px;
+                    border-radius: 0px;
+                  
+                  }
+                  @keyframes slide{
+                      from{
+                      left: -200px;
+              
+                      }
+                      to{
+                          left:-40px;
+                      }
+                  }
+          
+            
+        
+          
+       .video1 video{
+           
+            min-height: 100vh;
+            position: fixed;
+            width: 98.7%;
+            margin-top: 0px;
+           
+        }
+  
+        .video2 video{
+           
+          min-height: 100vh;
+          width: 99%;
+          position: relative;
+         top: 100vh;
+         margin-left: 2px;
+      }
+  
+  
+  
+  
+  
+        
+        .chatbox{
+            top:85vh;
+            right:25px;
+        }
+        
+  
+        
+        
+        
+         .searchbar input{
+           width: 100px;
+         }
+         .searchbar{
+            top:7.5px;
+            z-index: 200;
+          }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+          .video1 h1{
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: center;
+              position: absolute;
+              top:57px;
+              left:1.2px;
+              z-index: 10;
+              height: 100vw;
+              
+              font-size: 60px;
+              font-weight: 900;
+              color: white;
+            
+              text-decoration:overline 3px white;
+            
+              /* border: 5px coral solid; */
+              text-align: center;
+              width:99%;
+            }
+  
+            
+  
+            .video2 h1{
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: center;
+              height: 100vw;
+              width:99%;
+              position: absolute;
+              top:105vh;
+              left: 0px;
+              z-index: 10;
+              font-size: 60px;
+              font-weight: 900;
+              color: white;
+             
+              text-decoration:overline 3px white;
+            
+              /* border: 1px coral solid; */
+            }
+          
+          .underline{
+              border: 2px coral solid;
+              width:234px;
+              height: 2px;
+              background-color: coral;
+              position: absolute;
+              top:407px;
+              display: none;
+              
+          }
+          
+          .underline2{
+              border: 2px coral solid;
+              width:212px;
+              height: 2px;
+              background-color: coral;
+              position: relative;
+              margin-top: 30px;
+             display: none;
+              left:22%;
+              
+          }
+      }

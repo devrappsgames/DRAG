@@ -625,3 +625,177 @@ video{
     /* border: 2px red solid; */
 }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width:1000px) and (min-width:523px){
+    body{
+        margin: 0px;
+        height: 0px;
+        width:100vw;
+        height: 100vh;
+        /* border: 2px blue solid; */
+      }
+    
+      .navbar{
+        width:100vw;
+        position: fixed;
+        top: 1px;
+        left: -2px;
+        border: none;
+        border-bottom:4px coral solid ;
+        border-top:4px coral solid ;
+      }
+      .logo{
+        height: 80px;
+      }
+      .navcontainer{
+          top:45px;
+          left: 0px;
+          width: 100vw;
+         
+        }
+        .navcontainer li{
+          display: inline;
+          margin:-6px 7px;
+         
+         
+          }
+      
+          .navcontainer ul{
+              width:100vw;
+              position: absolute;
+              right: 0px;
+                border-radius: 0px;
+              
+              }
+              @keyframes slide{
+                  from{
+                  left: -200px;
+          
+                  }
+                  to{
+                      left:-40px;
+                  }
+              }
+      
+        
+    
+      
+      video{
+       
+        min-height: 130vh;
+        width: 100vw;
+        margin-top: 0px;
+    }
+    
+    .chatbox{
+        bottom:43px;
+        right:25px;
+    }
+    
+    .products button{
+      position: absolute;
+      left:0px;
+        width: 99%;
+        top:70vh;
+        display: none;
+    }
+    .services button{
+        width: 99%;
+        position: absolute;
+      left:0px;
+      top:79vh;
+      margin-top: 4px;
+      display: none;
+    }
+    
+    
+    @keyframes slidebutton {
+        from{
+            left:-2000px;
+        }
+        to{
+          top:70vh;
+        }
+    }
+    
+    @keyframes slidebutton2 {
+        from{
+            left:-460px;
+        }
+        to{
+            top:79vh;
+        }
+    }
+    
+    
+    
+     .searchbar input{
+       width: 100px;
+     }
+     .searchbar{
+        top:8px;
+        z-index: 200;
+      }
+    
+  
+  
+  
+      .gridcont{
+          display: flex;
+          flex-direction: column;
+           left:0px;
+          position: absolute;
+          top:250px;
+           width: 100vw;
+           /* border: black 1px solid; */
+          
+     }     
+  
+  
+  
+     .heading h1{
+    
+      position: relative;
+      top:105px;
+      left:0px;
+      width: 100%;
+      text-align: center;
+      /* border: white 2px solid; */
+      display: inline-block;
+  }
+  
+    
+  .box{
+     
+      background-color: coral;
+      height:380px;
+      width:70vw;
+      /* margin-left:-110px; */
+      margin: -30px auto;
+      /* margin-left: 20px; */
+      /* border: 2px red solid; */
+  }
+  }
