@@ -73,7 +73,7 @@ html{
     height: 30px;
     font-size: smaller;
     position: absolute;
-    right: 750px;
+    left:18px;
     top:4px;
     z-index: 1;
     /* box-shadow: white -2px -2px 1px; */
@@ -2855,7 +2855,7 @@ html{
 
 
 
-  @media only screen and (max-width:1000px) and (min-width:523px){
+  @media only screen and (max-width:1171px) and (min-width:441px){
     body{
         margin: 0px;
         height: 0px;
