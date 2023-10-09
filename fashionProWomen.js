@@ -113,7 +113,7 @@
     };
     
     buynow.onclick = function(){
-        window.open("https://buy.stripe.com/test_28o4hNaKe3mF2PecMN","","")
+        window.open("https://buy.stripe.com/test_5kAeWr7y27CV3Ti4gi","","")
     }
     
   }
@@ -146,6 +146,10 @@
         document.getElementById('pho').style.background = 'url(img/casual2H)no-repeat center center/cover';
     };
     
+    buynow.onclick = function(){
+        window.open("https://buy.stripe.com/test_aEUeWraKef5ndtS3cf","","")
+    }
+
   }
 
 
@@ -175,6 +179,10 @@
         document.getElementById('pho').style.background = 'url(img/casual4H)no-repeat center center/cover';
     };
     
+    buynow.onclick = function(){
+        window.open("https://buy.stripe.com/test_3cs15B2dI1exblKeV1","","")
+    }
+
   }
 
 
@@ -202,7 +210,9 @@
     photo4.onclick = function(){
         document.getElementById('pho').style.background = 'url(img/casual4H)no-repeat center center/cover';
     };
-    
+    buynow.onclick = function(){
+        window.open("https://buy.stripe.com/test_8wM5lR19EaP7exWfZ3","","")
+    }
   }
 
 
@@ -230,7 +240,9 @@
     photo4.onclick = function(){
         document.getElementById('pho').style.background = 'url(img/casual6H)no-repeat center center/cover';
     };
-    
+    buynow.onclick = function(){
+        window.open("https://buy.stripe.com/test_aEUg0v19E2iB75u6ou","","")
+    }
   }
 
 
@@ -258,7 +270,9 @@
     photo4.onclick = function(){
         document.getElementById('pho').style.background = 'url(img/casual6H)no-repeat center center/cover';
     };
-
+    buynow.onclick = function(){
+        window.open("https://buy.stripe.com/test_6oEbKf7y2f5nfC0004","","")
+    }
   }
 
 
