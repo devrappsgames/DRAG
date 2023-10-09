@@ -112,6 +112,10 @@
         document.getElementById('pho').style.background = 'url(img/casual2H)no-repeat center center/cover';
     };
     
+    buynow.onclick = function(){
+        window.open("https://buy.stripe.com/test_28o4hNaKe3mF2PecMN","","")
+    }
+    
   }
 
 
@@ -254,7 +258,7 @@
     photo4.onclick = function(){
         document.getElementById('pho').style.background = 'url(img/casual6H)no-repeat center center/cover';
     };
-    
+
   }
 
 
