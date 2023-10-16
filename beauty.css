@@ -288,7 +288,7 @@ video{
     .banner1{
         width:40%;
         height: 500px;
-        background: url(img/jewelbanner)no-repeat center center/cover;
+        background: url(img/jewelbanner2)no-repeat center center/cover;
         position: relative;
         top:80px;
         left: 2px;
@@ -853,7 +853,7 @@ z-index: -2;
         .banner1{
             width:99%;
             height: 500px;
-            background: url(img/jewelbanner)no-repeat center center/cover;
+            background: url(img/jewelbanner2)no-repeat center center/cover;
             position: relative;
             top:-4px;
             left:2px;
@@ -1534,7 +1534,7 @@ z-index: -2;
           .banner1{
               width:99%;
               height: 500px;
-              background: url(img/jewelbanner)no-repeat center center/cover;
+              background: url(img/jewelbanner2)no-repeat center center/cover;
               position: relative;
               top:-4px;
               left:2px;

@@ -281,7 +281,7 @@ html{
 
 
 
-.maxiscon{
+.necklacescon{
     position: relative;
     top:200px;
     margin: 0px auto;
@@ -291,7 +291,7 @@ html{
     justify-content: center;
 }
 
-.maxi{
+.necklace{
     margin:-80px 60px;
     width:280px;
     height: 380px;
@@ -301,7 +301,7 @@ html{
     border-left: 2px coral solid;
     border-right: 2px black solid;
 
-    animation-name: slidemaxi;
+    animation-name: slidenecklace;
   animation-duration: 4s;
   animation-timing-function: all ease-in;
   animation-delay: 0.3s;
@@ -311,7 +311,7 @@ html{
 }
 
 
-@keyframes slidemaxi{
+@keyframes slidenecklace{
     from{
         margin-left: -200px;
 
@@ -321,7 +321,7 @@ html{
     }
 }
 
-.maxi h4{
+.necklace h4{
      color:black;
      font-weight: bold;
      position: relative;
@@ -332,37 +332,37 @@ html{
      /* font-family: 'Teko', sans-serif; */
 }
 
-#maxi1{
+#necklace1{
     
-    background: url(img/maxi)no-repeat center/cover;
+    background: url(img/necklace)no-repeat center/cover;
     
 }
-#maxi1:hover{
-    background: url(img/maxiH)no-repeat center/cover;
+#necklace1:hover{
+    background: url(img/necklaceH)no-repeat center/cover;
     cursor: pointer;
 }
 
-#maxi2{
-    background: url(img/maxi2)no-repeat center/cover;
+#necklace2{
+    background: url(img/necklace2)no-repeat center/cover;
     
 }
-#maxi2:hover{
-    background: url(img/maxi2H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#maxi3{
-    background: url(img/maxi3)no-repeat center/cover;
-    
-}
-#maxi3:hover{
-    background: url(img/maxi3H)no-repeat center/cover;
+#necklace2:hover{
+    background: url(img/necklace2H)no-repeat center/cover;
     cursor: pointer;
 }
 
 
-.maxiscon2{
+#necklace3{
+    background: url(img/necklace3)no-repeat center/cover;
+    
+}
+#necklace3:hover{
+    background: url(img/necklace3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.necklacescon2{
     position: relative;
     top:360px;
     margin: 0px auto;
@@ -374,36 +374,36 @@ html{
 
 
 
-#maxi4{
-    background: url(img/maxi4)no-repeat center/cover;
+#necklace4{
+    background: url(img/necklace4)no-repeat center/cover;
     
 }
-#maxi4:hover{
-    background: url(img/maxi4H)no-repeat center/cover;
+#necklace4:hover{
+    background: url(img/necklace4H)no-repeat center/cover;
     cursor: pointer;
 }
 
-#maxi5{
-    background: url(img/maxi5)no-repeat center/cover;
+#necklace5{
+    background: url(img/necklace5)no-repeat center/cover;
     
 }
-#maxi5:hover{
-    background: url(img/maxi5H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#maxi6{
-    background: url(img/maxi6)no-repeat center/cover;
-    
-}
-#maxi6:hover{
-    background: url(img/maxi6H)no-repeat center/cover;
+#necklace5:hover{
+    background: url(img/necklace5H)no-repeat center/cover;
     cursor: pointer;
 }
 
 
-.maxi2{
+#necklace6{
+    background: url(img/necklace6)no-repeat center/cover;
+    
+}
+#necklace6:hover{
+    background: url(img/necklace6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.necklace2{
     margin:10px 60px;
     width:280px;
     height: 380px;
@@ -413,14 +413,14 @@ html{
     border-left: 2px coral solid;
     border-right: 2px black solid;
 
-    animation-name: slidemaxis2;
+    animation-name: slidenecklaces2;
   animation-duration: 4s;
   animation-timing-function: all ease-in;
   animation-delay: 0.3s;
   animation-iteration-count: 1;
 }
 
-@keyframes slidemaxis2{
+@keyframes slidenecklaces2{
     from{
         margin-right: -200px;
 
@@ -430,7 +430,7 @@ html{
     }
 }
 
-.maxi2 h4{
+.necklace2 h4{
      color:black;
      font-weight: bold;
      position: relative;
@@ -442,7 +442,7 @@ html{
 }
 
 
-.maxiheading{
+.necklaceheading{
     border:1px black solid;
     display: block;
     text-align: center;
@@ -466,7 +466,7 @@ html{
 
 
 
-.miniscon{
+.earringscon{
     position: relative;
     top:130px;
     margin: 0px auto;
@@ -476,7 +476,7 @@ html{
     justify-content: center;
 }
 
-.mini{
+.earring{
     margin:0px 60px;
     width:280px;
     height: 380px;
@@ -486,7 +486,7 @@ html{
     border-left: 2px coral solid;
     border-right: 2px black solid;
 
-    animation-name: slidemini;
+    animation-name: slideearring;
   animation-duration: 4s;
   animation-timing-function: all ease-in;
   animation-delay: 0.3s;
@@ -496,7 +496,7 @@ html{
 }
 
 
-@keyframes slidemini{
+@keyframes slideearring{
     from{
         margin-left: -200px;
 
@@ -506,7 +506,7 @@ html{
     }
 }
 
-.mini h4{
+.earring h4{
      color:black;
      font-weight: bold;
      position: relative;
@@ -517,37 +517,37 @@ html{
      /* font-family: 'Teko', sans-serif; */
 }
 
-#mini1{
+#earring1{
     
-    background: url(img/mini)no-repeat center/cover;
+    background: url(img/earring)no-repeat center/cover;
     
 }
-#mini1:hover{
-    background: url(img/miniH)no-repeat center/cover;
+#earring1:hover{
+    background: url(img/earringH)no-repeat center/cover;
     cursor: pointer;
 }
 
-#mini2{
-    background: url(img/mini2)no-repeat center/cover;
+#earring2{
+    background: url(img/earring2)no-repeat center/cover;
     
 }
-#mini2:hover{
-    background: url(img/mini2H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#mini3{
-    background: url(img/mini3)no-repeat center/cover;
-    
-}
-#mini3:hover{
-    background: url(img/mini3H)no-repeat center/cover;
+#earring2:hover{
+    background: url(img/earring2H)no-repeat center/cover;
     cursor: pointer;
 }
 
 
-.miniscon2{
+#earring3{
+    background: url(img/earring3)no-repeat center/cover;
+    
+}
+#earring3:hover{
+    background: url(img/earring3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.earringscon2{
     position: relative;
     top:220px;
     margin: 0px auto;
@@ -559,36 +559,36 @@ html{
 
 
 
-#mini4{
-    background: url(img/mini4)no-repeat center/cover;
+#earring4{
+    background: url(img/earring4)no-repeat center/cover;
     
 }
-#mini4:hover{
-    background: url(img/mini4H)no-repeat center/cover;
+#earring4:hover{
+    background: url(img/earring4H)no-repeat center/cover;
     cursor: pointer;
 }
 
-#mini5{
-    background: url(img/mini5)no-repeat center/cover;
+#earring5{
+    background: url(img/earring5)no-repeat center/cover;
     
 }
-#mini5:hover{
-    background: url(img/mini5H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#mini6{
-    background: url(img/mini6)no-repeat center/cover;
-    
-}
-#mini6:hover{
-    background: url(img/mini6H)no-repeat center/cover;
+#earring5:hover{
+    background: url(img/earring5H)no-repeat center/cover;
     cursor: pointer;
 }
 
 
-.mini2{
+#earring6{
+    background: url(img/earring6)no-repeat center/cover;
+    
+}
+#earring6:hover{
+    background: url(img/earring6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.earring2{
     margin:10px 60px;
     width:280px;
     height: 380px;
@@ -598,14 +598,14 @@ html{
     border-left: 2px coral solid;
     border-right: 2px black solid;
 
-    animation-name: slideminis2;
+    animation-name: slideearrings2;
   animation-duration: 4s;
   animation-timing-function: all ease-in;
   animation-delay: 0.3s;
   animation-iteration-count: 1;
 }
 
-@keyframes slideminis2{
+@keyframes slideearrings2{
     from{
         margin-right: -200px;
 
@@ -615,7 +615,7 @@ html{
     }
 }
 
-.mini2 h4{
+.earring2 h4{
      color:black;
      font-weight: bold;
      position: relative;
@@ -627,7 +627,7 @@ html{
 }
 
 
-.miniheading{
+.earringheading{
     border:1px black solid;
     display: block;
     text-align: center;
@@ -651,7 +651,7 @@ html{
 
 
 
-.travelscon{
+.menJscon{
     position: relative;
     top:130px;
     margin: 0px auto;
@@ -661,7 +661,7 @@ html{
     justify-content: center;
 }
 
-.travel{
+.menJ{
     margin:0px 60px;
     width:280px;
     height: 380px;
@@ -671,7 +671,7 @@ html{
     border-left: 2px coral solid;
     border-right: 2px black solid;
 
-    animation-name: slidetravel;
+    animation-name: slidemenJ;
   animation-duration: 4s;
   animation-timing-function: all ease-in;
   animation-delay: 0.3s;
@@ -681,7 +681,7 @@ html{
 }
 
 
-@keyframes slidetravel{
+@keyframes slidemenJ{
     from{
         margin-left: -200px;
 
@@ -691,7 +691,7 @@ html{
     }
 }
 
-.travel h4{
+.menJ h4{
      color:black;
      font-weight: bold;
      position: relative;
@@ -702,37 +702,37 @@ html{
      /* font-family: 'Teko', sans-serif; */
 }
 
-#travel1{
+#menJ1{
     
-    background: url(img/travel)no-repeat center/cover;
+    background: url(img/menJ)no-repeat center/cover;
     
 }
-#travel1:hover{
-    background: url(img/travelH)no-repeat center/cover;
+#menJ1:hover{
+    background: url(img/menJH)no-repeat center/cover;
     cursor: pointer;
 }
 
-#travel2{
-    background: url(img/travel2)no-repeat center/cover;
+#menJ2{
+    background: url(img/menJ2)no-repeat center/cover;
     
 }
-#travel2:hover{
-    background: url(img/travel2H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#travel3{
-    background: url(img/travel3)no-repeat center/cover;
-    
-}
-#travel3:hover{
-    background: url(img/travel3H)no-repeat center/cover;
+#menJ2:hover{
+    background: url(img/menJ2H)no-repeat center/cover;
     cursor: pointer;
 }
 
 
-.travelscon2{
+#menJ3{
+    background: url(img/menJ3)no-repeat center/cover;
+    
+}
+#menJ3:hover{
+    background: url(img/menJ3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.menJscon2{
     position: relative;
     top:220px;
     margin: 0px auto;
@@ -744,36 +744,36 @@ html{
 
 
 
-#travel4{
-    background: url(img/travel4)no-repeat center/cover;
+#menJ4{
+    background: url(img/menJ4)no-repeat center/cover;
     
 }
-#travel4:hover{
-    background: url(img/travel4H)no-repeat center/cover;
+#menJ4:hover{
+    background: url(img/menJ4H)no-repeat center/cover;
     cursor: pointer;
 }
 
-#travel5{
-    background: url(img/travel5)no-repeat center/cover;
+#menJ5{
+    background: url(img/menJ5)no-repeat center/cover;
     
 }
-#travel5:hover{
-    background: url(img/travel5H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#travel6{
-    background: url(img/travel6)no-repeat center/cover;
-    
-}
-#travel6:hover{
-    background: url(img/travel6H)no-repeat center/cover;
+#menJ5:hover{
+    background: url(img/menJ5H)no-repeat center/cover;
     cursor: pointer;
 }
 
 
-.travel2{
+#menJ6{
+    background: url(img/menJ6)no-repeat center/cover;
+    
+}
+#menJ6:hover{
+    background: url(img/menJ6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.menJ2{
     margin:10px 60px;
     width:280px;
     height: 380px;
@@ -783,14 +783,14 @@ html{
     border-left: 2px coral solid;
     border-right: 2px black solid;
 
-    animation-name: slidetravels2;
+    animation-name: slidemenJs2;
   animation-duration: 4s;
   animation-timing-function: all ease-in;
   animation-delay: 0.3s;
   animation-iteration-count: 1;
 }
 
-@keyframes slidetravels2{
+@keyframes slidemenJs2{
     from{
         margin-right: -200px;
 
@@ -800,7 +800,7 @@ html{
     }
 }
 
-.travel2 h4{
+.menJ2 h4{
      color:black;
      font-weight: bold;
      position: relative;
@@ -812,7 +812,7 @@ html{
 }
 
 
-.travelheading{
+.menJheading{
     border:1px black solid;
     display: block;
     text-align: center;
@@ -826,7 +826,7 @@ html{
 
 
 
-.totescon{
+.engagementringscon{
     position: relative;
     top:130px;
     margin: 0px auto;
@@ -836,7 +836,7 @@ html{
     justify-content: center;
 }
 
-.tote{
+.engagementring{
     margin:0px 60px;
     width:280px;
     height: 380px;
@@ -846,7 +846,7 @@ html{
     border-left: 2px coral solid;
     border-right: 2px black solid;
 
-    animation-name: slidetote;
+    animation-name: slideengagementring;
   animation-duration: 4s;
   animation-timing-function: all ease-in;
   animation-delay: 0.3s;
@@ -856,7 +856,7 @@ html{
 }
 
 
-@keyframes slidetote{
+@keyframes slideengagementring{
     from{
         margin-left: -200px;
 
@@ -866,7 +866,7 @@ html{
     }
 }
 
-.tote h4{
+.engagementring h4{
      color:black;
      font-weight: bold;
      position: relative;
@@ -877,37 +877,37 @@ html{
      /* font-family: 'Teko', sans-serif; */
 }
 
-#tote1{
+#engagementring1{
     
-    background: url(img/tote)no-repeat center/cover;
+    background: url(img/engagementring)no-repeat center/cover;
     
 }
-#tote1:hover{
-    background: url(img/toteH)no-repeat center/cover;
+#engagementring1:hover{
+    background: url(img/engagementringH)no-repeat center/cover;
     cursor: pointer;
 }
 
-#tote2{
-    background: url(img/tote2)no-repeat center/cover;
+#engagementring2{
+    background: url(img/engagementring2)no-repeat center/cover;
     
 }
-#tote2:hover{
-    background: url(img/tote2H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#tote3{
-    background: url(img/tote3)no-repeat center/cover;
-    
-}
-#tote3:hover{
-    background: url(img/tote3H)no-repeat center/cover;
+#engagementring2:hover{
+    background: url(img/engagementring2H)no-repeat center/cover;
     cursor: pointer;
 }
 
 
-.totescon2{
+#engagementring3{
+    background: url(img/engagementring3)no-repeat center/cover;
+    
+}
+#engagementring3:hover{
+    background: url(img/engagementring3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.engagementringscon2{
     position: relative;
     top:220px;
     margin: 0px auto;
@@ -919,36 +919,36 @@ html{
 
 
 
-#tote4{
-    background: url(img/tote4)no-repeat center/cover;
+#engagementring4{
+    background: url(img/engagementring4)no-repeat center/cover;
     
 }
-#tote4:hover{
-    background: url(img/tote4H)no-repeat center/cover;
+#engagementring4:hover{
+    background: url(img/engagementring4H)no-repeat center/cover;
     cursor: pointer;
 }
 
-#tote5{
-    background: url(img/tote5)no-repeat center/cover;
+#engagementring5{
+    background: url(img/engagementring5)no-repeat center/cover;
     
 }
-#tote5:hover{
-    background: url(img/tote5H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#tote6{
-    background: url(img/tote6)no-repeat center/cover;
-    
-}
-#tote6:hover{
-    background: url(img/tote6H)no-repeat center/cover;
+#engagementring5:hover{
+    background: url(img/engagementring5H)no-repeat center/cover;
     cursor: pointer;
 }
 
 
-.tote2{
+#engagementring6{
+    background: url(img/engagementring6)no-repeat center/cover;
+    
+}
+#engagementring6:hover{
+    background: url(img/engagementring6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.engagementring2{
     margin:10px 60px;
     width:280px;
     height: 380px;
@@ -958,14 +958,14 @@ html{
     border-left: 2px coral solid;
     border-right: 2px black solid;
 
-    animation-name: slidetotes2;
+    animation-name: slideengagementrings2;
   animation-duration: 4s;
   animation-timing-function: all ease-in;
   animation-delay: 0.3s;
   animation-iteration-count: 1;
 }
 
-@keyframes slidetotes2{
+@keyframes slideengagementrings2{
     from{
         margin-right: -200px;
 
@@ -975,7 +975,7 @@ html{
     }
 }
 
-.tote2 h4{
+.engagementring2 h4{
      color:black;
      font-weight: bold;
      position: relative;
@@ -987,188 +987,7 @@ html{
 }
 
 
-.toteheading{
-    border:1px black solid;
-    display: block;
-    text-align: center;
-    margin-top:430px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.cardholderscon{
-    position: relative;
-    top:130px;
-    margin: 0px auto;
-    width: 99%;
-    /* border: 2px black solid; */
-    display: flex;
-    justify-content: center;
-}
-
-.cardholder{
-    margin:0px 60px;
-    width:280px;
-    height: 380px;
-    text-align: center;
-    border-top: 2px black solid;
-    border-bottom: 2px coral solid;
-    border-left: 2px coral solid;
-    border-right: 2px black solid;
-
-    animation-name: slidecardholder;
-  animation-duration: 4s;
-  animation-timing-function: all ease-in;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-
- 
-}
-
-
-@keyframes slidecardholder{
-    from{
-        margin-left: -200px;
-
-    }
-    to{
-        margin-left:80px;
-    }
-}
-
-.cardholder h4{
-     color:black;
-     font-weight: bold;
-     position: relative;
-     top: 380px;
-     font-size: 17px;
-     /* background-color: ; */
-     
-     /* font-family: 'Teko', sans-serif; */
-}
-
-#cardholder1{
-    
-    background: url(img/cardholder)no-repeat center/cover;
-    
-}
-#cardholder1:hover{
-    background: url(img/cardholderH)no-repeat center/cover;
-    cursor: pointer;
-}
-
-#cardholder2{
-    background: url(img/cardholder2)no-repeat center/cover;
-    
-}
-#cardholder2:hover{
-    background: url(img/cardholder2H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#cardholder3{
-    background: url(img/cardholder3)no-repeat center/cover;
-    
-}
-#cardholder3:hover{
-    background: url(img/cardholder3H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-.cardholderscon2{
-    position: relative;
-    top:220px;
-    margin: 0px auto;
-    width: 99%;
-    /* border: 2px black solid; */
-    display: flex;
-    justify-content: center;
-}
-
-
-
-#cardholder4{
-    background: url(img/cardholder4)no-repeat center/cover;
-    
-}
-#cardholder4:hover{
-    background: url(img/cardholder4H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-#cardholder5{
-    background: url(img/cardholder5)no-repeat center/cover;
-    
-}
-#cardholder5:hover{
-    background: url(img/cardholder5H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#cardholder6{
-    background: url(img/cardholder6)no-repeat center/cover;
-    
-}
-#cardholder6:hover{
-    background: url(img/cardholder6H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-.cardholder2{
-    margin:10px 60px;
-    width:280px;
-    height: 380px;
-    text-align: center;
-    border-top: 2px black solid;
-    border-bottom: 2px coral solid;
-    border-left: 2px coral solid;
-    border-right: 2px black solid;
-
-    animation-name: slidecardholders2;
-  animation-duration: 4s;
-  animation-timing-function: all ease-in;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-}
-
-@keyframes slidecardholders2{
-    from{
-        margin-right: -200px;
-
-    }
-    to{
-        margin-right:80px;
-    }
-}
-
-.cardholder2 h4{
-     color:black;
-     font-weight: bold;
-     position: relative;
-     top: 380px;
-     font-size: 17px;
-     /* font-family: 'Teko', sans-serif; */
-     /* background-color: coral; */
-     
-}
-
-
-.cardholderheading{
+.engagementringheading{
     border:1px black solid;
     display: block;
     text-align: center;
@@ -1188,17 +1007,7 @@ html{
 
 
 
-
-
-
-
-
-
-
-
-
-
-.shoulderscon{
+.bracletscon{
     position: relative;
     top:130px;
     margin: 0px auto;
@@ -1208,7 +1017,7 @@ html{
     justify-content: center;
 }
 
-.shoulder{
+.braclet{
     margin:0px 60px;
     width:280px;
     height: 380px;
@@ -1218,7 +1027,7 @@ html{
     border-left: 2px coral solid;
     border-right: 2px black solid;
 
-    animation-name: slideshoulder;
+    animation-name: slidebraclet;
   animation-duration: 4s;
   animation-timing-function: all ease-in;
   animation-delay: 0.3s;
@@ -1228,7 +1037,7 @@ html{
 }
 
 
-@keyframes slideshoulder{
+@keyframes slidebraclet{
     from{
         margin-left: -200px;
 
@@ -1238,7 +1047,7 @@ html{
     }
 }
 
-.shoulder h4{
+.braclet h4{
      color:black;
      font-weight: bold;
      position: relative;
@@ -1249,37 +1058,37 @@ html{
      /* font-family: 'Teko', sans-serif; */
 }
 
-#shoulder1{
+#braclet1{
     
-    background: url(img/shoulder)no-repeat center/cover;
+    background: url(img/braclet)no-repeat center/cover;
     
 }
-#shoulder1:hover{
-    background: url(img/shoulderH)no-repeat center/cover;
+#braclet1:hover{
+    background: url(img/bracletH)no-repeat center/cover;
     cursor: pointer;
 }
 
-#shoulder2{
-    background: url(img/shoulder2)no-repeat center/cover;
+#braclet2{
+    background: url(img/braclet2)no-repeat center/cover;
     
 }
-#shoulder2:hover{
-    background: url(img/shoulder2H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#shoulder3{
-    background: url(img/shoulder3)no-repeat center/cover;
-    
-}
-#shoulder3:hover{
-    background: url(img/shoulder3H)no-repeat center/cover;
+#braclet2:hover{
+    background: url(img/braclet2H)no-repeat center/cover;
     cursor: pointer;
 }
 
 
-.shoulderscon2{
+#braclet3{
+    background: url(img/braclet3)no-repeat center/cover;
+    
+}
+#braclet3:hover{
+    background: url(img/braclet3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.bracletscon2{
     position: relative;
     top:220px;
     margin: 0px auto;
@@ -1291,36 +1100,36 @@ html{
 
 
 
-#shoulder4{
-    background: url(img/shoulder4)no-repeat center/cover;
+#braclet4{
+    background: url(img/braclet4)no-repeat center/cover;
     
 }
-#shoulder4:hover{
-    background: url(img/shoulder4H)no-repeat center/cover;
+#braclet4:hover{
+    background: url(img/braclet4H)no-repeat center/cover;
     cursor: pointer;
 }
 
-#shoulder5{
-    background: url(img/shoulder5)no-repeat center/cover;
+#braclet5{
+    background: url(img/braclet5)no-repeat center/cover;
     
 }
-#shoulder5:hover{
-    background: url(img/shoulder5H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#shoulder6{
-    background: url(img/shoulder6)no-repeat center/cover;
-    
-}
-#shoulder6:hover{
-    background: url(img/shoulder6H)no-repeat center/cover;
+#braclet5:hover{
+    background: url(img/braclet5H)no-repeat center/cover;
     cursor: pointer;
 }
 
 
-.shoulder2{
+#braclet6{
+    background: url(img/braclet6)no-repeat center/cover;
+    
+}
+#braclet6:hover{
+    background: url(img/braclet6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.braclet2{
     margin:10px 60px;
     width:280px;
     height: 380px;
@@ -1330,14 +1139,14 @@ html{
     border-left: 2px coral solid;
     border-right: 2px black solid;
 
-    animation-name: slideshoulders2;
+    animation-name: slidebraclets2;
   animation-duration: 4s;
   animation-timing-function: all ease-in;
   animation-delay: 0.3s;
   animation-iteration-count: 1;
 }
 
-@keyframes slideshoulders2{
+@keyframes slidebraclets2{
     from{
         margin-right: -200px;
 
@@ -1347,7 +1156,7 @@ html{
     }
 }
 
-.shoulder2 h4{
+.braclet2 h4{
      color:black;
      font-weight: bold;
      position: relative;
@@ -1359,7 +1168,198 @@ html{
 }
 
 
-.shoulderheading{
+.bracletheading{
+    border:1px black solid;
+    display: block;
+    text-align: center;
+    margin-top:430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ringscon{
+    position: relative;
+    top:130px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.ring{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidering;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidering{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.ring h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#ring1{
+    
+    background: url(img/ring)no-repeat center/cover;
+    
+}
+#ring1:hover{
+    background: url(img/ringH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#ring2{
+    background: url(img/ring2)no-repeat center/cover;
+    
+}
+#ring2:hover{
+    background: url(img/ring2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#ring3{
+    background: url(img/ring3)no-repeat center/cover;
+    
+}
+#ring3:hover{
+    background: url(img/ring3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.ringscon2{
+    position: relative;
+    top:220px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#ring4{
+    background: url(img/ring4)no-repeat center/cover;
+    
+}
+#ring4:hover{
+    background: url(img/ring4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#ring5{
+    background: url(img/ring5)no-repeat center/cover;
+    
+}
+#ring5:hover{
+    background: url(img/ring5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#ring6{
+    background: url(img/ring6)no-repeat center/cover;
+    
+}
+#ring6:hover{
+    background: url(img/ring6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.ring2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: sliderings2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes sliderings2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.ring2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.ringheading{
     border:1px black solid;
     display: block;
     text-align: center;
@@ -1430,19 +1430,19 @@ html{
 
 
 #photo1{
-    /* background: url(img/maxi)no-repeat center center/cover; */
+    /* background: url(img/necklace)no-repeat center center/cover; */
     cursor: pointer;
 }
 #photo2{
-    /* background: url(img/maxiH)no-repeat center center/cover; */
+    /* background: url(img/necklaceH)no-repeat center center/cover; */
     cursor: pointer;
 }
 #photo3{
-    /* background: url(img/maxi2)no-repeat center center/cover; */
+    /* background: url(img/necklace2)no-repeat center center/cover; */
     cursor: pointer;
 }
 #photo4{
-    /* background: url(img/maxi2H)no-repeat center center/cover; */
+    /* background: url(img/necklace2H)no-repeat center center/cover; */
     cursor: pointer;
 }
 
@@ -1607,14 +1607,14 @@ html{
     }
 
 
-    .maxiheading{
+    .necklaceheading{
         /* display: none; */
         width: 99.5vw;
         margin-top: 100px;
     }
 
 
-    .maxiscon{
+    .necklacescon{
         position: relative;
         top:200px;
         
@@ -1627,7 +1627,7 @@ html{
         
     }
     
-    .maxi{
+    .necklace{
         margin:-280px -80px;
         height: 380px;
         width: 300px;
@@ -1639,7 +1639,7 @@ html{
         border-left: 2px coral solid;
         border-right: 2px black solid;
     
-        animation-name: slidemaxi;
+        animation-name: slidenecklace;
       animation-duration: 4s;
       animation-timing-function: all ease-in;
       animation-delay: 0.3s;
@@ -1651,7 +1651,7 @@ html{
     
     
     
-    @keyframes slidemaxi{
+    @keyframes slidenecklace{
         from{
         margin-left: -200px;
     
@@ -1661,7 +1661,7 @@ html{
         }
     }
 
-    @keyframes slidemaxis2{
+    @keyframes slidenecklaces2{
         from{
             margin-right: -200px;
     
@@ -1674,7 +1674,7 @@ html{
 
 
 
-    @keyframes slidemini{
+    @keyframes slideearring{
         from{
         margin-left: -200px;
     
@@ -1684,7 +1684,7 @@ html{
         }
     }
 
-    @keyframes slideminis2{
+    @keyframes slideearrings2{
         from{
             margin-right: -200px;
     
@@ -1696,7 +1696,7 @@ html{
 
 
 
-    @keyframes slidetravel{
+    @keyframes slidemenJ{
         from{
         margin-left: -200px;
     
@@ -1706,7 +1706,7 @@ html{
         }
     }
 
-    @keyframes slidetravels2{
+    @keyframes slidemenJs2{
         from{
             margin-right: -200px;
     
@@ -1717,7 +1717,7 @@ html{
     }
 
 
-    @keyframes slidecardholder{
+    @keyframes slidebraclet{
         from{
         margin-left: -200px;
     
@@ -1727,7 +1727,7 @@ html{
         }
     }
 
-    @keyframes slidecardholders2{
+    @keyframes slidebraclets2{
         from{
             margin-right: -200px;
     
@@ -1826,7 +1826,7 @@ html{
     }
 
 
-    @keyframes slideshoulder{
+    @keyframes slidering{
         from{
         margin-left: -200px;
     
@@ -1836,7 +1836,7 @@ html{
         }
     }
 
-    @keyframes slideshoulders2{
+    @keyframes sliderings2{
         from{
             margin-right: -200px;
     
@@ -1845,25 +1845,25 @@ html{
             margin-top:-90px;
         }
     }
-    .maxi2{
+    .necklace2{
         margin:-240px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .mini{
+    .earring{
         margin:-200px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .mini2{
+    .earring2{
         margin:-90px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .miniheading{
+    .earringheading{
         width: 99.5vw;
         margin-top: 500px;
     }
@@ -1883,67 +1883,67 @@ html{
         width: 99.5vw;
         margin-top: 300px;
     }
-    .travel{
+    .menJ{
         margin:-200px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .travel2{
+    .menJ2{
         margin:-90px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .travelheading{
+    .menJheading{
         width: 99.5vw;
         margin-top: 300px;
     }
-    .cardholder{
+    .braclet{
         margin:-200px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .cardholder2{
+    .braclet2{
         margin:-90px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .cardholderheading{
+    .bracletheading{
         width: 99.5vw;
         margin-top: 300px;
     }
-    .tote{
+    .engagementring{
         margin:-200px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .tote2{
+    .engagementring2{
         margin:-90px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .toteheading{
+    .engagementringheading{
         width: 99.5vw;
         margin-top: 300px;
     }
-    .shoulder{
+    .ring{
         margin:-200px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .shoulder2{
+    .ring2{
         margin:-90px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .shoulderheading{
+    .ringheading{
         width: 99.5vw;
         margin-top: 300px;
     }
@@ -2149,19 +2149,19 @@ html{
 
 
 #photo1{
-    /* background: url(img/maxi)no-repeat center center/cover; */
+    /* background: url(img/necklace)no-repeat center center/cover; */
     cursor: pointer;
 }
 #photo2{
-    /* background: url(img/maxiH)no-repeat center center/cover; */
+    /* background: url(img/necklaceH)no-repeat center center/cover; */
     cursor: pointer;
 }
 #photo3{
-    /* background: url(img/maxi2)no-repeat center center/cover; */
+    /* background: url(img/necklace2)no-repeat center center/cover; */
     cursor: pointer;
 }
 #photo4{
-    /* background: url(img/maxi2H)no-repeat center center/cover; */
+    /* background: url(img/necklace2H)no-repeat center center/cover; */
     cursor: pointer;
 }
 
@@ -2333,14 +2333,14 @@ html{
       }
   
   
-      .maxiheading{
+      .necklaceheading{
           /* display: none; */
           width: 99.5vw;
           margin-top: 100px;
       }
   
   
-      .maxiscon{
+      .necklacescon{
           position: relative;
           top:200px;
           
@@ -2353,7 +2353,7 @@ html{
           
       }
       
-      .maxi{
+      .necklace{
           margin:-280px -80px;
           height: 380px;
           width: 300px;
@@ -2365,7 +2365,7 @@ html{
           border-left: 2px coral solid;
           border-right: 2px black solid;
       
-          animation-name: slidemaxi;
+          animation-name: slidenecklace;
         animation-duration: 4s;
         animation-timing-function: all ease-in;
         animation-delay: 0.3s;
@@ -2377,7 +2377,7 @@ html{
       
       
       
-      @keyframes slidemaxi{
+      @keyframes slidenecklace{
           from{
           margin-left: -200px;
       
@@ -2387,7 +2387,7 @@ html{
           }
       }
   
-      @keyframes slidemaxis2{
+      @keyframes slidenecklaces2{
           from{
               margin-right: -200px;
       
@@ -2400,7 +2400,7 @@ html{
   
   
   
-      @keyframes slidemini{
+      @keyframes slideearring{
           from{
           margin-left: -200px;
       
@@ -2410,7 +2410,7 @@ html{
           }
       }
   
-      @keyframes slideminis2{
+      @keyframes slideearrings2{
           from{
               margin-right: -200px;
       
@@ -2422,7 +2422,7 @@ html{
   
   
   
-      @keyframes slidetravel{
+      @keyframes slidemenJ{
           from{
           margin-left: -200px;
       
@@ -2432,7 +2432,7 @@ html{
           }
       }
   
-      @keyframes slidetravels2{
+      @keyframes slidemenJs2{
           from{
               margin-right: -200px;
       
@@ -2443,7 +2443,7 @@ html{
       }
   
   
-      @keyframes slidecardholder{
+      @keyframes slidebraclet{
           from{
           margin-left: -200px;
       
@@ -2453,7 +2453,7 @@ html{
           }
       }
   
-      @keyframes slidecardholders2{
+      @keyframes slidebraclets2{
           from{
               margin-right: -200px;
       
@@ -2552,7 +2552,7 @@ html{
       }
   
   
-      @keyframes slideshoulder{
+      @keyframes slidering{
           from{
           margin-left: -200px;
       
@@ -2562,7 +2562,7 @@ html{
           }
       }
   
-      @keyframes slideshoulders2{
+      @keyframes sliderings2{
           from{
               margin-right: -200px;
       
@@ -2571,25 +2571,25 @@ html{
               margin-top:-90px;
           }
       }
-      .maxi2{
+      .necklace2{
           margin:-240px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .mini{
+      .earring{
           margin:-200px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .mini2{
+      .earring2{
           margin:-90px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .miniheading{
+      .earringheading{
           width: 99.5vw;
           margin-top: 500px;
       }
@@ -2609,35 +2609,35 @@ html{
           width: 99.5vw;
           margin-top: 300px;
       }
-      .travel{
+      .menJ{
           margin:-200px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .travel2{
+      .menJ2{
           margin:-90px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .travelheading{
+      .menJheading{
           width: 99.5vw;
           margin-top: 300px;
       }
-      .cardholder{
+      .braclet{
           margin:-200px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .cardholder2{
+      .braclet2{
           margin:-90px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .cardholderheading{
+      .bracletheading{
           width: 99.5vw;
           margin-top: 300px;
       }
@@ -2657,19 +2657,19 @@ html{
           width: 99.5vw;
           margin-top: 300px;
       }
-      .shoulder{
+      .ring{
           margin:-200px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .shoulder2{
+      .ring2{
           margin:-90px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .shoulderheading{
+      .ringheading{
           width: 99.5vw;
           margin-top: 300px;
       }
@@ -2877,19 +2877,19 @@ html{
     
     
     #photo1{
-        /* background: url(img/maxi)no-repeat center center/cover; */
+        /* background: url(img/necklace)no-repeat center center/cover; */
         cursor: pointer;
     }
     #photo2{
-        /* background: url(img/maxiH)no-repeat center center/cover; */
+        /* background: url(img/necklaceH)no-repeat center center/cover; */
         cursor: pointer;
     }
     #photo3{
-        /* background: url(img/maxi2)no-repeat center center/cover; */
+        /* background: url(img/necklace2)no-repeat center center/cover; */
         cursor: pointer;
     }
     #photo4{
-        /* background: url(img/maxi2H)no-repeat center center/cover; */
+        /* background: url(img/necklace2H)no-repeat center center/cover; */
         cursor: pointer;
     }
     
