@@ -1,0 +1,2313 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    border: 2px solid coral;
+    width:99.39%;
+    height:33px;
+    padding:2px;
+    z-index: 100;
+}
+
+.searchbar{
+    border-bottom: 1.5px solid white;
+    display: inline-block;
+    position: absolute;
+    border-bottom: 2px  black solid;
+    right:10px;
+    top:5px;
+    background-color: white;
+    
+}
+
+.searchbar input{
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    border: 0px solid white;
+    width:210px;
+    text-align: center;
+
+    background-color: white ;
+    
+    
+    
+}
+
+.searchbar input:hover{
+    background-color: white;
+    border: 0px solid black;
+    
+}
+
+.logo{
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -25px;
+    background-color: white;
+    display: block;
+    
+
+
+}
+
+.navcontainer{
+    background-color: hsl(19, 78%, 51%) ;
+
+    /* background-color: white ; */
+    border-radius: 6px;
+    /* border: white solid; */
+    display: inline-block;
+    width:500px;
+    height: 30px;
+    font-size: smaller;
+    position: absolute;
+    left:18px;
+    top:4px;
+    z-index: 1;
+    /* box-shadow: white -2px -2px 1px; */
+    animation-name:color;
+    animation-timing-function: all ease-in-out;
+    animation-duration: 1s;
+    /* animation-fill-mode: backwards; */
+    animation-iteration-count: 1;
+    }
+    
+    
+    
+    .navcontainer ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 84%;
+    /* border: 2px red solid; */
+    border-radius: 30px;
+    list-style-type: none;
+    
+    font-family: 'Montserrat', sans-serif;
+      font-weight:light;
+
+
+      animation-name: slide;
+      animation-duration: 4s;
+      animation-timing-function: all ease-in;
+      animation-delay: 0.3s;
+      animation-iteration-count: 1;
+
+
+    }
+
+    @keyframes slide{
+        from{
+            margin-left: -200px;
+
+        }
+        to{
+            margin-left:0px;
+        }
+    }
+    
+    .navcontainer li{
+    display: inline;
+    margin:-6px 15px;
+    }
+    
+    
+    .navcontainer a{
+    text-decoration: none;
+    color:black;
+    }
+    .navcontainer a:hover{
+    text-decoration: overline black 2px;
+    /* color:black; */
+    transition: all;
+    transition-timing-function: all ease-in-out;
+    transition-duration: 0.3s;
+    font-weight:bold;
+    color:black ;
+     transition: all 0.5s ease-in-out  .0.5s;
+    }
+
+
+
+
+
+
+    .navcontainer2{
+        background-color: hsl(19, 78%, 51%) ;
+        /* background-color: black ; */
+    
+        /* background-color: white ; */
+        border-radius: 6px;
+        /* border: white 3px solid; */
+        display: inline-block;
+        width:90%;
+        height: 30px;
+        font-size: smaller;
+        position: sticky;
+        
+        margin:10px 60px;
+        top:5px;
+        /* margin-top: 10px; */
+       
+        /* box-shadow: white -2px -2px 1px; */
+        animation-name:color;
+        animation-timing-function: all ease-in-out;
+        animation-duration: 1s;
+        /* animation-fill-mode: backwards; */
+        animation-iteration-count: 1;
+        z-index: 20;
+        display: none;
+        }
+        
+        
+        
+        .navcontainer2 ul{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-left: 50px;
+        width: 84%;
+        /* border: 2px red solid; */
+        border-radius: 30px;
+        list-style-type: none;
+        
+        font-family: 'Montserrat', sans-serif;
+          font-weight:light;
+    
+    
+          animation-name: slide2;
+          animation-duration: 4s;
+          animation-timing-function: all ease-in;
+          animation-delay: 0.3s;
+          animation-iteration-count: 1;
+           
+
+        }
+
+
+
+
+
+
+
+
+
+    @keyframes slide2{
+        from{
+            margin-left: -200px;
+
+        }
+        to{
+            margin-left:50px;
+        }
+    }
+
+
+
+    .navcontainer2 li{
+        display: inline-block;
+        margin:-6px 35px;
+         
+        }
+        
+        
+        .navcontainer2 a{
+        text-decoration: none;
+        color:white;
+        /* border: 2px black solid; */
+        }
+        .navcontainer2 a:hover{
+        text-decoration: overline black 2px;
+        cursor: pointer;
+        font-weight:bold;
+        color:black ;
+         
+        }
+
+    .chatbox{
+        position:fixed;
+        right:32px;
+        bottom: 30px;
+        border: coral 2px solid;
+        color: black;
+        width:80px;
+        height: 33px;
+        border-radius: 80px;
+        text-align: center;
+        background-color: white;
+        scale: 1.2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+
+        z-index: 200;
+    }
+    .chatbox h3{
+        /* margin-top: 8px; */
+        font-size: large;
+        font-family: 'Teko', sans-serif;
+    }
+
+    .chatbox:hover{
+        background-color: coral;
+        color: white;
+        border: coral 2px solid;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sunglassscon{
+    position: relative;
+    top:150px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.sunglass{
+    margin:-80px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidesunglass;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slidesunglass{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.sunglass h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#sunglass1{
+    
+    background: url(img/sunglass)no-repeat center/cover;
+    
+}
+#sunglass1:hover{
+    background: url(img/sunglassH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#sunglass2{
+    background: url(img/sunglass2)no-repeat center/cover;
+    
+}
+#sunglass2:hover{
+    background: url(img/sunglass2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#sunglass3{
+    background: url(img/sunglass3)no-repeat center/cover;
+    
+}
+#sunglass3:hover{
+    background: url(img/sunglass3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.sunglassscon2{
+    position: relative;
+    top:360px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#sunglass4{
+    background: url(img/sunglass4)no-repeat center/cover;
+    
+}
+#sunglass4:hover{
+    background: url(img/sunglass4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#sunglass5{
+    background: url(img/sunglass5)no-repeat center/cover;
+    
+}
+#sunglass5:hover{
+    background: url(img/sunglass5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#sunglass6{
+    background: url(img/sunglass6)no-repeat center/cover;
+    
+}
+#sunglass6:hover{
+    background: url(img/sunglass6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.sunglass2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slidesunglasss2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidesunglasss2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.sunglass2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.sunglassheading{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.eyescon{
+    position: relative;
+    top:500px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.eye{
+    margin:0px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideeye;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+
+ 
+}
+
+
+@keyframes slideeye{
+    from{
+        margin-left: -200px;
+
+    }
+    to{
+        margin-left:80px;
+    }
+}
+
+.eye h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* background-color: ; */
+     
+     /* font-family: 'Teko', sans-serif; */
+}
+
+#eye1{
+    
+    background: url(img/eye)no-repeat center/cover;
+    
+}
+#eye1:hover{
+    background: url(img/eyeH)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#eye2{
+    background: url(img/eye2)no-repeat center/cover;
+    
+}
+#eye2:hover{
+    background: url(img/eye2H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#eye3{
+    background: url(img/eye3)no-repeat center/cover;
+    
+}
+#eye3:hover{
+    background: url(img/eye3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.eyescon2{
+    position: relative;
+    top:650px;
+    margin: 0px auto;
+    width: 99%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#eye4{
+    background: url(img/eye4)no-repeat center/cover;
+    
+}
+#eye4:hover{
+    background: url(img/eye4H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+#eye5{
+    background: url(img/eye5)no-repeat center/cover;
+    
+}
+#eye5:hover{
+    background: url(img/eye5H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+#eye6{
+    background: url(img/eye6)no-repeat center/cover;
+    
+}
+#eye6:hover{
+    background: url(img/eye6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.eye2{
+    margin:10px 60px;
+    width:280px;
+    height: 380px;
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px coral solid;
+    border-left: 2px coral solid;
+    border-right: 2px black solid;
+
+    animation-name: slideeyes2;
+  animation-duration: 4s;
+  animation-timing-function: all ease-in;
+  animation-delay: 0.3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideeyes2{
+    from{
+        margin-right: -200px;
+
+    }
+    to{
+        margin-right:80px;
+    }
+}
+
+.eye2 h4{
+     color:black;
+     font-weight: bold;
+     position: relative;
+     top: 380px;
+     font-size: 17px;
+     /* font-family: 'Teko', sans-serif; */
+     /* background-color: coral; */
+     
+}
+
+
+.eyeheading{
+    display: none;
+}
+
+
+
+
+
+#category{
+    text-align: center;
+    color: coral;
+    text-decoration: overline 2px black;
+    font-size: 30px;
+}
+
+.photo{
+    border: 2px black solid;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top:100px;
+    height: 450px;
+    width: 350px;
+    
+}
+
+#name{
+    position: absolute;
+    left:160px;
+    top:140px;
+    /* border: 2px black solid; */
+    width: 500px;
+    text-align: center;
+}
+
+#description{
+    position: absolute;
+    left:205px;
+    top:280px;
+    text-align: justify;
+    width:400px;
+    height:100px;
+    /* border: 2px black solid; */
+    
+}
+
+.photoA{
+    position: relative;
+    left:5px;
+    top:0px;
+    border: 2px black solid;
+    width:100px;
+    height: 100px;
+    margin-top: 10px;
+}
+.photochange{
+    width:110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 2px red solid; */
+    position: absolute;
+    top:92px;
+    left:5px;
+}
+
+
+#photo1{
+    /* background: url(img/sunglass)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo2{
+    /* background: url(img/sunglassH)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo3{
+    /* background: url(img/sunglass2)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo4{
+    /* background: url(img/sunglass2H)no-repeat center center/cover; */
+    cursor: pointer;
+}
+
+
+
+.sizes{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left:209px;
+    top:230px;
+    /* border: 2px black solid; */
+    
+}
+
+.size{
+    border-radius: 5px;
+    width:70px;
+    background-color: white;
+    border: 2px coral solid;
+    margin: 5px;
+
+}
+.size:hover{
+    cursor: pointer;
+    background-color: coral;
+}
+
+
+#addtocart{
+    position: absolute;
+    top:400px;
+    left:407px;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px  #09fac8 solid;
+    cursor: pointer;
+}
+
+#addtocart:hover{
+    cursor: pointer;
+    background-color: #09fac8;
+}
+
+
+
+#buynow{
+    position: absolute;
+    top:400px;
+    left:168px;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px  #09fac8 solid;
+    cursor: pointer;
+}
+#buynow:hover{
+    background-color:#09fac8 ;
+}
+
+
+.buy{
+    display: none;
+}
+
+.back{
+    background: url(img/close.png)no-repeat center center/cover;
+    height:40px;
+    width: 40px;
+    position: absolute;
+    top:50px;
+    left: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:144px) and (max-width:440px) {
+    body{
+      margin: 0px;
+      height: 0px;
+      width:100vw;
+      height: 100vh;
+      /* border: 2px blue solid; */
+    }
+  
+    .navbar{
+      width:99vw;
+      position: absolute;
+      top: 1px;
+      border: none;
+      border-bottom:0.5px coral solid ;
+      border-top:4px coral solid ;
+      height: 75px;
+    }
+    .logo{
+      height: 75px;
+    }
+    .navcontainer{
+      top:45px;
+     left: 0px;
+     width: 100vw;
+     
+    }
+    .navcontainer li{
+      display: inline;
+      margin:-6px 7px;
+      }
+  
+      .navcontainer ul{
+        width:100vw;
+        position: absolute;
+        right: 0px;
+          border-radius: 0px;
+          }
+          
+          @keyframes slide{
+              from{
+                  left: -200px;
+      
+              }
+              to{
+                  left:-40px;
+              }
+          }
+  
+    
+  
+  
+   .searchbar input{
+     width: 100px;
+   }
+   .searchbar{
+      top:4px;
+      z-index: 200;
+    }
+
+
+    .sunglassheading{
+        /* display: none; */
+        width: 99.5vw;
+        margin-top: 100px;
+    }
+
+
+    .sunglassscon{
+        position: relative;
+        top:300px;
+        
+        width: 99%;
+        /* border: 2px black solid; */
+        display: flex;
+        
+        /* display: none; */
+        
+        
+    }
+
+    .sunglassscon2{
+      position: relative;
+      top:470px;
+      
+      width: 99%;
+      /* border: 2px black solid; */
+      display: flex;
+      
+      /* display: none; */
+      
+      
+  }
+
+  .eyescon{
+      position: relative;
+      top:640px;
+      
+      width: 99%;
+      /* border: 2px black solid; */
+      display: flex;
+      
+      /* display: none; */
+      
+      
+  }
+
+  .eyescon2{
+      position: relative;
+      top:740px;
+      
+      width: 99%;
+      /* border: 2px black solid; */
+      display: flex;
+      
+      /* display: none; */
+      
+      
+  }
+    
+    .sunglass{
+        margin:-280px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+        text-align: center;
+        
+        border-top: 2px black solid;
+        border-bottom: 2px coral solid;
+        border-left: 2px coral solid;
+        border-right: 2px black solid;
+    
+        animation-name: slidesunglass;
+      animation-duration: 4s;
+      animation-timing-function: all ease-in;
+      animation-delay: 0.3s;
+      animation-iteration-count: 1;
+    
+      
+     /* display: none; */
+    }
+    
+    
+    
+    @keyframes slidesunglass{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-280px;
+        }
+    }
+
+    @keyframes slidesunglasss2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-240px;
+        }
+    }
+
+
+
+
+    @keyframes slideeye{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slideeyes2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+
+    @keyframes slidemenJ{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slidemenJs2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+    @keyframes slidebraclet{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slidebraclets2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+
+
+    @keyframes slideshirt{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slideshirts2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+
+    @keyframes slidetop{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slidetops2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+    @keyframes slidelegging{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slideleggings2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+
+    @keyframes slidesock{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slidesocks2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+    @keyframes slidering{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes sliderings2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+    .sunglass2{
+        margin:-240px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .eye{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .eye2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .eyeheading{
+        width: 99.5vw;
+        margin-top: 500px;
+    }
+    .shirt{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .shirt2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .shirtheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .menJ{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .menJ2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .menJheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .braclet{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .braclet2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .bracletheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .connectesunglass{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .connectesunglass2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .connectesunglassheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .ring{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .ring2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .ringheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .legging{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .legging2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .leggingheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+    .sock{
+        margin:-200px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .sock2{
+        margin:-90px -80px;
+        height: 380px;
+        width: 300px;
+        scale: 0.4;
+    }
+    .sockheading{
+        width: 99.5vw;
+        margin-top: 300px;
+    }
+
+
+
+
+
+    #menuopen{
+        width:40px;
+        height:40px;
+        background: url(img/menu.png)no-repeat center center/cover;
+        position: fixed;
+        top:5px;
+        left:20px;
+        z-index: 700;
+        background-color:white;
+    }
+    #menuclose{
+        width:40px;
+        height:40px;
+        background: url(img/menuH.png)no-repeat center center/cover;
+        position: fixed;
+        top:5px;
+        left:20px;
+        z-index: 700;
+        background-color:white;
+        display: none;
+    }
+
+
+
+    .navcontainer2{
+        /* display: none; */
+        height: 40vh;
+        width:120px;
+        position: fixed;
+        top:90px;
+        left:0px;
+        /* border:2px blue solid; */
+        z-index: 500;
+        display: none;
+
+        animation-name: nav2slide;
+        animation-duration: 1s;
+        animation-timing-function: all ease-in;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        margin-left:0px ;
+      }
+
+      @keyframes nav2slide {
+        from{
+            left:-200px;
+            
+        }
+        to{
+            left:0px;
+        }
+        
+      }
+      .navcontainer2 ul{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-evenly;
+        /* justify-content: center; */
+        /* border:2px blue solid; */
+        height: 40vh;
+        width:28px;
+        position: fixed;
+        top:84px;
+        left:0px;
+        margin-left: 0px;
+        animation-duration: 2s;
+        
+      }
+      .navcontainer2 li{
+        text-align: center;
+        /* border:2px red solid; */
+        width: 100px;
+      }
+
+      @keyframes slide2{
+        from{
+            left: -200px;
+
+        }
+        to{
+            left:0px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+#category{
+    text-align: center;
+    color: coral;
+    text-decoration: overline 2px black;
+    font-size: 30px;
+}
+
+.photo{
+    border: 2px black solid;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top:160px;
+    height: 450px;
+    width:94vw;
+    margin: 10px;
+}
+
+#name{
+    position: absolute;
+    left:15px;
+    top:90px;
+    /* border: 2px black solid; */
+    width: 94vw;
+    text-align: center;
+}
+
+#description{
+    position: absolute;
+    left:10px;
+    top:780px;
+    text-align: justify;
+    width:94vw;
+    height:100px;
+    /* border: 2px black solid; */
+    
+}
+
+.photoA{
+    position: relative;
+    left:5px;
+    top:0px;
+    border: 2px black solid;
+    width:100px;
+    height: 100px;
+    margin-top: 10px;
+    scale: 0.7;
+}
+.photochange{
+    width:98vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 2px red solid; */
+    position: absolute;
+    top:638px;
+    left:0px;
+}
+
+
+#photo1{
+    /* background: url(img/sunglass)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo2{
+    /* background: url(img/sunglassH)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo3{
+    /* background: url(img/sunglass2)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo4{
+    /* background: url(img/sunglass2H)no-repeat center center/cover; */
+    cursor: pointer;
+}
+
+
+
+.sizes{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left:0px;
+    top:870px;
+    /* border: 2px black solid; */
+    width: 99vw;
+    
+}
+
+.size{
+    border-radius: 5px;
+    width:70px;
+    background-color: white;
+    border: 2px coral solid;
+    margin: 5px;
+
+}
+.size:hover{
+    cursor: pointer;
+    background-color: coral;
+}
+
+
+#addtocart{
+    position: absolute;
+    top:1060px;
+    left:20px;
+    width: 90vw;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px  #09fac8 solid;
+    cursor: pointer;
+    
+}
+
+#addtocart:hover{
+    cursor: pointer;
+    background-color: #09fac8;
+}
+
+
+
+#buynow{
+    position: absolute;
+    top:1000px;
+    left:20px;
+    width: 90vw;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px  #09fac8 solid;
+    cursor: pointer;
+}
+#buynow:hover{
+    background-color:#09fac8 ;
+}
+
+
+.buy{
+    display: none;
+}
+
+.back{
+    background: url(img/close.png)no-repeat center center/cover;
+    height:40px;
+    width: 40px;
+    position: absolute;
+    top:175px;
+    left: 14px;
+    cursor: pointer;
+}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width:1171px) and (min-width:441px){
+    body{
+        margin: 0px;
+        height: 0px;
+        width:100vw;
+        height: 100vh;
+        /* border: 2px blue solid; */
+      }
+    
+      .navbar{
+        width:99vw;
+        position: absolute;
+        top: 1px;
+        border: none;
+        border-bottom:0.5px coral solid ;
+        border-top:4px coral solid ;
+        height: 75px;
+      }
+      .logo{
+        height: 75px;
+      }
+      .navcontainer{
+        top:45px;
+       left: 0px;
+       width: 100vw;
+       
+      }
+      .navcontainer li{
+        display: inline;
+        margin:-6px 7px;
+        }
+    
+        .navcontainer ul{
+          width:100vw;
+          position: absolute;
+          right: 0px;
+            border-radius: 0px;
+            }
+            
+            @keyframes slide{
+                from{
+                    left: -200px;
+        
+                }
+                to{
+                    left:-40px;
+                }
+            }
+    
+      
+    
+    
+     .searchbar input{
+       width: 100px;
+     }
+     .searchbar{
+        top:4px;
+        z-index: 200;
+      }
+  
+  
+      .sunglassheading{
+          /* display: none; */
+          width: 99.5vw;
+          margin-top: 100px;
+      }
+  
+  
+      .sunglassscon{
+          position: relative;
+          top:300px;
+          
+          width: 99%;
+          /* border: 2px black solid; */
+          display: flex;
+          
+          /* display: none; */
+          
+          
+      }
+
+      .sunglassscon2{
+        position: relative;
+        top:470px;
+        
+        width: 99%;
+        /* border: 2px black solid; */
+        display: flex;
+        
+        /* display: none; */
+        
+        
+    }
+
+    .eyescon{
+        position: relative;
+        top:640px;
+        
+        width: 99%;
+        /* border: 2px black solid; */
+        display: flex;
+        
+        /* display: none; */
+        
+        
+    }
+
+    .eyescon2{
+        position: relative;
+        top:740px;
+        
+        width: 99%;
+        /* border: 2px black solid; */
+        display: flex;
+        
+        /* display: none; */
+        
+        
+    }
+      
+      .sunglass{
+          margin:-280px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+          text-align: center;
+          
+          border-top: 2px black solid;
+          border-bottom: 2px coral solid;
+          border-left: 2px coral solid;
+          border-right: 2px black solid;
+      
+          animation-name: slidesunglass;
+        animation-duration: 4s;
+        animation-timing-function: all ease-in;
+        animation-delay: 0.3s;
+        animation-iteration-count: 1;
+      
+        
+       /* display: none; */
+      }
+      
+      
+      
+      @keyframes slidesunglass{
+          from{
+          margin-left: -200px;
+      
+          }
+          to{
+          margin-top:-280px;
+          }
+      }
+  
+      @keyframes slidesunglasss2{
+          from{
+              margin-right: -200px;
+      
+          }
+          to{
+              margin-top:-240px;
+          }
+      }
+  
+  
+  
+  
+      @keyframes slideeye{
+          from{
+          margin-left: -200px;
+      
+          }
+          to{
+          margin-top:-200px;
+          }
+      }
+  
+      @keyframes slideeyes2{
+          from{
+              margin-right: -200px;
+      
+          }
+          to{
+              margin-top:-90px;
+          }
+      }
+  
+  
+  
+      @keyframes slidemenJ{
+          from{
+          margin-left: -200px;
+      
+          }
+          to{
+          margin-top:-200px;
+          }
+      }
+  
+      @keyframes slidemenJs2{
+          from{
+              margin-right: -200px;
+      
+          }
+          to{
+              margin-top:-90px;
+          }
+      }
+  
+  
+      @keyframes slidebraclet{
+          from{
+          margin-left: -200px;
+      
+          }
+          to{
+          margin-top:-200px;
+          }
+      }
+  
+      @keyframes slidebraclets2{
+          from{
+              margin-right: -200px;
+      
+          }
+          to{
+              margin-top:-90px;
+          }
+      }
+  
+  
+  
+  
+      @keyframes slideshirt{
+          from{
+          margin-left: -200px;
+      
+          }
+          to{
+          margin-top:-200px;
+          }
+      }
+  
+      @keyframes slideshirts2{
+          from{
+              margin-right: -200px;
+      
+          }
+          to{
+              margin-top:-90px;
+          }
+      }
+  
+  
+  
+      @keyframes slidetop{
+          from{
+          margin-left: -200px;
+      
+          }
+          to{
+          margin-top:-200px;
+          }
+      }
+  
+      @keyframes slidetops2{
+          from{
+              margin-right: -200px;
+      
+          }
+          to{
+              margin-top:-90px;
+          }
+      }
+  
+  
+      @keyframes slidelegging{
+          from{
+          margin-left: -200px;
+      
+          }
+          to{
+          margin-top:-200px;
+          }
+      }
+  
+      @keyframes slideleggings2{
+          from{
+              margin-right: -200px;
+      
+          }
+          to{
+              margin-top:-90px;
+          }
+      }
+  
+  
+  
+      @keyframes slidesock{
+          from{
+          margin-left: -200px;
+      
+          }
+          to{
+          margin-top:-200px;
+          }
+      }
+  
+      @keyframes slidesocks2{
+          from{
+              margin-right: -200px;
+      
+          }
+          to{
+              margin-top:-90px;
+          }
+      }
+  
+  
+      @keyframes slidering{
+          from{
+          margin-left: -200px;
+      
+          }
+          to{
+          margin-top:-200px;
+          }
+      }
+  
+      @keyframes sliderings2{
+          from{
+              margin-right: -200px;
+      
+          }
+          to{
+              margin-top:-90px;
+          }
+      }
+      .sunglass2{
+          margin:-240px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+      }
+      .eye{
+          margin:-200px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+      }
+      .eye2{
+          margin:-90px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+      }
+      .eyeheading{
+          width: 99.5vw;
+          margin-top: 500px;
+      }
+      .shirt{
+          margin:-200px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+      }
+      .shirt2{
+          margin:-90px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+      }
+      .shirtheading{
+          width: 99.5vw;
+          margin-top: 300px;
+      }
+      .menJ{
+          margin:-200px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+      }
+      .menJ2{
+          margin:-90px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+      }
+      .menJheading{
+          width: 99.5vw;
+          margin-top: 300px;
+      }
+      .braclet{
+          margin:-200px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+      }
+      .braclet2{
+          margin:-90px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+      }
+      .bracletheading{
+          width: 99.5vw;
+          margin-top: 300px;
+      }
+      .top{
+          margin:-200px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+      }
+      .top2{
+          margin:-90px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+      }
+      .topheading{
+          width: 99.5vw;
+          margin-top: 300px;
+      }
+      .ring{
+          margin:-200px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+      }
+      .ring2{
+          margin:-90px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+      }
+      .ringheading{
+          width: 99.5vw;
+          margin-top: 300px;
+      }
+      .legging{
+          margin:-200px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+      }
+      .legging2{
+          margin:-90px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+      }
+      .leggingheading{
+          width: 99.5vw;
+          margin-top: 300px;
+      }
+      .sock{
+          margin:-200px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+      }
+      .sock2{
+          margin:-90px -80px;
+          height: 380px;
+          width: 300px;
+          scale: 0.4;
+      }
+      .sockheading{
+          width: 99.5vw;
+          margin-top: 300px;
+      }
+  
+  
+  
+  
+  
+      #menuopen{
+          width:40px;
+          height:40px;
+          background: url(img/menu.png)no-repeat center center/cover;
+          position: fixed;
+          top:5px;
+          left:20px;
+          z-index: 700;
+          background-color:white;
+      }
+      #menuclose{
+          width:40px;
+          height:40px;
+          background: url(img/menuH.png)no-repeat center center/cover;
+          position: fixed;
+          top:5px;
+          left:20px;
+          z-index: 700;
+          background-color:white;
+          display: none;
+      }
+  
+  
+  
+      .navcontainer2{
+          /* display: none; */
+          height: 40vh;
+          width:120px;
+          position: fixed;
+          top:90px;
+          left:0px;
+          /* border:2px blue solid; */
+          z-index: 500;
+          display: none;
+  
+          animation-name: nav2slide;
+          animation-duration: 1s;
+          animation-timing-function: all ease-in;
+          animation-iteration-count: 1;
+          animation-direction: normal;
+          margin-left:0px ;
+        }
+  
+        @keyframes nav2slide {
+          from{
+              left:-200px;
+              
+          }
+          to{
+              left:0px;
+          }
+          
+        }
+        .navcontainer2 ul{
+          display: flex;
+          flex-direction: column;
+          align-items:center;
+          justify-content: space-evenly;
+          /* justify-content: center; */
+          /* border:2px blue solid; */
+          height: 40vh;
+          width:28px;
+          position: fixed;
+          top:84px;
+          left:0px;
+          margin-left: 0px;
+          animation-duration: 2s;
+          
+        }
+        .navcontainer2 li{
+          text-align: center;
+          /* border:2px red solid; */
+          width: 100px;
+        }
+  
+        @keyframes slide2{
+          from{
+              left: -200px;
+  
+          }
+          to{
+              left:0px;
+          }
+      }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+     
+      #category{
+        text-align: center;
+        color: coral;
+        text-decoration: overline 2px black;
+        font-size: 30px;
+    }
+    
+    .photo{
+        border: 2px black solid;
+        display: inline-block;
+        position: absolute;
+        left: 0px;
+        top:160px;
+        height: 100vh;
+        width:99vw;
+        
+    }
+    
+    #name{
+        position: absolute;
+        left:15px;
+        top:90px;
+        /* border: 2px black solid; */
+        width: 94vw;
+        text-align: center;
+    }
+    
+    #description{
+        position: relative;
+        left:0px;
+        margin-top: 90vh;
+        text-align: center;
+        width:99vw;
+        height:100px;
+        /* border: 2px black solid; */
+        
+    }
+    
+    .photoA{
+        position: relative;
+        left:5px;
+        top:0px;
+        border: 2px black solid;
+        width:100px;
+        height: 100px;
+        margin-top: 10px;
+        scale: 0.7;
+    }
+    .photochange{
+        width:20vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* border: 2px red solid; */
+        position: absolute;
+        top:160px;
+        left:0px;
+    }
+    
+    
+    #photo1{
+        /* background: url(img/sunglass)no-repeat center center/cover; */
+        cursor: pointer;
+    }
+    #photo2{
+        /* background: url(img/sunglassH)no-repeat center center/cover; */
+        cursor: pointer;
+    }
+    #photo3{
+        /* background: url(img/sunglass2)no-repeat center center/cover; */
+        cursor: pointer;
+    }
+    #photo4{
+        /* background: url(img/sunglass2H)no-repeat center center/cover; */
+        cursor: pointer;
+    }
+    
+    
+    
+    .sizes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        left:0px;
+        margin-top: 0vh;
+        /* border: 2px black solid; */
+        width: 99vw;
+        
+    }
+    
+    .size{
+        border-radius: 5px;
+        width:70px;
+        background-color: white;
+        border: 2px coral solid;
+        margin: 5px;
+    
+    }
+    .size:hover{
+        cursor: pointer;
+        background-color: coral;
+    }
+    
+    
+    #addtocart{
+        position: relative;
+        top:490px;
+        left:35px;
+        width: 90vw;
+        height: 40px;
+        border-radius: 5px;
+        background-color: white;
+        border: 2px  #09fac8 solid;
+        cursor: pointer;
+    }
+    
+    #addtocart:hover{
+        cursor: pointer;
+        background-color: #09fac8;
+    }
+    
+    
+    
+    #buynow{
+        position: relative;
+        top:380px;
+        left:35px;
+        width: 90vw;
+        height: 40px;
+        border-radius: 5px;
+        background-color: white;
+        border: 2px  #09fac8 solid;
+        cursor: pointer;
+    }
+    #buynow:hover{
+        background-color:#09fac8 ;
+    }
+    
+    
+    .buy{
+        display: none;
+    }
+    
+    .back{
+        background: url(img/close.png)no-repeat center center/cover;
+        height:40px;
+        width: 40px;
+        position: absolute;
+        top:175px;
+        left: 14px;
+        cursor: pointer;
+    }
+  }
