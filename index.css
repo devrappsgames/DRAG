@@ -48,6 +48,12 @@ header {
 }
 
 
+footer{
+  width: 97.8vw;
+  height: 100vh;
+  position:fixed;
+  top:0px;
+}
 
 .navcontainer {
   background-color: #e35f21;
@@ -115,10 +121,7 @@ header {
   height: 400px;
   width: 400px;
   /* border:white 2px solid; */
-  position: fixed;
-  left: 33vw;
-  top: 100px;
-
+ 
   background: url("img/draglogowithoutbackground.png")no-repeat center center/contain;
 
   animation-name: slide;
@@ -127,6 +130,8 @@ header {
   /* animation-fill-mode: backwards; */
   animation-iteration-count: 1;
 
+  margin: 14vh auto;
+  
 }
 
 @keyframes slide {
@@ -271,6 +276,9 @@ header {
     height: 400px;
     width: 310px;
     /* border:white 2px solid; */
+    position: fixed;
+    left: 33vw;
+    top: 100px;
 
     margin: -30px -100px;
 
@@ -358,6 +366,7 @@ header {
     width: 98vw;
     top: 24vh;
     z-index: -1;
+    margin: 0px 0px;
   }
 }
 
@@ -538,6 +547,8 @@ header {
     /* animation-fill-mode: backwards; */
     animation-iteration-count: 1;
     z-index: -1;
+    scale: 0.7;
+    margin: 0px 0px;
   }
 
   @keyframes slide {
