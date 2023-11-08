@@ -153,12 +153,12 @@ html{
         border-radius: 6px;
         /* border: white 3px solid; */
         display: inline-block;
-        width:99%;
+        width:90%;
         height: 30px;
         font-size: smaller;
         position: sticky;
         
-        margin:10px 5px;
+        margin:10px 60px;
         top:5px;
         /* margin-top: 10px; */
        
@@ -169,6 +169,7 @@ html{
         /* animation-fill-mode: backwards; */
         animation-iteration-count: 1;
         z-index: 20;
+        display: none;
         }
         
         
@@ -219,7 +220,7 @@ html{
 
     .navcontainer2 li{
         display: inline-block;
-        margin:-6px 25px;
+        margin:-6px 35px;
          
         }
         
@@ -281,9 +282,9 @@ html{
 
 
 
-.sportscon{
+.womencapscon{
     position: relative;
-    top:200px;
+    top:150px;
     margin: 0px auto;
     width: 99%;
     /* border: 2px black solid; */
@@ -291,7 +292,7 @@ html{
     justify-content: center;
 }
 
-.sport{
+.womencap{
     margin:-80px 60px;
     width:280px;
     height: 380px;
@@ -301,7 +302,7 @@ html{
     border-left: 2px coral solid;
     border-right: 2px black solid;
 
-    animation-name: slidesport;
+    animation-name: slidewomencap;
   animation-duration: 4s;
   animation-timing-function: all ease-in;
   animation-delay: 0.3s;
@@ -311,7 +312,7 @@ html{
 }
 
 
-@keyframes slidesport{
+@keyframes slidewomencap{
     from{
         margin-left: -200px;
 
@@ -321,7 +322,7 @@ html{
     }
 }
 
-.sport h4{
+.womencap h4{
      color:black;
      font-weight: bold;
      position: relative;
@@ -332,37 +333,37 @@ html{
      /* font-family: 'Teko', sans-serif; */
 }
 
-#sport1{
+#womencap1{
     
-    background: url(img/sport)no-repeat center/cover;
+    background: url(img/womencap)no-repeat center/cover;
     
 }
-#sport1:hover{
-    background: url(img/sportH)no-repeat center/cover;
+#womencap1:hover{
+    background: url(img/womencapH)no-repeat center/cover;
     cursor: pointer;
 }
 
-#sport2{
-    background: url(img/sport2)no-repeat center/cover;
+#womencap2{
+    background: url(img/womencap2)no-repeat center/cover;
     
 }
-#sport2:hover{
-    background: url(img/sport2H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#sport3{
-    background: url(img/sport3)no-repeat center/cover;
-    
-}
-#sport3:hover{
-    background: url(img/sport3H)no-repeat center/cover;
+#womencap2:hover{
+    background: url(img/womencap2H)no-repeat center/cover;
     cursor: pointer;
 }
 
 
-.sportscon2{
+#womencap3{
+    background: url(img/womencap3)no-repeat center/cover;
+    
+}
+#womencap3:hover{
+    background: url(img/womencap3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.womencapscon2{
     position: relative;
     top:360px;
     margin: 0px auto;
@@ -374,36 +375,36 @@ html{
 
 
 
-#sport4{
-    background: url(img/sport4)no-repeat center/cover;
+#womencap4{
+    background: url(img/womencap4)no-repeat center/cover;
     
 }
-#sport4:hover{
-    background: url(img/sport4H)no-repeat center/cover;
+#womencap4:hover{
+    background: url(img/womencap4H)no-repeat center/cover;
     cursor: pointer;
 }
 
-#sport5{
-    background: url(img/sport5)no-repeat center/cover;
+#womencap5{
+    background: url(img/womencap5)no-repeat center/cover;
     
 }
-#sport5:hover{
-    background: url(img/sport5H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#sport6{
-    background: url(img/sport6)no-repeat center/cover;
-    
-}
-#sport6:hover{
-    background: url(img/sport6H)no-repeat center/cover;
+#womencap5:hover{
+    background: url(img/womencap5H)no-repeat center/cover;
     cursor: pointer;
 }
 
 
-.sport2{
+#womencap6{
+    background: url(img/womencap6)no-repeat center/cover;
+    
+}
+#womencap6:hover{
+    background: url(img/womencap6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.womencap2{
     margin:10px 60px;
     width:280px;
     height: 380px;
@@ -413,14 +414,14 @@ html{
     border-left: 2px coral solid;
     border-right: 2px black solid;
 
-    animation-name: slidesports2;
+    animation-name: slidewomencaps2;
   animation-duration: 4s;
   animation-timing-function: all ease-in;
   animation-delay: 0.3s;
   animation-iteration-count: 1;
 }
 
-@keyframes slidesports2{
+@keyframes slidewomencaps2{
     from{
         margin-right: -200px;
 
@@ -430,7 +431,7 @@ html{
     }
 }
 
-.sport2 h4{
+.womencap2 h4{
      color:black;
      font-weight: bold;
      position: relative;
@@ -442,11 +443,8 @@ html{
 }
 
 
-.sportheading{
-    border:1px black solid;
-    display: block;
-    text-align: center;
-    margin-top:50px;
+.womencapheading{
+    display: none;
 }
 
 
@@ -466,9 +464,9 @@ html{
 
 
 
-.gymMscon{
+.mencapscon{
     position: relative;
-    top:130px;
+    top:500px;
     margin: 0px auto;
     width: 99%;
     /* border: 2px black solid; */
@@ -476,7 +474,7 @@ html{
     justify-content: center;
 }
 
-.gymM{
+.mencap{
     margin:0px 60px;
     width:280px;
     height: 380px;
@@ -486,7 +484,7 @@ html{
     border-left: 2px coral solid;
     border-right: 2px black solid;
 
-    animation-name: slidegymM;
+    animation-name: slidemencap;
   animation-duration: 4s;
   animation-timing-function: all ease-in;
   animation-delay: 0.3s;
@@ -496,7 +494,7 @@ html{
 }
 
 
-@keyframes slidegymM{
+@keyframes slidemencap{
     from{
         margin-left: -200px;
 
@@ -506,7 +504,7 @@ html{
     }
 }
 
-.gymM h4{
+.mencap h4{
      color:black;
      font-weight: bold;
      position: relative;
@@ -517,39 +515,39 @@ html{
      /* font-family: 'Teko', sans-serif; */
 }
 
-#gymM1{
+#mencap1{
     
-    background: url(img/gymM)no-repeat center/cover;
+    background: url(img/mencap)no-repeat center/cover;
     
 }
-#gymM1:hover{
-    background: url(img/gymMH)no-repeat center/cover;
+#mencap1:hover{
+    background: url(img/mencapH)no-repeat center/cover;
     cursor: pointer;
 }
 
-#gymM2{
-    background: url(img/gymM2)no-repeat center/cover;
+#mencap2{
+    background: url(img/mencap2)no-repeat center/cover;
     
 }
-#gymM2:hover{
-    background: url(img/gymM2H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#gymM3{
-    background: url(img/gymM3)no-repeat center/cover;
-    
-}
-#gymM3:hover{
-    background: url(img/gymM3H)no-repeat center/cover;
+#mencap2:hover{
+    background: url(img/mencap2H)no-repeat center/cover;
     cursor: pointer;
 }
 
 
-.gymMscon2{
+#mencap3{
+    background: url(img/mencap3)no-repeat center/cover;
+    
+}
+#mencap3:hover{
+    background: url(img/mencap3H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.mencapscon2{
     position: relative;
-    top:220px;
+    top:650px;
     margin: 0px auto;
     width: 99%;
     /* border: 2px black solid; */
@@ -559,36 +557,36 @@ html{
 
 
 
-#gymM4{
-    background: url(img/gymM4)no-repeat center/cover;
+#mencap4{
+    background: url(img/mencap4)no-repeat center/cover;
     
 }
-#gymM4:hover{
-    background: url(img/gymM4H)no-repeat center/cover;
+#mencap4:hover{
+    background: url(img/mencap4H)no-repeat center/cover;
     cursor: pointer;
 }
 
-#gymM5{
-    background: url(img/gymM5)no-repeat center/cover;
+#mencap5{
+    background: url(img/mencap5)no-repeat center/cover;
     
 }
-#gymM5:hover{
-    background: url(img/gymM5H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#gymM6{
-    background: url(img/gymM6)no-repeat center/cover;
-    
-}
-#gymM6:hover{
-    background: url(img/gymM6H.avif)no-repeat center/cover;
+#mencap5:hover{
+    background: url(img/mencap5H)no-repeat center/cover;
     cursor: pointer;
 }
 
 
-.gymM2{
+#mencap6{
+    background: url(img/mencap6)no-repeat center/cover;
+    
+}
+#mencap6:hover{
+    background: url(img/mencap6H)no-repeat center/cover;
+    cursor: pointer;
+}
+
+
+.mencap2{
     margin:10px 60px;
     width:280px;
     height: 380px;
@@ -598,14 +596,14 @@ html{
     border-left: 2px coral solid;
     border-right: 2px black solid;
 
-    animation-name: slidegymMs2;
+    animation-name: slidemencaps2;
   animation-duration: 4s;
   animation-timing-function: all ease-in;
   animation-delay: 0.3s;
   animation-iteration-count: 1;
 }
 
-@keyframes slidegymMs2{
+@keyframes slidemencaps2{
     from{
         margin-right: -200px;
 
@@ -615,7 +613,7 @@ html{
     }
 }
 
-.gymM2 h4{
+.mencap2 h4{
      color:black;
      font-weight: bold;
      position: relative;
@@ -627,1306 +625,8 @@ html{
 }
 
 
-.gymMheading{
-    border:1px black solid;
-    display: block;
-    text-align: center;
-    margin-top:550px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.gymFscon{
-    position: relative;
-    top:130px;
-    margin: 0px auto;
-    width: 99%;
-    /* border: 2px black solid; */
-    display: flex;
-    justify-content: center;
-}
-
-.gymF{
-    margin:0px 60px;
-    width:280px;
-    height: 380px;
-    text-align: center;
-    border-top: 2px black solid;
-    border-bottom: 2px coral solid;
-    border-left: 2px coral solid;
-    border-right: 2px black solid;
-
-    animation-name: slidegymF;
-  animation-duration: 4s;
-  animation-timing-function: all ease-in;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-
- 
-}
-
-
-@keyframes slidegymF{
-    from{
-        margin-left: -200px;
-
-    }
-    to{
-        margin-left:80px;
-    }
-}
-
-.gymF h4{
-     color:black;
-     font-weight: bold;
-     position: relative;
-     top: 380px;
-     font-size: 17px;
-     /* background-color: ; */
-     
-     /* font-family: 'Teko', sans-serif; */
-}
-
-#gymF1{
-    
-    background: url(img/gymF)no-repeat center/cover;
-    
-}
-#gymF1:hover{
-    background: url(img/gymFH)no-repeat center/cover;
-    cursor: pointer;
-}
-
-#gymF2{
-    background: url(img/gymF2)no-repeat center/cover;
-    
-}
-#gymF2:hover{
-    background: url(img/gymF2H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#gymF3{
-    background: url(img/gymF3)no-repeat center/cover;
-    
-}
-#gymF3:hover{
-    background: url(img/gymF3H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-.gymFscon2{
-    position: relative;
-    top:220px;
-    margin: 0px auto;
-    width: 99%;
-    /* border: 2px black solid; */
-    display: flex;
-    justify-content: center;
-}
-
-
-
-#gymF4{
-    background: url(img/gymF4)no-repeat center/cover;
-    
-}
-#gymF4:hover{
-    background: url(img/gymF4H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-#gymF5{
-    background: url(img/gymF5)no-repeat center/cover;
-    
-}
-#gymF5:hover{
-    background: url(img/gymF5H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#gymF6{
-    background: url(img/gymF6)no-repeat center/cover;
-    
-}
-#gymF6:hover{
-    background: url(img/gymF6H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-.gymF2{
-    margin:10px 60px;
-    width:280px;
-    height: 380px;
-    text-align: center;
-    border-top: 2px black solid;
-    border-bottom: 2px coral solid;
-    border-left: 2px coral solid;
-    border-right: 2px black solid;
-
-    animation-name: slidegymFs2;
-  animation-duration: 4s;
-  animation-timing-function: all ease-in;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-}
-
-@keyframes slidegymFs2{
-    from{
-        margin-right: -200px;
-
-    }
-    to{
-        margin-right:80px;
-    }
-}
-
-.gymF2 h4{
-     color:black;
-     font-weight: bold;
-     position: relative;
-     top: 380px;
-     font-size: 17px;
-     /* font-family: 'Teko', sans-serif; */
-     /* background-color: coral; */
-     
-}
-
-
-.gymFheading{
-    border:1px black solid;
-    display: block;
-    text-align: center;
-    margin-top:430px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.shortFscon{
-    position: relative;
-    top:130px;
-    margin: 0px auto;
-    width: 99%;
-    /* border: 2px black solid; */
-    display: flex;
-    justify-content: center;
-}
-
-.shortF{
-    margin:0px 60px;
-    width:280px;
-    height: 380px;
-    text-align: center;
-    border-top: 2px black solid;
-    border-bottom: 2px coral solid;
-    border-left: 2px coral solid;
-    border-right: 2px black solid;
-
-    animation-name: slideshortF;
-  animation-duration: 4s;
-  animation-timing-function: all ease-in;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-
- 
-}
-
-
-@keyframes slideshortF{
-    from{
-        margin-left: -200px;
-
-    }
-    to{
-        margin-left:80px;
-    }
-}
-
-.shortF h4{
-     color:black;
-     font-weight: bold;
-     position: relative;
-     top: 380px;
-     font-size: 17px;
-     /* background-color: ; */
-     
-     /* font-family: 'Teko', sans-serif; */
-}
-
-#shortF1{
-    
-    background: url(img/shortF)no-repeat center/cover;
-    
-}
-#shortF1:hover{
-    background: url(img/shortFH)no-repeat center/cover;
-    cursor: pointer;
-}
-
-#shortF2{
-    background: url(img/shortF2)no-repeat center/cover;
-    
-}
-#shortF2:hover{
-    background: url(img/shortF2H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#shortF3{
-    background: url(img/shortF3)no-repeat center/cover;
-    
-}
-#shortF3:hover{
-    background: url(img/shortF3H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-.shortFscon2{
-    position: relative;
-    top:220px;
-    margin: 0px auto;
-    width: 99%;
-    /* border: 2px black solid; */
-    display: flex;
-    justify-content: center;
-}
-
-
-
-#shortF4{
-    background: url(img/shortF4)no-repeat center/cover;
-    
-}
-#shortF4:hover{
-    background: url(img/shortF4H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-#shortF5{
-    background: url(img/shortF5)no-repeat center/cover;
-    
-}
-#shortF5:hover{
-    background: url(img/shortF5H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#shortF6{
-    background: url(img/shortF6)no-repeat center/cover;
-    
-}
-#shortF6:hover{
-    background: url(img/shortF6H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-.shortF2{
-    margin:10px 60px;
-    width:280px;
-    height: 380px;
-    text-align: center;
-    border-top: 2px black solid;
-    border-bottom: 2px coral solid;
-    border-left: 2px coral solid;
-    border-right: 2px black solid;
-
-    animation-name: slideshortFs2;
-  animation-duration: 4s;
-  animation-timing-function: all ease-in;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-}
-
-@keyframes slideshortFs2{
-    from{
-        margin-right: -200px;
-
-    }
-    to{
-        margin-right:80px;
-    }
-}
-
-.shortF2 h4{
-     color:black;
-     font-weight: bold;
-     position: relative;
-     top: 380px;
-     font-size: 17px;
-     /* font-family: 'Teko', sans-serif; */
-     /* background-color: coral; */
-     
-}
-
-
-.shortFheading{
-    border:1px black solid;
-    display: block;
-    text-align: center;
-    margin-top:430px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.shoesMscon{
-    position: relative;
-    top:130px;
-    margin: 0px auto;
-    width: 99%;
-    /* border: 2px black solid; */
-    display: flex;
-    justify-content: center;
-}
-
-.shoesM{
-    margin:0px 60px;
-    width:280px;
-    height: 380px;
-    text-align: center;
-    border-top: 2px black solid;
-    border-bottom: 2px coral solid;
-    border-left: 2px coral solid;
-    border-right: 2px black solid;
-
-    animation-name: slideshoesM;
-  animation-duration: 4s;
-  animation-timing-function: all ease-in;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-
- 
-}
-
-
-@keyframes slideshoesM{
-    from{
-        margin-left: -200px;
-
-    }
-    to{
-        margin-left:80px;
-    }
-}
-
-.shoesM h4{
-     color:black;
-     font-weight: bold;
-     position: relative;
-     top: 380px;
-     font-size: 17px;
-     /* background-color: ; */
-     
-     /* font-family: 'Teko', sans-serif; */
-}
-
-#shoesM1{
-    
-    background: url(img/shoesM)no-repeat center/cover;
-    
-}
-#shoesM1:hover{
-    background: url(img/shoesMH)no-repeat center/cover;
-    cursor: pointer;
-}
-
-#shoesM2{
-    background: url(img/shoesM2)no-repeat center/cover;
-    
-}
-#shoesM2:hover{
-    background: url(img/shoesM2H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#shoesM3{
-    background: url(img/shoesM3)no-repeat center/cover;
-    
-}
-#shoesM3:hover{
-    background: url(img/shoesM3H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-.shoesMscon2{
-    position: relative;
-    top:220px;
-    margin: 0px auto;
-    width: 99%;
-    /* border: 2px black solid; */
-    display: flex;
-    justify-content: center;
-}
-
-
-
-#shoesM4{
-    background: url(img/shoesM4)no-repeat center/cover;
-    
-}
-#shoesM4:hover{
-    background: url(img/shoesM4H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-#shoesM5{
-    background: url(img/shoesM5)no-repeat center/cover;
-    
-}
-#shoesM5:hover{
-    background: url(img/shoesM5H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#shoesM6{
-    background: url(img/shoesM6)no-repeat center/cover;
-    
-}
-#shoesM6:hover{
-    background: url(img/shoesM6H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-.shoesM2{
-    margin:10px 60px;
-    width:280px;
-    height: 380px;
-    text-align: center;
-    border-top: 2px black solid;
-    border-bottom: 2px coral solid;
-    border-left: 2px coral solid;
-    border-right: 2px black solid;
-
-    animation-name: slideshoesMs2;
-  animation-duration: 4s;
-  animation-timing-function: all ease-in;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-}
-
-@keyframes slideshoesMs2{
-    from{
-        margin-right: -200px;
-
-    }
-    to{
-        margin-right:80px;
-    }
-}
-
-.shoesM2 h4{
-     color:black;
-     font-weight: bold;
-     position: relative;
-     top: 380px;
-     font-size: 17px;
-     /* font-family: 'Teko', sans-serif; */
-     /* background-color: coral; */
-     
-}
-
-
-.shoesMheading{
-    border:1px black solid;
-    display: block;
-    text-align: center;
-    margin-top:430px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.shoesFscon{
-    position: relative;
-    top:130px;
-    margin: 0px auto;
-    width: 99%;
-    /* border: 2px black solid; */
-    display: flex;
-    justify-content: center;
-}
-
-.shoesF{
-    margin:0px 60px;
-    width:280px;
-    height: 380px;
-    text-align: center;
-    border-top: 2px black solid;
-    border-bottom: 2px coral solid;
-    border-left: 2px coral solid;
-    border-right: 2px black solid;
-
-    animation-name: slideshoesF;
-  animation-duration: 4s;
-  animation-timing-function: all ease-in;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-
- 
-}
-
-
-@keyframes slideshoesF{
-    from{
-        margin-left: -200px;
-
-    }
-    to{
-        margin-left:80px;
-    }
-}
-
-.shoesF h4{
-     color:black;
-     font-weight: bold;
-     position: relative;
-     top: 380px;
-     font-size: 17px;
-     /* background-color: ; */
-     
-     /* font-family: 'Teko', sans-serif; */
-}
-
-#shoesF1{
-    
-    background: url(img/shoesF)no-repeat center/cover;
-    
-}
-#shoesF1:hover{
-    background: url(img/shoesFH)no-repeat center/cover;
-    cursor: pointer;
-}
-
-#shoesF2{
-    background: url(img/shoesF2)no-repeat center/cover;
-    
-}
-#shoesF2:hover{
-    background: url(img/shoesF2H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#shoesF3{
-    background: url(img/shoesF3)no-repeat center/cover;
-    
-}
-#shoesF3:hover{
-    background: url(img/shoesF3H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-.shoesFscon2{
-    position: relative;
-    top:220px;
-    margin: 0px auto;
-    width: 99%;
-    /* border: 2px black solid; */
-    display: flex;
-    justify-content: center;
-}
-
-
-
-#shoesF4{
-    background: url(img/shoesF4)no-repeat center/cover;
-    
-}
-#shoesF4:hover{
-    background: url(img/shoesF4H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-#shoesF5{
-    background: url(img/shoesF5H)no-repeat center/cover;
-    
-}
-#shoesF5:hover{
-    background: url(img/shoesF5)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#shoesF6{
-    background: url(img/shoesF6)no-repeat center/cover;
-    
-}
-#shoesF6:hover{
-    background: url(img/shoesF6H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-.shoesF2{
-    margin:10px 60px;
-    width:280px;
-    height: 380px;
-    text-align: center;
-    border-top: 2px black solid;
-    border-bottom: 2px coral solid;
-    border-left: 2px coral solid;
-    border-right: 2px black solid;
-
-    animation-name: slideshoesFs2;
-  animation-duration: 4s;
-  animation-timing-function: all ease-in;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-}
-
-@keyframes slideshoesFs2{
-    from{
-        margin-right: -200px;
-
-    }
-    to{
-        margin-right:80px;
-    }
-}
-
-.shoesF2 h4{
-     color:black;
-     font-weight: bold;
-     position: relative;
-     top: 380px;
-     font-size: 17px;
-     /* font-family: 'Teko', sans-serif; */
-     /* background-color: coral; */
-     
-}
-
-
-.shoesFheading{
-    border:1px black solid;
-    display: block;
-    text-align: center;
-    margin-top:430px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.shortMscon{
-    position: relative;
-    top:130px;
-    margin: 0px auto;
-    width: 99%;
-    /* border: 2px black solid; */
-    display: flex;
-    justify-content: center;
-}
-
-.shortM{
-    margin:0px 60px;
-    width:280px;
-    height: 380px;
-    text-align: center;
-    border-top: 2px black solid;
-    border-bottom: 2px coral solid;
-    border-left: 2px coral solid;
-    border-right: 2px black solid;
-
-    animation-name: slideshortM;
-  animation-duration: 4s;
-  animation-timing-function: all ease-in;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-
- 
-}
-
-
-@keyframes slideshortM{
-    from{
-        margin-left: -200px;
-
-    }
-    to{
-        margin-left:80px;
-    }
-}
-
-.shortM h4{
-     color:black;
-     font-weight: bold;
-     position: relative;
-     top: 380px;
-     font-size: 17px;
-     /* background-color: ; */
-     
-     /* font-family: 'Teko', sans-serif; */
-}
-
-#shortM1{
-    
-    background: url(img/shortM)no-repeat center/cover;
-    
-}
-#shortM1:hover{
-    background: url(img/shortMH)no-repeat center/cover;
-    cursor: pointer;
-}
-
-#shortM2{
-    background: url(img/shortM2)no-repeat center/cover;
-    
-}
-#shortM2:hover{
-    background: url(img/shortM2H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#shortM3{
-    background: url(img/shortM3)no-repeat center/cover;
-    
-}
-#shortM3:hover{
-    background: url(img/shortM3H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-.shortMscon2{
-    position: relative;
-    top:220px;
-    margin: 0px auto;
-    width: 99%;
-    /* border: 2px black solid; */
-    display: flex;
-    justify-content: center;
-}
-
-
-
-#shortM4{
-    background: url(img/shortM4)no-repeat center/cover;
-    
-}
-#shortM4:hover{
-    background: url(img/shortM4H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-#shortM5{
-    background: url(img/shortM5)no-repeat center/cover;
-    
-}
-#shortM5:hover{
-    background: url(img/shortM5H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#shortM6{
-    background: url(img/shortM6)no-repeat center/cover;
-    
-}
-#shortM6:hover{
-    background: url(img/shortM6H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-.shortM2{
-    margin:10px 60px;
-    width:280px;
-    height: 380px;
-    text-align: center;
-    border-top: 2px black solid;
-    border-bottom: 2px coral solid;
-    border-left: 2px coral solid;
-    border-right: 2px black solid;
-
-    animation-name: slideshortMs2;
-  animation-duration: 4s;
-  animation-timing-function: all ease-in;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-}
-
-@keyframes slideshortMs2{
-    from{
-        margin-right: -200px;
-
-    }
-    to{
-        margin-right:80px;
-    }
-}
-
-.shortM2 h4{
-     color:black;
-     font-weight: bold;
-     position: relative;
-     top: 380px;
-     font-size: 17px;
-     /* font-family: 'Teko', sans-serif; */
-     /* background-color: coral; */
-     
-}
-
-
-.shortMheading{
-    border:1px black solid;
-    display: block;
-    text-align: center;
-    margin-top:430px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.sockscon{
-    position: relative;
-    top:130px;
-    margin: 0px auto;
-    width: 99%;
-    /* border: 2px black solid; */
-    display: flex;
-    justify-content: center;
-}
-
-.sock{
-    margin:0px 60px;
-    width:280px;
-    height: 380px;
-    text-align: center;
-    border-top: 2px black solid;
-    border-bottom: 2px coral solid;
-    border-left: 2px coral solid;
-    border-right: 2px black solid;
-
-    animation-name: slidesock;
-  animation-duration: 4s;
-  animation-timing-function: all ease-in;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-
- 
-}
-
-
-@keyframes slidesock{
-    from{
-        margin-left: -200px;
-
-    }
-    to{
-        margin-left:80px;
-    }
-}
-
-.sock h4{
-     color:black;
-     font-weight: bold;
-     position: relative;
-     top: 380px;
-     font-size: 17px;
-     /* background-color: ; */
-     
-     /* font-family: 'Teko', sans-serif; */
-}
-
-#sock1{
-    
-    background: url(img/sock)no-repeat center/cover;
-    
-}
-#sock1:hover{
-    background: url(img/sockH)no-repeat center/cover;
-    cursor: pointer;
-}
-
-#sock2{
-    background: url(img/sock2)no-repeat center/cover;
-    
-}
-#sock2:hover{
-    background: url(img/sock2H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#sock3{
-    background: url(img/sock3)no-repeat center/cover;
-    
-}
-#sock3:hover{
-    background: url(img/sock3H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-.sockscon2{
-    position: relative;
-    top:220px;
-    margin: 0px auto;
-    width: 99%;
-    /* border: 2px black solid; */
-    display: flex;
-    justify-content: center;
-}
-
-
-
-#sock4{
-    background: url(img/sock4)no-repeat center/cover;
-    
-}
-#sock4:hover{
-    background: url(img/sock4H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-#sock5{
-    background: url(img/sock5)no-repeat center/cover;
-    
-}
-#sock5:hover{
-    background: url(img/sock5H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#sock6{
-    background: url(img/sock6)no-repeat center/cover;
-    
-}
-#sock6:hover{
-    background: url(img/sock6H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-.sock2{
-    margin:10px 60px;
-    width:280px;
-    height: 380px;
-    text-align: center;
-    border-top: 2px black solid;
-    border-bottom: 2px coral solid;
-    border-left: 2px coral solid;
-    border-right: 2px black solid;
-
-    animation-name: slidesocks2;
-  animation-duration: 4s;
-  animation-timing-function: all ease-in;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-}
-
-@keyframes slidesocks2{
-    from{
-        margin-right: -200px;
-
-    }
-    to{
-        margin-right:80px;
-    }
-}
-
-.sock2 h4{
-     color:black;
-     font-weight: bold;
-     position: relative;
-     top: 380px;
-     font-size: 17px;
-     /* font-family: 'Teko', sans-serif; */
-     /* background-color: coral; */
-     
-}
-
-
-.sockheading{
-    border:1px black solid;
-    display: block;
-    text-align: center;
-    margin-top:430px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.leggingscon{
-    position: relative;
-    top:130px;
-    margin: 0px auto;
-    width: 99%;
-    /* border: 2px black solid; */
-    display: flex;
-    justify-content: center;
-}
-
-.legging{
-    margin:0px 60px;
-    width:280px;
-    height: 380px;
-    text-align: center;
-    border-top: 2px black solid;
-    border-bottom: 2px coral solid;
-    border-left: 2px coral solid;
-    border-right: 2px black solid;
-
-    animation-name: slidelegging;
-  animation-duration: 4s;
-  animation-timing-function: all ease-in;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-
- 
-}
-
-
-@keyframes slidelegging{
-    from{
-        margin-left: -200px;
-
-    }
-    to{
-        margin-left:80px;
-    }
-}
-
-.legging h4{
-     color:black;
-     font-weight: bold;
-     position: relative;
-     top: 380px;
-     font-size: 17px;
-     /* background-color: ; */
-     
-     /* font-family: 'Teko', sans-serif; */
-}
-
-#legging1{
-    
-    background: url(img/legging)no-repeat center/cover;
-    
-}
-#legging1:hover{
-    background: url(img/leggingH)no-repeat center/cover;
-    cursor: pointer;
-}
-
-#legging2{
-    background: url(img/legging2)no-repeat center/cover;
-    
-}
-#legging2:hover{
-    background: url(img/legging2H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#legging3{
-    background: url(img/legging3)no-repeat center/cover;
-    
-}
-#legging3:hover{
-    background: url(img/legging3H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-.leggingscon2{
-    position: relative;
-    top:220px;
-    margin: 0px auto;
-    width: 99%;
-    /* border: 2px black solid; */
-    display: flex;
-    justify-content: center;
-}
-
-
-
-#legging4{
-    background: url(img/legging4)no-repeat center/cover;
-    
-}
-#legging4:hover{
-    background: url(img/legging4H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-#legging5{
-    background: url(img/legging5)no-repeat center/cover;
-    
-}
-#legging5:hover{
-    background: url(img/legging5H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-#legging6{
-    background: url(img/legging6)no-repeat center/cover;
-    
-}
-#legging6:hover{
-    background: url(img/legging6H)no-repeat center/cover;
-    cursor: pointer;
-}
-
-
-.legging2{
-    margin:10px 60px;
-    width:280px;
-    height: 380px;
-    text-align: center;
-    border-top: 2px black solid;
-    border-bottom: 2px coral solid;
-    border-left: 2px coral solid;
-    border-right: 2px black solid;
-
-    animation-name: slideleggings2;
-  animation-duration: 4s;
-  animation-timing-function: all ease-in;
-  animation-delay: 0.3s;
-  animation-iteration-count: 1;
-}
-
-@keyframes slideleggings2{
-    from{
-        margin-right: -200px;
-
-    }
-    to{
-        margin-right:80px;
-    }
-}
-
-.legging2 h4{
-     color:black;
-     font-weight: bold;
-     position: relative;
-     top: 380px;
-     font-size: 17px;
-     /* font-family: 'Teko', sans-serif; */
-     /* background-color: coral; */
-     
-}
-
-
-.leggingheading{
-    border:1px black solid;
-    display: block;
-    text-align: center;
-    margin-top:430px;
+.mencapheading{
+    display: none;
 }
 
 
@@ -1941,14 +641,14 @@ html{
 }
 
 .photo{
-    /* border: 2px black solid; */
+    border: 2px black solid;
     display: inline-block;
     position: absolute;
-    right: 0.2px;
-    top:40px;
-    height: 93.2vh;
-    width: 450px;
-    z-index: -2;
+    right: 20px;
+    top:100px;
+    height: 450px;
+    width: 350px;
+    
 }
 
 #name{
@@ -1993,19 +693,19 @@ html{
 
 
 #photo1{
-    /* background: url(img/casual)no-repeat center center/cover; */
+    /* background: url(img/womencap)no-repeat center center/cover; */
     cursor: pointer;
 }
 #photo2{
-    /* background: url(img/casualH)no-repeat center center/cover; */
+    /* background: url(img/womencapH)no-repeat center center/cover; */
     cursor: pointer;
 }
 #photo3{
-    /* background: url(img/casual2)no-repeat center center/cover; */
+    /* background: url(img/womencap2)no-repeat center center/cover; */
     cursor: pointer;
 }
 #photo4{
-    /* background: url(img/casual2H)no-repeat center center/cover; */
+    /* background: url(img/womencap2H)no-repeat center center/cover; */
     cursor: pointer;
 }
 
@@ -2101,6 +801,14 @@ html{
 
 
 
+
+
+
+
+
+
+
+
 @media only screen and (min-width:144px) and (max-width:440px) {
     body{
       margin: 0px;
@@ -2162,16 +870,16 @@ html{
     }
 
 
-    .sportheading{
+    .womencapheading{
         /* display: none; */
         width: 99.5vw;
         margin-top: 100px;
     }
 
 
-    .sportscon{
+    .womencapscon{
         position: relative;
-        top:200px;
+        top:300px;
         
         width: 99%;
         /* border: 2px black solid; */
@@ -2181,8 +889,47 @@ html{
         
         
     }
+
+    .womencapscon2{
+      position: relative;
+      top:470px;
+      
+      width: 99%;
+      /* border: 2px black solid; */
+      display: flex;
+      
+      /* display: none; */
+      
+      
+  }
+
+  .mencapscon{
+      position: relative;
+      top:640px;
+      
+      width: 99%;
+      /* border: 2px black solid; */
+      display: flex;
+      
+      /* display: none; */
+      
+      
+  }
+
+  .mencapscon2{
+      position: relative;
+      top:740px;
+      
+      width: 99%;
+      /* border: 2px black solid; */
+      display: flex;
+      
+      /* display: none; */
+      
+      
+  }
     
-    .sport{
+    .womencap{
         margin:-280px -80px;
         height: 380px;
         width: 300px;
@@ -2194,7 +941,7 @@ html{
         border-left: 2px coral solid;
         border-right: 2px black solid;
     
-        animation-name: slidesport;
+        animation-name: slidewomencap;
       animation-duration: 4s;
       animation-timing-function: all ease-in;
       animation-delay: 0.3s;
@@ -2206,7 +953,7 @@ html{
     
     
     
-    @keyframes slidesport{
+    @keyframes slidewomencap{
         from{
         margin-left: -200px;
     
@@ -2216,7 +963,7 @@ html{
         }
     }
 
-    @keyframes slidesports2{
+    @keyframes slidewomencaps2{
         from{
             margin-right: -200px;
     
@@ -2229,7 +976,7 @@ html{
 
 
 
-    @keyframes slidegymM{
+    @keyframes slidemencap{
         from{
         margin-left: -200px;
     
@@ -2239,7 +986,7 @@ html{
         }
     }
 
-    @keyframes slidegymMs2{
+    @keyframes slidemencaps2{
         from{
             margin-right: -200px;
     
@@ -2251,7 +998,7 @@ html{
 
 
 
-    @keyframes slideshortF{
+    @keyframes slidemenJ{
         from{
         margin-left: -200px;
     
@@ -2261,7 +1008,7 @@ html{
         }
     }
 
-    @keyframes slideshortFs2{
+    @keyframes slidemenJs2{
         from{
             margin-right: -200px;
     
@@ -2272,7 +1019,7 @@ html{
     }
 
 
-    @keyframes slideshoesM{
+    @keyframes slidebraclet{
         from{
         margin-left: -200px;
     
@@ -2282,30 +1029,7 @@ html{
         }
     }
 
-    @keyframes slideshoesMs2{
-        from{
-            margin-right: -200px;
-    
-        }
-        to{
-            margin-top:-90px;
-        }
-    }
-
-
-
-
-    @keyframes slidegymF{
-        from{
-        margin-left: -200px;
-    
-        }
-        to{
-        margin-top:-200px;
-        }
-    }
-
-    @keyframes slidegymFs2{
+    @keyframes slidebraclets2{
         from{
             margin-right: -200px;
     
@@ -2317,7 +1041,8 @@ html{
 
 
 
-    @keyframes slideshortM{
+
+    @keyframes slideshirt{
         from{
         margin-left: -200px;
     
@@ -2327,7 +1052,29 @@ html{
         }
     }
 
-    @keyframes slideshortMs2{
+    @keyframes slideshirts2{
+        from{
+            margin-right: -200px;
+    
+        }
+        to{
+            margin-top:-90px;
+        }
+    }
+
+
+
+    @keyframes slidetop{
+        from{
+        margin-left: -200px;
+    
+        }
+        to{
+        margin-top:-200px;
+        }
+    }
+
+    @keyframes slidetops2{
         from{
             margin-right: -200px;
     
@@ -2381,7 +1128,7 @@ html{
     }
 
 
-    @keyframes slideshoesF{
+    @keyframes slidering{
         from{
         margin-left: -200px;
     
@@ -2391,7 +1138,7 @@ html{
         }
     }
 
-    @keyframes slideshoesFs2{
+    @keyframes sliderings2{
         from{
             margin-right: -200px;
     
@@ -2400,105 +1147,105 @@ html{
             margin-top:-90px;
         }
     }
-    .sport2{
+    .womencap2{
         margin:-240px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .gymM{
+    .mencap{
         margin:-200px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .gymM2{
+    .mencap2{
         margin:-90px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .gymMheading{
+    .mencapheading{
         width: 99.5vw;
         margin-top: 500px;
     }
-    .gymF{
+    .shirt{
         margin:-200px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .gymF2{
+    .shirt2{
         margin:-90px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .gymFheading{
+    .shirtheading{
         width: 99.5vw;
         margin-top: 300px;
     }
-    .shortF{
+    .menJ{
         margin:-200px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .shortF2{
+    .menJ2{
         margin:-90px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .shortFheading{
+    .menJheading{
         width: 99.5vw;
         margin-top: 300px;
     }
-    .shoesM{
+    .braclet{
         margin:-200px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .shoesM2{
+    .braclet2{
         margin:-90px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .shoesMheading{
+    .bracletheading{
         width: 99.5vw;
         margin-top: 300px;
     }
-    .shortM{
+    .connectewomencap{
         margin:-200px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .shortM2{
+    .connectewomencap2{
         margin:-90px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .shortMheading{
+    .connectewomencapheading{
         width: 99.5vw;
         margin-top: 300px;
     }
-    .shoesF{
+    .ring{
         margin:-200px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .shoesF2{
+    .ring2{
         margin:-90px -80px;
         height: 380px;
         width: 300px;
         scale: 0.4;
     }
-    .shoesFheading{
+    .ringheading{
         width: 99.5vw;
         margin-top: 300px;
     }
@@ -2624,7 +1371,25 @@ html{
         }
     }
 
-       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 #category{
     text-align: center;
     color: coral;
@@ -2686,19 +1451,19 @@ html{
 
 
 #photo1{
-    /* background: url(img/casual)no-repeat center center/cover; */
+    /* background: url(img/womencap)no-repeat center center/cover; */
     cursor: pointer;
 }
 #photo2{
-    /* background: url(img/casualH)no-repeat center center/cover; */
+    /* background: url(img/womencapH)no-repeat center center/cover; */
     cursor: pointer;
 }
 #photo3{
-    /* background: url(img/casual2)no-repeat center center/cover; */
+    /* background: url(img/womencap2)no-repeat center center/cover; */
     cursor: pointer;
 }
 #photo4{
-    /* background: url(img/casual2H)no-repeat center center/cover; */
+    /* background: url(img/womencap2H)no-repeat center center/cover; */
     cursor: pointer;
 }
 
@@ -2778,8 +1543,10 @@ html{
     left: 14px;
     cursor: pointer;
 }
-
   }
+
+
+
 
 
 
@@ -2868,16 +1635,16 @@ html{
       }
   
   
-      .sportheading{
+      .womencapheading{
           /* display: none; */
           width: 99.5vw;
           margin-top: 100px;
       }
   
   
-      .sportscon{
+      .womencapscon{
           position: relative;
-          top:200px;
+          top:300px;
           
           width: 99%;
           /* border: 2px black solid; */
@@ -2887,8 +1654,47 @@ html{
           
           
       }
+
+      .womencapscon2{
+        position: relative;
+        top:470px;
+        
+        width: 99%;
+        /* border: 2px black solid; */
+        display: flex;
+        
+        /* display: none; */
+        
+        
+    }
+
+    .mencapscon{
+        position: relative;
+        top:640px;
+        
+        width: 99%;
+        /* border: 2px black solid; */
+        display: flex;
+        
+        /* display: none; */
+        
+        
+    }
+
+    .mencapscon2{
+        position: relative;
+        top:740px;
+        
+        width: 99%;
+        /* border: 2px black solid; */
+        display: flex;
+        
+        /* display: none; */
+        
+        
+    }
       
-      .sport{
+      .womencap{
           margin:-280px -80px;
           height: 380px;
           width: 300px;
@@ -2900,7 +1706,7 @@ html{
           border-left: 2px coral solid;
           border-right: 2px black solid;
       
-          animation-name: slidesport;
+          animation-name: slidewomencap;
         animation-duration: 4s;
         animation-timing-function: all ease-in;
         animation-delay: 0.3s;
@@ -2912,7 +1718,7 @@ html{
       
       
       
-      @keyframes slidesport{
+      @keyframes slidewomencap{
           from{
           margin-left: -200px;
       
@@ -2922,7 +1728,7 @@ html{
           }
       }
   
-      @keyframes slidesports2{
+      @keyframes slidewomencaps2{
           from{
               margin-right: -200px;
       
@@ -2935,7 +1741,7 @@ html{
   
   
   
-      @keyframes slidegymM{
+      @keyframes slidemencap{
           from{
           margin-left: -200px;
       
@@ -2945,7 +1751,7 @@ html{
           }
       }
   
-      @keyframes slidegymMs2{
+      @keyframes slidemencaps2{
           from{
               margin-right: -200px;
       
@@ -2957,7 +1763,7 @@ html{
   
   
   
-      @keyframes slideshortF{
+      @keyframes slidemenJ{
           from{
           margin-left: -200px;
       
@@ -2967,7 +1773,7 @@ html{
           }
       }
   
-      @keyframes slideshortFs2{
+      @keyframes slidemenJs2{
           from{
               margin-right: -200px;
       
@@ -2978,7 +1784,7 @@ html{
       }
   
   
-      @keyframes slideshoesM{
+      @keyframes slidebraclet{
           from{
           margin-left: -200px;
       
@@ -2988,30 +1794,7 @@ html{
           }
       }
   
-      @keyframes slideshoesMs2{
-          from{
-              margin-right: -200px;
-      
-          }
-          to{
-              margin-top:-90px;
-          }
-      }
-  
-  
-  
-  
-      @keyframes slidegymF{
-          from{
-          margin-left: -200px;
-      
-          }
-          to{
-          margin-top:-200px;
-          }
-      }
-  
-      @keyframes slidegymFs2{
+      @keyframes slidebraclets2{
           from{
               margin-right: -200px;
       
@@ -3023,7 +1806,8 @@ html{
   
   
   
-      @keyframes slideshortM{
+  
+      @keyframes slideshirt{
           from{
           margin-left: -200px;
       
@@ -3033,7 +1817,29 @@ html{
           }
       }
   
-      @keyframes slideshortMs2{
+      @keyframes slideshirts2{
+          from{
+              margin-right: -200px;
+      
+          }
+          to{
+              margin-top:-90px;
+          }
+      }
+  
+  
+  
+      @keyframes slidetop{
+          from{
+          margin-left: -200px;
+      
+          }
+          to{
+          margin-top:-200px;
+          }
+      }
+  
+      @keyframes slidetops2{
           from{
               margin-right: -200px;
       
@@ -3087,7 +1893,7 @@ html{
       }
   
   
-      @keyframes slideshoesF{
+      @keyframes slidering{
           from{
           margin-left: -200px;
       
@@ -3097,7 +1903,7 @@ html{
           }
       }
   
-      @keyframes slideshoesFs2{
+      @keyframes sliderings2{
           from{
               margin-right: -200px;
       
@@ -3106,105 +1912,105 @@ html{
               margin-top:-90px;
           }
       }
-      .sport2{
+      .womencap2{
           margin:-240px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .gymM{
+      .mencap{
           margin:-200px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .gymM2{
+      .mencap2{
           margin:-90px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .gymMheading{
+      .mencapheading{
           width: 99.5vw;
           margin-top: 500px;
       }
-      .gymF{
+      .shirt{
           margin:-200px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .gymF2{
+      .shirt2{
           margin:-90px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .gymFheading{
+      .shirtheading{
           width: 99.5vw;
           margin-top: 300px;
       }
-      .shortF{
+      .menJ{
           margin:-200px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .shortF2{
+      .menJ2{
           margin:-90px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .shortFheading{
+      .menJheading{
           width: 99.5vw;
           margin-top: 300px;
       }
-      .shoesM{
+      .braclet{
           margin:-200px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .shoesM2{
+      .braclet2{
           margin:-90px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .shoesMheading{
+      .bracletheading{
           width: 99.5vw;
           margin-top: 300px;
       }
-      .shortM{
+      .top{
           margin:-200px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .shortM2{
+      .top2{
           margin:-90px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .shortMheading{
+      .topheading{
           width: 99.5vw;
           margin-top: 300px;
       }
-      .shoesF{
+      .ring{
           margin:-200px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .shoesF2{
+      .ring2{
           margin:-90px -80px;
           height: 380px;
           width: 300px;
           scale: 0.4;
       }
-      .shoesFheading{
+      .ringheading{
           width: 99.5vw;
           margin-top: 300px;
       }
@@ -3329,8 +2135,27 @@ html{
               left:0px;
           }
       }
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
       
+     
       #category{
         text-align: center;
         color: coral;
@@ -3393,19 +2218,19 @@ html{
     
     
     #photo1{
-        /* background: url(img/casual)no-repeat center center/cover; */
+        /* background: url(img/womencap)no-repeat center center/cover; */
         cursor: pointer;
     }
     #photo2{
-        /* background: url(img/casualH)no-repeat center center/cover; */
+        /* background: url(img/womencapH)no-repeat center center/cover; */
         cursor: pointer;
     }
     #photo3{
-        /* background: url(img/casual2)no-repeat center center/cover; */
+        /* background: url(img/womencap2)no-repeat center center/cover; */
         cursor: pointer;
     }
     #photo4{
-        /* background: url(img/casual2H)no-repeat center center/cover; */
+        /* background: url(img/womencap2H)no-repeat center center/cover; */
         cursor: pointer;
     }
     
@@ -3485,5 +2310,4 @@ html{
         left: 14px;
         cursor: pointer;
     }
-    
   }
