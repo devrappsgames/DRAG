@@ -462,7 +462,7 @@
     document.getElementById('photo1').style.background = 'url(img/gymM5)no-repeat center center/cover';
     document.getElementById('photo2').style.background = 'url(img/gymM5H)no-repeat center center/cover';
     document.getElementById('photo3').style.background = 'url(img/gymM6)no-repeat center center/cover';
-    document.getElementById('photo4').style.background = 'url(img/gymM6H.avif)no-repeat center center/cover';
+    document.getElementById('photo4').style.background = 'url(img/gymM6H)no-repeat center center/cover';
 
     photo1.onclick = function(){
         document.getElementById('pho').style.background = 'url(img/gymM5)no-repeat center center/cover';
@@ -474,7 +474,7 @@
         document.getElementById('pho').style.background = 'url(img/gymM6)no-repeat center center/cover';
     };
     photo4.onclick = function(){
-        document.getElementById('pho').style.background = 'url(img/gymM6H.avif)no-repeat center center/cover';
+        document.getElementById('pho').style.background = 'url(img/gymM6H)no-repeat center center/cover';
     };
     
   }

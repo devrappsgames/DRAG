@@ -1370,6 +1370,7 @@ html{
 
 
 
+
 #category{
     text-align: center;
     color: coral;
@@ -1378,14 +1379,14 @@ html{
 }
 
 .photo{
-    border: 2px black solid;
+    /* border: 2px black solid; */
     display: inline-block;
     position: absolute;
-    right: 20px;
-    top:100px;
-    height: 450px;
-    width: 350px;
-    
+    right: 0.2px;
+    top:40px;
+    height: 93.2vh;
+    width: 450px;
+    z-index: -2;
 }
 
 #name{
@@ -1430,19 +1431,19 @@ html{
 
 
 #photo1{
-    /* background: url(img/necklace)no-repeat center center/cover; */
+    /* background: url(img/casual)no-repeat center center/cover; */
     cursor: pointer;
 }
 #photo2{
-    /* background: url(img/necklaceH)no-repeat center center/cover; */
+    /* background: url(img/casualH)no-repeat center center/cover; */
     cursor: pointer;
 }
 #photo3{
-    /* background: url(img/necklace2)no-repeat center center/cover; */
+    /* background: url(img/casual2)no-repeat center center/cover; */
     cursor: pointer;
 }
 #photo4{
-    /* background: url(img/necklace2H)no-repeat center center/cover; */
+    /* background: url(img/casual2H)no-repeat center center/cover; */
     cursor: pointer;
 }
 
@@ -1520,7 +1521,6 @@ html{
     left: 10px;
     cursor: pointer;
 }
-
 
 
 
