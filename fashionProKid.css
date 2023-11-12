@@ -1937,6 +1937,158 @@ html{
 
 
 
+#category{
+    text-align: center;
+    color: coral;
+    text-decoration: overline 2px black;
+    font-size: 30px;
+}
+
+.photo{
+    /* border: 2px black solid; */
+    display: inline-block;
+    position: absolute;
+    right: 0.2px;
+    top:40px;
+    height: 93.2vh;
+    width: 450px;
+    z-index: -2;
+}
+
+#name{
+    position: absolute;
+    left:160px;
+    top:140px;
+    /* border: 2px black solid; */
+    width: 500px;
+    text-align: center;
+}
+
+#description{
+    position: absolute;
+    left:205px;
+    top:280px;
+    text-align: justify;
+    width:400px;
+    height:100px;
+    /* border: 2px black solid; */
+    
+}
+
+.photoA{
+    position: relative;
+    left:5px;
+    top:0px;
+    border: 2px black solid;
+    width:100px;
+    height: 100px;
+    margin-top: 10px;
+}
+.photochange{
+    width:110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 2px red solid; */
+    position: absolute;
+    top:92px;
+    left:5px;
+}
+
+
+#photo1{
+    /* background: url(img/casual)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo2{
+    /* background: url(img/casualH)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo3{
+    /* background: url(img/casual2)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo4{
+    /* background: url(img/casual2H)no-repeat center center/cover; */
+    cursor: pointer;
+}
+
+
+
+.sizes{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left:209px;
+    top:230px;
+    /* border: 2px black solid; */
+    
+}
+
+.size{
+    border-radius: 5px;
+    width:70px;
+    background-color: white;
+    border: 2px coral solid;
+    margin: 5px;
+
+}
+.size:hover{
+    cursor: pointer;
+    background-color: coral;
+}
+
+
+#addtocart{
+    position: absolute;
+    top:400px;
+    left:407px;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px  #09fac8 solid;
+    cursor: pointer;
+}
+
+#addtocart:hover{
+    cursor: pointer;
+    background-color: #09fac8;
+}
+
+
+
+#buynow{
+    position: absolute;
+    top:400px;
+    left:168px;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px  #09fac8 solid;
+    cursor: pointer;
+}
+#buynow:hover{
+    background-color:#09fac8 ;
+}
+
+
+.buy{
+    display: none;
+}
+
+.back{
+    background: url(img/close.png)no-repeat center center/cover;
+    height:40px;
+    width: 40px;
+    position: absolute;
+    top:50px;
+    left: 10px;
+    cursor: pointer;
+}
+
+
 
 
 
@@ -2478,6 +2630,161 @@ html{
             left:0px;
         }
     }
+
+      
+#category{
+    text-align: center;
+    color: coral;
+    text-decoration: overline 2px black;
+    font-size: 30px;
+}
+
+.photo{
+    border: 2px black solid;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top:160px;
+    height: 450px;
+    width:94vw;
+    margin: 10px;
+}
+
+#name{
+    position: absolute;
+    left:15px;
+    top:90px;
+    /* border: 2px black solid; */
+    width: 94vw;
+    text-align: center;
+}
+
+#description{
+    position: absolute;
+    left:10px;
+    top:780px;
+    text-align: justify;
+    width:94vw;
+    height:100px;
+    /* border: 2px black solid; */
+    
+}
+
+.photoA{
+    position: relative;
+    left:5px;
+    top:0px;
+    border: 2px black solid;
+    width:100px;
+    height: 100px;
+    margin-top: 10px;
+    scale: 0.7;
+}
+.photochange{
+    width:98vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 2px red solid; */
+    position: absolute;
+    top:638px;
+    left:0px;
+}
+
+
+#photo1{
+    /* background: url(img/casual)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo2{
+    /* background: url(img/casualH)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo3{
+    /* background: url(img/casual2)no-repeat center center/cover; */
+    cursor: pointer;
+}
+#photo4{
+    /* background: url(img/casual2H)no-repeat center center/cover; */
+    cursor: pointer;
+}
+
+
+
+.sizes{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left:0px;
+    top:870px;
+    /* border: 2px black solid; */
+    width: 99vw;
+    
+}
+
+.size{
+    border-radius: 5px;
+    width:70px;
+    background-color: white;
+    border: 2px coral solid;
+    margin: 5px;
+
+}
+.size:hover{
+    cursor: pointer;
+    background-color: coral;
+}
+
+
+#addtocart{
+    position: absolute;
+    top:1060px;
+    left:20px;
+    width: 90vw;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px  #09fac8 solid;
+    cursor: pointer;
+    
+}
+
+#addtocart:hover{
+    cursor: pointer;
+    background-color: #09fac8;
+}
+
+
+
+#buynow{
+    position: absolute;
+    top:1000px;
+    left:20px;
+    width: 90vw;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px  #09fac8 solid;
+    cursor: pointer;
+}
+#buynow:hover{
+    background-color:#09fac8 ;
+}
+
+
+.buy{
+    display: none;
+}
+
+.back{
+    background: url(img/close.png)no-repeat center center/cover;
+    height:40px;
+    width: 40px;
+    position: absolute;
+    top:175px;
+    left: 14px;
+    cursor: pointer;
+}
   }
 
 
@@ -3037,4 +3344,159 @@ html{
           }
       }
 
+
+      #category{
+        text-align: center;
+        color: coral;
+        text-decoration: overline 2px black;
+        font-size: 30px;
+    }
+    
+    .photo{
+        border: 2px black solid;
+        display: inline-block;
+        position: absolute;
+        left: 0px;
+        top:160px;
+        height: 100vh;
+        width:99vw;
+        
+    }
+    
+    #name{
+        position: absolute;
+        left:15px;
+        top:90px;
+        /* border: 2px black solid; */
+        width: 94vw;
+        text-align: center;
+    }
+    
+    #description{
+        position: relative;
+        left:0px;
+        margin-top: 90vh;
+        text-align: center;
+        width:99vw;
+        height:100px;
+        /* border: 2px black solid; */
+        
+    }
+    
+    .photoA{
+        position: relative;
+        left:5px;
+        top:0px;
+        border: 2px black solid;
+        width:100px;
+        height: 100px;
+        margin-top: 10px;
+        scale: 0.7;
+    }
+    .photochange{
+        width:20vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* border: 2px red solid; */
+        position: absolute;
+        top:160px;
+        left:0px;
+    }
+    
+    
+    #photo1{
+        /* background: url(img/casual)no-repeat center center/cover; */
+        cursor: pointer;
+    }
+    #photo2{
+        /* background: url(img/casualH)no-repeat center center/cover; */
+        cursor: pointer;
+    }
+    #photo3{
+        /* background: url(img/casual2)no-repeat center center/cover; */
+        cursor: pointer;
+    }
+    #photo4{
+        /* background: url(img/casual2H)no-repeat center center/cover; */
+        cursor: pointer;
+    }
+    
+    
+    
+    .sizes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        left:0px;
+        margin-top: 0vh;
+        /* border: 2px black solid; */
+        width: 99vw;
+        
+    }
+    
+    .size{
+        border-radius: 5px;
+        width:70px;
+        background-color: white;
+        border: 2px coral solid;
+        margin: 5px;
+    
+    }
+    .size:hover{
+        cursor: pointer;
+        background-color: coral;
+    }
+    
+    
+    #addtocart{
+        position: relative;
+        top:490px;
+        left:35px;
+        width: 90vw;
+        height: 40px;
+        border-radius: 5px;
+        background-color: white;
+        border: 2px  #09fac8 solid;
+        cursor: pointer;
+    }
+    
+    #addtocart:hover{
+        cursor: pointer;
+        background-color: #09fac8;
+    }
+    
+    
+    
+    #buynow{
+        position: relative;
+        top:380px;
+        left:35px;
+        width: 90vw;
+        height: 40px;
+        border-radius: 5px;
+        background-color: white;
+        border: 2px  #09fac8 solid;
+        cursor: pointer;
+    }
+    #buynow:hover{
+        background-color:#09fac8 ;
+    }
+    
+    
+    .buy{
+        display: none;
+    }
+    
+    .back{
+        background: url(img/close.png)no-repeat center center/cover;
+        height:40px;
+        width: 40px;
+        position: absolute;
+        top:175px;
+        left: 14px;
+        cursor: pointer;
+    }
   }
