@@ -603,7 +603,7 @@ html{
                 display: none;
 
                 animation-name: nav2slide;
-                animation-duration: 1s;
+                animation-duration: 0.8s;
                 animation-timing-function: all ease-in;
                 animation-iteration-count: 1;
                 animation-direction: normal;
@@ -632,7 +632,7 @@ html{
                 top:70px;
                 left:0px;
                 margin-left: 0px;
-                animation-duration: 2s;
+                animation-duration: 0s;
                 
               }
               .navcontainer2 li{
@@ -950,7 +950,7 @@ html{
                   display: none;
   
                   animation-name: nav2slide;
-                  animation-duration: 1s;
+                  animation-duration: 0.8s;
                   animation-timing-function: all ease-in;
                   animation-iteration-count: 1;
                   animation-direction: normal;
@@ -979,7 +979,7 @@ html{
                   top:70px;
                   left:0px;
                   margin-left: 0px;
-                  animation-duration: 2s;
+                  animation-duration: 0s;
                   
                 }
                 .navcontainer2 li{
@@ -990,7 +990,7 @@ html{
   
                 @keyframes slide2{
                   from{
-                      left: -200px;
+                      left: -100px;
           
                   }
                   to{
