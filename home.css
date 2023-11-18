@@ -185,7 +185,7 @@ video{
 
 
       animation-name: slide;
-      animation-duration: 4s;
+      animation-duration: 3s;
       animation-timing-function: all ease-in;
       animation-delay: 0.3s;
       animation-iteration-count: 1;

@@ -22,7 +22,7 @@ body{
 .video1  video{
     
     animation-name: openslide;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
 
 }
@@ -41,7 +41,7 @@ body{
 .video2  video{
     
     animation-name: openslide2;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     
 }
